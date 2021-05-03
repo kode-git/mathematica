@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1038382,      17732]
-NotebookOptionsPosition[   1034539,      17669]
-NotebookOutlinePosition[   1035074,      17688]
-CellTagsIndexPosition[   1035031,      17685]
+NotebookDataLength[   1045470,      17749]
+NotebookOptionsPosition[   1038902,      17647]
+NotebookOutlinePosition[   1039616,      17672]
+CellTagsIndexPosition[   1039573,      17669]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -39,17 +39,12 @@ Cell["Conversioni di numeri in basi differenti", "Subtitle",
  TextAlignment->Center,
  TextJustification->0,ExpressionUUID->"a404a1a9-018f-4d6b-9a0b-1eb809444d9b"],
 
-Cell[BoxData[
- StyleBox[
-  RowBox[{
-   RowBox[{"FOTO", " ", "1"}], ",", " ", 
-   RowBox[{"FOTO", " ", "2"}]}],
-  FontSize->14]], "Input",
+Cell["FOTO 1, FOTO 2", "Text",
+ CellChangeTimes->{3.829039531669421*^9},
  EmphasizeSyntaxErrors->True,
  TextAlignment->Center,
  TextJustification->0,
- CellLabel->
-  "In[141]:=",ExpressionUUID->"c4d62aaf-1170-463a-97bb-d60750f38610"],
+ CellLabel->"In[9]:=",ExpressionUUID->"c4d62aaf-1170-463a-97bb-d60750f38610"],
 
 Cell[TextData[{
  StyleBox["Mario",
@@ -118,7 +113,7 @@ Cell[BoxData[
    3.828863587465239*^9}, {3.82886365102528*^9, 3.828863651274124*^9}, 
    3.828863766466393*^9, {3.8288638218227453`*^9, 3.828863831533403*^9}, {
    3.829016879459938*^9, 3.829016917790518*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"f6bf4f0a-242c-4c76-8e75-1e6ae1b4b773"],
+ CellLabel->"In[1]:=",ExpressionUUID->"f6bf4f0a-242c-4c76-8e75-1e6ae1b4b773"],
 
 Cell[BoxData[
  RowBox[{
@@ -129,12 +124,10 @@ Cell[BoxData[
      "DefaultNaturalLanguage"}], "]"}], "=", "\"\<Italian\>\""}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8290171466440773`*^9, 3.829017157758937*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"7451796e-b771-4517-a73f-8973ed09e6f7"],
+ CellLabel->"In[3]:=",ExpressionUUID->"7451796e-b771-4517-a73f-8973ed09e6f7"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.8288636687627983`*^9, 3.828863672786294*^9}},
- CellLabel->
-  "In[143]:=",ExpressionUUID->"0ea72070-37b6-4b23-92f2-2cf94c9f7b45"]
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"c11a6856-d9fd-4add-bdfa-ca7a0647d319"]
 }, Open  ]]
 }, Open  ]],
 
@@ -16662,9 +16655,14 @@ aQEAqRmAD/LBwYFNg4MfdkBnbwHQOl19B1UVIrwzbA1XoWsmggXgi6K+n34W
   ImageSizeRaw->{641., 375.},
   PlotRange->{{0, 641.}, {0, 375.}}]], "Output",
  CellChangeTimes->{{3.828861237925984*^9, 3.828861279106534*^9}, 
-   3.8288636895508423`*^9, 3.828863754908022*^9, 3.829016926905527*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"3f8cc5a8-5725-44aa-a3ac-145cc847c755"]
+   3.8288636895508423`*^9, 3.828863754908022*^9, 3.829016926905527*^9, 
+   3.8290357293712397`*^9},
+ TextAlignment->Center,
+ CellLabel->"Out[6]=",ExpressionUUID->"9da798ba-2700-4cc9-b5a5-24ea4afff868"]
 }, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"b014e427-8831-49e6-8969-ac06c058f77d"],
 
 Cell[CellGroupData[{
 
@@ -16763,288 +16761,41 @@ Cell[TextData[{
 
 Cell[TextData[{
  "\t",
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Cenni",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["teorici",
+ StyleBox["1.1 Cenni teorici",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]],
  "\n",
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Conversione",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["in",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["binario",
+ StyleBox["\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\t\t1.1.1 Conversione in binario",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]],
  "\n",
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["2",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Conversione",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["in",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["esadecimale",
+ StyleBox["\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\t1.1.2 Conversione in esadecimale",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]],
  "\n",
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\[NonBreakingSpace]",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["3",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Conversione",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["in",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["base",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["N",
+ StyleBox["\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\t1.1.3 Conversione in base N",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]],
  "\n",
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["2",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Esempi",
+ StyleBox["\t1.2 Esempi",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]],
  "\n",
- StyleBox["\t",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["1",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[".",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["3",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["Esercizi",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox[" ",
-  FontSize->18,
-  FontColor->RGBColor[1, 0, 0]],
- StyleBox["guidati",
+ StyleBox["\t1.3 Esercizi guidati",
   FontSize->18,
   FontColor->RGBColor[1, 0, 0]]
-}], "Text",ExpressionUUID->"4f607ca4-8fe1-4006-9885-859d33416ca6"],
+}], "Text",
+ CellChangeTimes->{{3.829036863033205*^9, 
+  3.8290368947565947`*^9}},ExpressionUUID->"4f607ca4-8fe1-4006-9885-\
+859d33416ca6"],
 
 Cell[TextData[{
  " ",
@@ -17610,7 +17361,16 @@ Cell[TextData[{
 }], "Text",ExpressionUUID->"1d504ff3-89be-47da-9e0e-2c3c9f329678"],
 
 Cell["", "Item",
- CellDingbat->None,ExpressionUUID->"d21b8cda-4482-4ebf-9f47-084e364626be"]
+ CellDingbat->None,
+ CellChangeTimes->{
+  3.829036476018243*^9},ExpressionUUID->"d21b8cda-4482-4ebf-9f47-\
+084e364626be"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"b7515e9d-344d-48be-8b14-83f53be82a5a"],
+
+Cell["", "Item",
+ CellDingbat->None,ExpressionUUID->"1fc8fe53-5134-4c49-86ac-77669ba940ab"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -17646,7 +17406,233 @@ poter consolidare i concetti e testare direttamente i concetti acquisiti. \
 f51956b2c6f9"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell["I. Conversione da base 10 a base N", "Section",ExpressionUUID->"5650f335-f2b4-4e19-a686-2a3f56e1db64"],
+
+Cell[CellGroupData[{
+
+Cell["1.1 Cenni Teorici", "Subsection",
+ CellChangeTimes->{{3.829036919950536*^9, 
+  3.82903693324557*^9}},ExpressionUUID->"1cafe5e2-4a6f-4845-8058-\
+5eab87b121f9"],
+
+Cell[TextData[{
+ "In matematica, la ",
+ StyleBox["base",
+  FontWeight->"Bold"],
+ " di un sistema di numerazione posizionale \[EGrave] il numero di cifre \
+distinte, inclusa quella per lo 0, che il sistema usa per rappresentare i \
+numeri. La rappresentazione in base 10 \[EGrave] l\[CloseCurlyQuote]ordinaria \
+scrittura dei numeri a cui siamo abituati.\nQuesto significa che esistono \
+modi differenti per esprimere un numero a seconda della base scelta.\nLa \
+differenza sostanziale tra rappresentazioni in basi diverse di un numero \
+\[EGrave] quindi definita dall\[CloseCurlyQuote]intervallo di simboli che \
+possono essere usati per rappresentare una singola cifra.\nLa base 10, ovvero \
+la ",
+ StyleBox["base decimale",
+  FontWeight->"Bold"],
+ ", consiste nel rappresentare le cifre con 10 simboli numerici, dallo 0 al \
+9. Basi inferiori utilizzeranno una gamma pi\[UGrave] piccola di simboli, \
+mentre basi pi\[UGrave] grandi dovranno integrare simboli aggiuntivi, per \
+esempio lettere maiuscole e minuscole.\nLa conversione di base consiste nel \
+rappresentare il numero in una base diversa da quella attuale. Da notare \
+bene, solo la rappresentazione cambia, il numero continuer\[AGrave] sempre ad \
+avere lo stesso valore, ma espresso con simboli differenti."
+}], "Text",
+ CellChangeTimes->{{3.829035912460229*^9, 3.8290359747962914`*^9}, {
+  3.82903600660682*^9, 3.829036023766547*^9}, {3.8290360614142723`*^9, 
+  3.82903615771922*^9}, {3.8290361981629353`*^9, 3.829036379371669*^9}, {
+  3.829036530541129*^9, 3.829036549616406*^9}, {3.8290366051041613`*^9, 
+  3.829036754115038*^9}, {3.829036807690814*^9, 3.829036831954767*^9}, {
+  3.829036963738699*^9, 
+  3.829036993744186*^9}},ExpressionUUID->"7a826d44-227d-47f9-9208-\
+4eb9dc624ae6"],
+
+Cell[TextData[StyleBox["1.1.1 Conversione in binario", "Subsubsection"]], \
+"Text",
+ CellChangeTimes->{{3.8290367965710907`*^9, 3.8290368017255583`*^9}, {
+  3.8290368376855097`*^9, 3.829036857555337*^9}, {3.829036899035239*^9, 
+  3.829036899649775*^9}, {3.829036937293435*^9, 
+  3.829036938655428*^9}},ExpressionUUID->"7f6dc422-1d08-4c8b-ac0c-\
+d442325901bc"],
+
+Cell["\<\
+I numeri in base binaria sono diventati fondamentali con \
+l\[CloseCurlyQuote]avvento dell\[CloseCurlyQuote]informatica: gli elaboratori \
+sono in grado di comunicare internamente ed esternamente attraverso segnali \
+elettrici. Un input elettrico pu\[OGrave] assumere una forma continua per \
+segnali analogici, mentre, nel caso di dispositivi digitali, pu\[OGrave] solo \
+assumere soltanto due valori discreti distinti: acceso e spento.\
+\[LineSeparator]Questa coppia di valori pu\[OGrave] essere rappresentata \
+attraverso 0 e 1, rispettivamente spento e acceso, e sequenze di segnali \
+corrisponderanno ai numeri binari, ovvero numeri in base due  composti da \
+stringhe di zeri e uni.
+Sapendo ci\[OGrave], ci rendiamo conto che per parlare con un elaboratore non \
+potremo pi\[UGrave] esprimere numeri in maniera naturale, ma saremo costretti \
+a convertirli in un linguaggio comprensibile per una macchina, ovvero i \
+numeri binari. Per fare questo baster\[AGrave] seguire un semplice \
+procedimento:\
+\>", "Text",
+ CellChangeTimes->{{3.8290370086740103`*^9, 3.829037118573471*^9}, {
+  3.829037162948637*^9, 3.829037638599633*^9}, {3.8290377153118362`*^9, 
+  3.829037729191718*^9}},ExpressionUUID->"e4435935-9be1-409b-937f-\
+6890c9b58688"],
+
+Cell["scegliamo il numero in base 10 da convertire in base 2;", "Item",
+ CellChangeTimes->{{3.829037770194062*^9, 
+  3.82903778750878*^9}},ExpressionUUID->"a051a1b2-ebe3-4878-91b9-\
+f4be56885cf6"],
+
+Cell["dividiamo il numero per 2 e ricordiamo il resto;", "Item",
+ CellChangeTimes->{{3.829037770194062*^9, 
+  3.829037895994416*^9}},ExpressionUUID->"6bc11604-aad4-4f39-9500-\
+0be8684e3473"],
+
+Cell["\<\
+ripetiamo il punto precedente utilizzando il quoziente ottenuto come nuovo \
+dividendo, finch\[EGrave] il risultato non dar\[AGrave] quoziente 0;\
+\>", "Item",
+ CellChangeTimes->{{3.829037770194062*^9, 3.8290379773288794`*^9}, {
+  3.8290385713676567`*^9, 
+  3.8290385717845697`*^9}},ExpressionUUID->"cc2f1053-f209-4652-93f2-\
+f0a70177998f"],
+
+Cell["\<\
+rileggiamo i resti ottenuti nell\[CloseCurlyQuote]ordine inverso: quello \
+\[EGrave] il numero convertito in binario.\
+\>", "Item",
+ CellChangeTimes->{{3.829037770194062*^9, 3.8290379970381308`*^9}, {
+  3.829038614758788*^9, 
+  3.829038615003862*^9}},ExpressionUUID->"0b9fc4bd-3cd5-442e-b4d1-\
+b54ac780f8f7"],
+
+Cell[CellGroupData[{
+
+Cell["1.1.2 Conversione in esadecimale", "Subsubsection",
+ CellChangeTimes->{{3.829038035884547*^9, 
+  3.829038042318697*^9}},ExpressionUUID->"f87657a6-4105-4ad4-8fe9-\
+7e8867f7e4fd"],
+
+Cell["\<\
+Rappresentare un numero utilizzando solo due simboli ci obbligher\[AGrave] ad \
+utilizzare un numero di cifre decisamente pi\[UGrave] alto. Per questo motivo \
+pu\[OGrave] risultare comodo e naturale ad un programmatore rappresentare \
+numeri binari o in base decimale, o in base esadecimale, ovvero utilizzando \
+16 simboli.
+Questi simboli corrispondono alle cifre 0, 1, 2, 3, 4, 5, 6, 7, 8, e 9, alle \
+quali si aggiungono le lettere A, B, C, D, E e F per esprimere i valori 10, \
+11, 12, 13, 14 e 15.
+Questa rappresentazione, come anche quella ottale (base 8), ha inoltre \
+propriet\[AGrave] molto particolari che la rendono particolarmente opportuna \
+per rappresentare stringhe binarie che vedremo pi\[UGrave] avanti.
+Per convertire un numero in base 10 in una sua rappresentazione a base 16 \
+baster\[AGrave] seguire un procedimento molto simile a quello utilizzato \
+precedentemente:\
+\>", "Text",
+ CellChangeTimes->{{3.829038066955777*^9, 3.829038107124073*^9}, {
+  3.829038156914372*^9, 
+  3.829038480291707*^9}},ExpressionUUID->"9b848420-189a-4b03-afb9-\
+4f51881c7b20"],
+
+Cell["scegliamo il numero in base 10 da convertire in base 16;", "Item",
+ CellChangeTimes->{{3.829038490358486*^9, 3.829038502226862*^9}, {
+  3.829039162966761*^9, 
+  3.829039163265875*^9}},ExpressionUUID->"c69c9649-36c4-438f-8b5b-\
+1bbe4325e56b"],
+
+Cell["\<\
+dividiamo il numero per 16 e ricordiamo il resto: se il resto supera 9, \
+utilizziamo le lettere opportune;\
+\>", "Item",
+ CellChangeTimes->{{3.829038490358486*^9, 3.8290385633462543`*^9}, {
+  3.829039180895535*^9, 
+  3.829039181273609*^9}},ExpressionUUID->"8cb32ef4-e0c4-4a89-8311-\
+c16c6408a5be"],
+
+Cell["\<\
+ripetiamo il punto precedente utilizzando il quoziente ottenuto come nuovo \
+dividendo, finch\[EGrave] il risultato ottenuto non dar\[AGrave] quoziente 0;\
+\
+\>", "Item",
+ CellChangeTimes->{{3.829038490358486*^9, 
+  3.829038601385386*^9}},ExpressionUUID->"d45a0acc-0562-4117-a1a1-\
+d323a50b0281"],
+
+Cell["\<\
+rileggiamo i resti ottenuti nell\[CloseCurlyQuote]ordine inverso: quello \
+\[EGrave] il numero convertito in esadecimale.\
+\>", "Item",
+ CellChangeTimes->{{3.829038490358486*^9, 
+  3.829038624021117*^9}},ExpressionUUID->"64b4aa70-872d-4578-be54-\
+bb9cc97452d8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1.1.3 Conversione in base N", "Subsubsection",
+ CellChangeTimes->{{3.829038720636322*^9, 
+  3.82903872811724*^9}},ExpressionUUID->"afc08bf1-6030-4e21-9fa7-\
+460057da340d"],
+
+Cell["\<\
+Le due conversioni che abbiamo analizzato mostrano chiaramente un pattern che \
+possiamo facilmente sfruttare per convertire un numero decimale in una sua \
+rappresentazione in qualsiasi base, ricordando ovviamente di allargare la \
+lista di simboli per basi pi\[UGrave] alte. Usualmente per basi elevate \
+\[EGrave] norma includere le lettere maiuscole dalla A alla Z per esprimere \
+valori che vanno da 10 a 36, e le lettere minuscole dalla a alla z per \
+esprimere i valori da 37 a 61.
+Possiamo quindi generalizzare il processo di conversione da un numero \
+decimale a una base generica N in questa maniera:\
+\>", "Text",
+ CellChangeTimes->{{3.829038747662292*^9, 3.829038911290409*^9}, {
+   3.829039078914565*^9, 3.829039148465556*^9}, 
+   3.8290396151327133`*^9},ExpressionUUID->"22a84cb7-9a08-4ab3-8303-\
+3ea26a0379dd"],
+
+Cell["scegliamo il numero in base 10 da converite in base N;", "Item",
+ CellChangeTimes->{{3.8290391571998873`*^9, 
+  3.829039172511297*^9}},ExpressionUUID->"e13a2dc0-bff2-4d59-bc89-\
+fe525416b09e"],
+
+Cell["\<\
+dividiamo il numero per la nuova base N e ricordiamo il resto: se il resto \
+supera 9, utilizziamo i simboli aggiuntivi opportuni;\
+\>", "Item",
+ CellChangeTimes->{{3.8290391571998873`*^9, 
+  3.829039232420672*^9}},ExpressionUUID->"788d69e8-a8ae-4371-8d18-\
+37bd0f6b6f9e"],
+
+Cell["\<\
+ripetiamo il punto precedente utilizzando il quozionte ottenuto come nuovo \
+dividendo, finch\[EGrave] il risultato ottenuto non dar\[AGrave] quoziente 0;\
+\
+\>", "Item",
+ CellChangeTimes->{{3.8290391571998873`*^9, 
+  3.8290392829894123`*^9}},ExpressionUUID->"1c97ace1-9112-4c2f-bccc-\
+42b24a638e25"],
+
+Cell["\<\
+rileggiamo i reti ottenuti nell\[CloseCurlyQuote]ordine inverso: quello \
+\[EGrave] il numero convertito in base N.\
+\>", "Item",
+ CellChangeTimes->{{3.8290391571998873`*^9, 
+  3.82903930377195*^9}},ExpressionUUID->"e02e4051-5a06-4b8a-a719-\
+93e910cb1fc3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[StyleBox["1.2 Esempi", "Subsection"]], "Subsection",
+ CellChangeTimes->{{3.8290393682922163`*^9, 
+  3.8290393715686083`*^9}},ExpressionUUID->"57d15ea8-cd29-4511-a55a-\
+028b6ceefe62"],
+
+Cell[TextData[StyleBox["1.3 Esercizi Guidati", "Subsection"]], "Subsection",
+ CellChangeTimes->{{3.829039520589077*^9, 
+  3.829039522067205*^9}},ExpressionUUID->"fff8e840-7f0b-4307-8306-\
+427a5b4b96b7"]
+}, Open  ]],
 
 Cell["II. Conversione da base N a base 10", "Section",ExpressionUUID->"8d27ea9d-0a11-4fe8-8a14-b3536a8a0a3b"],
 
@@ -17656,19 +17642,17 @@ Cell["IV. Esercizio Universale", "Section",ExpressionUUID->"ade457a0-4236-4d22-9
 
 Cell["V. Bibliografia e Sitografia", "Section",ExpressionUUID->"82935e11-aafe-4022-99f4-a94180aaf464"],
 
-Cell[CellGroupData[{
-
-Cell["VI. Commenti e lavoro futuro", "Section",ExpressionUUID->"b947ab94-9545-4ada-9904-4c0a18267746"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.829022093524273*^9, 3.829022096764135*^9}},
- CellLabel->
-  "In[114]:=",ExpressionUUID->"1b4b108e-be56-49e1-8f3a-0ff2f68807a0"]
-}, Open  ]]
+Cell["VI. Commenti e lavoro futuro", "Section",ExpressionUUID->"b947ab94-9545-4ada-9904-4c0a18267746"]
 }, Open  ]]
 },
-WindowSize->{Full, Full},
-WindowMargins->{{238, Automatic}, {62, Automatic}},
+WindowToolbars->"EditBar",
+WindowSize->{1280, 674},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+DockedCells->{},
+TaggingRules->{
+ "NotebookTemplateVersion" -> 2., "NotebookTemplate" -> True, 
+  "GeneratedNotebookOptions" -> {}},
+CellContext->Notebook,
 IgnoreSpellCheck->True,
 DefaultNaturalLanguage->"Italian",
 SpellingDictionaries->{"CorrectWords"->{"Computazionale", "numeri", "di"}},
@@ -17690,49 +17674,82 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 298, 13, 131, "Title",ExpressionUUID->"0f3362e8-3818-428d-b7d3-2f881788d851"],
 Cell[881, 37, 162, 2, 53, "Subtitle",ExpressionUUID->"a404a1a9-018f-4d6b-9a0b-1eb809444d9b"],
-Cell[1046, 41, 297, 10, 32, "Input",ExpressionUUID->"c4d62aaf-1170-463a-97bb-d60750f38610"],
-Cell[1346, 53, 629, 27, 40, "Text",ExpressionUUID->"d3a1e6dc-9dfc-4ff9-b3f5-043bc4bce1ff"],
+Cell[1046, 41, 227, 5, 35, "Text",ExpressionUUID->"c4d62aaf-1170-463a-97bb-d60750f38610"],
+Cell[1276, 48, 629, 27, 40, "Text",ExpressionUUID->"d3a1e6dc-9dfc-4ff9-b3f5-043bc4bce1ff"],
 Cell[CellGroupData[{
-Cell[2000, 84, 384, 17, 45, "Subtitle",ExpressionUUID->"1242c67f-d821-471b-b72d-106e7cfa9332"],
-Cell[2387, 103, 810, 17, 73, "Input",ExpressionUUID->"f6bf4f0a-242c-4c76-8e75-1e6ae1b4b773"],
-Cell[3200, 122, 366, 9, 30, "Input",ExpressionUUID->"7451796e-b771-4517-a73f-8973ed09e6f7"],
-Cell[3569, 133, 177, 3, 30, "Input",ExpressionUUID->"0ea72070-37b6-4b23-92f2-2cf94c9f7b45"]
+Cell[1930, 79, 384, 17, 45, "Subtitle",ExpressionUUID->"1242c67f-d821-471b-b72d-106e7cfa9332"],
+Cell[2317, 98, 810, 17, 73, "Input",ExpressionUUID->"f6bf4f0a-242c-4c76-8e75-1e6ae1b4b773"],
+Cell[3130, 117, 365, 9, 30, "Input",ExpressionUUID->"7451796e-b771-4517-a73f-8973ed09e6f7"],
+Cell[3498, 128, 99, 1, 4, "PageBreak",ExpressionUUID->"c11a6856-d9fd-4add-bdfa-ca7a0647d319",
+ PageBreakBelow->True]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3795, 142, 303, 13, 102, "Title",ExpressionUUID->"2d6efcf6-d3d6-45bf-aa63-e06fcd52e23d"],
-Cell[4101, 157, 2558, 83, 46, "Text",ExpressionUUID->"bdd8bd66-19d1-476e-a03a-7ecdc6d4ffac"],
+Cell[3646, 135, 303, 13, 102, "Title",ExpressionUUID->"2d6efcf6-d3d6-45bf-aa63-e06fcd52e23d"],
+Cell[3952, 150, 2558, 83, 46, "Text",ExpressionUUID->"bdd8bd66-19d1-476e-a03a-7ecdc6d4ffac"],
 Cell[CellGroupData[{
-Cell[6684, 244, 561, 13, 52, "Input",ExpressionUUID->"7169c5f1-12f3-415f-b4d4-b8d5c17e9c47"],
-Cell[7248, 259, 1000447, 16406, 392, "Output",ExpressionUUID->"3f8cc5a8-5725-44aa-a3ac-145cc847c755"]
+Cell[6535, 237, 561, 13, 52, "Input",ExpressionUUID->"7169c5f1-12f3-415f-b4d4-b8d5c17e9c47"],
+Cell[7099, 252, 1000499, 16408, 392, "Output",ExpressionUUID->"9da798ba-2700-4cc9-b5a5-24ea4afff868"]
+}, Open  ]],
+Cell[1007613, 16663, 99, 1, 4, "PageBreak",ExpressionUUID->"b014e427-8831-49e6-8969-ac06c058f77d",
+ PageBreakBelow->True],
+Cell[CellGroupData[{
+Cell[1007737, 16668, 170, 3, 67, "Section",ExpressionUUID->"25fefd7b-21fa-40b2-9740-352e9b2269c4"],
+Cell[1007910, 16673, 274, 15, 46, "Text",ExpressionUUID->"9bfb07e3-e3bb-493d-86bf-a413099eba8a"],
+Cell[1008187, 16690, 2075, 69, 46, "Text",ExpressionUUID->"1e6aeb63-e468-4a0a-bc0b-52898ce19697"],
+Cell[1010265, 16761, 1344, 36, 168, "Text",ExpressionUUID->"4f607ca4-8fe1-4006-9885-859d33416ca6"],
+Cell[1011612, 16799, 2300, 74, 46, "Text",ExpressionUUID->"b0348c4b-0768-4c31-ac66-75d10bb07c5b"],
+Cell[1013915, 16875, 1343, 36, 168, "Text",ExpressionUUID->"08a9bb02-e50b-4c40-8950-13acff34e8c0"],
+Cell[1015261, 16913, 585, 17, 46, "Text",ExpressionUUID->"0372e2b3-d6e0-4b66-8963-5686238c92c1"],
+Cell[1015849, 16932, 7475, 321, 168, "Text",ExpressionUUID->"8508d507-0060-4141-94cc-df683f2e5f31"],
+Cell[1023327, 17255, 831, 25, 46, "Text",ExpressionUUID->"638e5a61-5df1-407b-96ae-3a8e67d97510"],
+Cell[1024161, 17282, 1089, 35, 46, "Text",ExpressionUUID->"2774a14d-4eb7-409b-a157-59fead8c630a"],
+Cell[1025253, 17319, 1319, 41, 46, "Text",ExpressionUUID->"1d504ff3-89be-47da-9e0e-2c3c9f329678"],
+Cell[1026575, 17362, 138, 4, 32, "Item",ExpressionUUID->"d21b8cda-4482-4ebf-9f47-084e364626be"],
+Cell[1026716, 17368, 99, 1, 4, "PageBreak",ExpressionUUID->"b7515e9d-344d-48be-8b14-83f53be82a5a",
+ PageBreakBelow->True],
+Cell[1026818, 17371, 91, 1, 32, "Item",ExpressionUUID->"1fc8fe53-5134-4c49-86ac-77669ba940ab"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1007732, 16670, 170, 3, 67, "Section",ExpressionUUID->"25fefd7b-21fa-40b2-9740-352e9b2269c4"],
-Cell[1007905, 16675, 274, 15, 46, "Text",ExpressionUUID->"9bfb07e3-e3bb-493d-86bf-a413099eba8a"],
-Cell[1008182, 16692, 2075, 69, 46, "Text",ExpressionUUID->"1e6aeb63-e468-4a0a-bc0b-52898ce19697"],
-Cell[1010260, 16763, 6673, 283, 168, "Text",ExpressionUUID->"4f607ca4-8fe1-4006-9885-859d33416ca6"],
-Cell[1016936, 17048, 2300, 74, 46, "Text",ExpressionUUID->"b0348c4b-0768-4c31-ac66-75d10bb07c5b"],
-Cell[1019239, 17124, 1343, 36, 168, "Text",ExpressionUUID->"08a9bb02-e50b-4c40-8950-13acff34e8c0"],
-Cell[1020585, 17162, 585, 17, 46, "Text",ExpressionUUID->"0372e2b3-d6e0-4b66-8963-5686238c92c1"],
-Cell[1021173, 17181, 7475, 321, 168, "Text",ExpressionUUID->"8508d507-0060-4141-94cc-df683f2e5f31"],
-Cell[1028651, 17504, 831, 25, 46, "Text",ExpressionUUID->"638e5a61-5df1-407b-96ae-3a8e67d97510"],
-Cell[1029485, 17531, 1089, 35, 46, "Text",ExpressionUUID->"2774a14d-4eb7-409b-a157-59fead8c630a"],
-Cell[1030577, 17568, 1319, 41, 46, "Text",ExpressionUUID->"1d504ff3-89be-47da-9e0e-2c3c9f329678"],
-Cell[1031899, 17611, 91, 1, 32, "Item",ExpressionUUID->"d21b8cda-4482-4ebf-9f47-084e364626be"]
+Cell[1026946, 17377, 155, 3, 67, "Section",ExpressionUUID->"465852d4-b35a-44e0-a113-072c35c71454"],
+Cell[1027104, 17382, 1483, 23, 173, "Text",ExpressionUUID->"0a9f9d4b-6719-442d-8411-f51956b2c6f9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1032027, 17617, 155, 3, 67, "Section",ExpressionUUID->"465852d4-b35a-44e0-a113-072c35c71454"],
-Cell[1032185, 17622, 1483, 23, 219, "Text",ExpressionUUID->"0a9f9d4b-6719-442d-8411-f51956b2c6f9"]
-}, Open  ]],
-Cell[1033683, 17648, 108, 0, 67, "Section",ExpressionUUID->"5650f335-f2b4-4e19-a686-2a3f56e1db64"],
-Cell[1033794, 17650, 109, 0, 53, "Section",ExpressionUUID->"8d27ea9d-0a11-4fe8-8a14-b3536a8a0a3b"],
-Cell[1033906, 17652, 94, 0, 53, "Section",ExpressionUUID->"67008df0-efac-478d-8437-9e8e254af661"],
-Cell[1034003, 17654, 98, 0, 53, "Section",ExpressionUUID->"ade457a0-4236-4d22-9287-6eabc3e1ff0e"],
-Cell[1034104, 17656, 102, 0, 53, "Section",ExpressionUUID->"82935e11-aafe-4022-99f4-a94180aaf464"],
+Cell[1028624, 17410, 108, 0, 67, "Section",ExpressionUUID->"5650f335-f2b4-4e19-a686-2a3f56e1db64"],
 Cell[CellGroupData[{
-Cell[1034231, 17660, 102, 0, 53, "Section",ExpressionUUID->"b947ab94-9545-4ada-9904-4c0a18267746"],
-Cell[1034336, 17662, 175, 3, 60, "Input",ExpressionUUID->"1b4b108e-be56-49e1-8f3a-0ff2f68807a0"]
+Cell[1028757, 17414, 164, 3, 54, "Subsection",ExpressionUUID->"1cafe5e2-4a6f-4845-8058-5eab87b121f9"],
+Cell[1028924, 17419, 1753, 30, 196, "Text",ExpressionUUID->"7a826d44-227d-47f9-9208-4eb9dc624ae6"],
+Cell[1030680, 17451, 359, 6, 40, "Text",ExpressionUUID->"7f6dc422-1d08-4c8b-ac0c-d442325901bc"],
+Cell[1031042, 17459, 1254, 20, 173, "Text",ExpressionUUID->"e4435935-9be1-409b-937f-6890c9b58688"],
+Cell[1032299, 17481, 196, 3, 32, "Item",ExpressionUUID->"a051a1b2-ebe3-4878-91b9-f4be56885cf6"],
+Cell[1032498, 17486, 190, 3, 32, "Item",ExpressionUUID->"6bc11604-aad4-4f39-9500-0be8684e3473"],
+Cell[1032691, 17491, 350, 7, 32, "Item",ExpressionUUID->"cc2f1053-f209-4652-93f2-f0a70177998f"],
+Cell[1033044, 17500, 318, 7, 32, "Item",ExpressionUUID->"0b9fc4bd-3cd5-442e-b4d1-b54ac780f8f7"],
+Cell[CellGroupData[{
+Cell[1033387, 17511, 183, 3, 45, "Subsubsection",ExpressionUUID->"f87657a6-4105-4ad4-8fe9-7e8867f7e4fd"],
+Cell[1033573, 17516, 1089, 19, 150, "Text",ExpressionUUID->"9b848420-189a-4b03-afb9-4f51881c7b20"],
+Cell[1034665, 17537, 247, 4, 32, "Item",ExpressionUUID->"c69c9649-36c4-438f-8b5b-1bbe4325e56b"],
+Cell[1034915, 17543, 308, 7, 32, "Item",ExpressionUUID->"8cb32ef4-e0c4-4a89-8311-c16c6408a5be"],
+Cell[1035226, 17552, 306, 7, 32, "Item",ExpressionUUID->"d45a0acc-0562-4117-a1a1-d323a50b0281"],
+Cell[1035535, 17561, 271, 6, 32, "Item",ExpressionUUID->"64b4aa70-872d-4578-be54-bb9cc97452d8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1035843, 17572, 177, 3, 45, "Subsubsection",ExpressionUUID->"afc08bf1-6030-4e21-9fa7-460057da340d"],
+Cell[1036023, 17577, 835, 14, 104, "Text",ExpressionUUID->"22a84cb7-9a08-4ab3-8303-3ea26a0379dd"],
+Cell[1036861, 17593, 198, 3, 32, "Item",ExpressionUUID->"e13a2dc0-bff2-4d59-bc89-fe525416b09e"],
+Cell[1037062, 17598, 282, 6, 32, "Item",ExpressionUUID->"788d69e8-a8ae-4371-8d18-37bd0f6b6f9e"],
+Cell[1037347, 17606, 310, 7, 32, "Item",ExpressionUUID->"1c97ace1-9112-4c2f-bccc-42b24a638e25"],
+Cell[1037660, 17615, 266, 6, 32, "Item",ExpressionUUID->"e02e4051-5a06-4b8a-a719-93e910cb1fc3"]
 }, Open  ]]
+}, Open  ]],
+Cell[1037953, 17625, 196, 3, 54, "Subsection",ExpressionUUID->"57d15ea8-cd29-4511-a55a-028b6ceefe62"],
+Cell[1038152, 17630, 202, 3, 38, "Subsection",ExpressionUUID->"fff8e840-7f0b-4307-8306-427a5b4b96b7"]
+}, Open  ]],
+Cell[1038369, 17636, 109, 0, 67, "Section",ExpressionUUID->"8d27ea9d-0a11-4fe8-8a14-b3536a8a0a3b"],
+Cell[1038481, 17638, 94, 0, 53, "Section",ExpressionUUID->"67008df0-efac-478d-8437-9e8e254af661"],
+Cell[1038578, 17640, 98, 0, 53, "Section",ExpressionUUID->"ade457a0-4236-4d22-9287-6eabc3e1ff0e"],
+Cell[1038679, 17642, 102, 0, 53, "Section",ExpressionUUID->"82935e11-aafe-4022-99f4-a94180aaf464"],
+Cell[1038784, 17644, 102, 0, 53, "Section",ExpressionUUID->"b947ab94-9545-4ada-9904-4c0a18267746"]
 }, Open  ]]
 }
 ]

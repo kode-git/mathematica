@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     83104,       1648]
-NotebookOptionsPosition[     80729,       1597]
-NotebookOutlinePosition[     81157,       1614]
-CellTagsIndexPosition[     81114,       1611]
+NotebookDataLength[     82982,       1628]
+NotebookOptionsPosition[     81057,       1585]
+NotebookOutlinePosition[     81485,       1602]
+CellTagsIndexPosition[     81442,       1599]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -69,7 +69,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.828861677964623*^9, 3.8288618839748697`*^9}, {
   3.828863430302635*^9, 3.828863433476419*^9}, {3.8291998122784653`*^9, 
   3.829199813007018*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
+ CellLabel->"In[12]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
 
 Cell[CellGroupData[{
 
@@ -80,7 +80,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.828861912575403*^9, 3.82886193066146*^9}, {
   3.8288623030616407`*^9, 3.828862303811872*^9}, {3.828863270883473*^9, 
   3.828863273964057*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
+ CellLabel->"In[13]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
 
 Cell[BoxData["\<\"BaseConvertorPackage`\"\>"], "Output",
  CellChangeTimes->{{3.8288619253880987`*^9, 3.8288619312236853`*^9}, 
@@ -93,25 +93,27 @@ Cell[BoxData["\<\"BaseConvertorPackage`\"\>"], "Output",
    3.82919507090889*^9, 3.829195154848454*^9, 3.8291999370100946`*^9, {
    3.829363722814807*^9, 3.829363722901814*^9}, {3.829447274354781*^9, 
    3.829447274450078*^9}, 3.829619323213194*^9, {3.8296257411716843`*^9, 
-   3.829625741305622*^9}, 3.829704584112108*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"360972ad-61fe-4fe3-8653-af235de80b5c"]
+   3.829625741305622*^9}, 3.829704584112108*^9, {3.829875098682187*^9, 
+   3.8298750987925587`*^9}},
+ CellLabel->"Out[13]=",ExpressionUUID->"7b192268-af95-4e8a-ac5b-ecf8dfd3f8cd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"BasePanelProject", "::", "usage"}], " ", "=", " ", 
-  "\"\<BasePanel[]\n\tDefine a table and show the convertion from an input \
-base to an output base defined by manipulation tool of the panel. The last \
-two parameters are optional and have as default value the base 10 and 2\n\
-\>\""}]], "Input",
+  RowBox[{"UniversalExercisePanel", "::", "usage"}], " ", "=", " ", 
+  "\"\<UniversalExercisePanelProject[]\n\tDefine a table and show the \
+convertion from an input base to an output base defined by manipulation tool \
+of the panel. The last two parameters are optional and have as default value \
+the base 10 and 2\n\>\""}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.828862098345055*^9, 3.828862224016768*^9}, {
    3.828863316784349*^9, 3.8288633176285067`*^9}, 3.828863486946001*^9, {
    3.829024186548792*^9, 3.8290242206783447`*^9}, {3.8290242622273912`*^9, 
-   3.829024297683467*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
+   3.829024297683467*^9}, {3.8298765818056793`*^9, 
+   3.829876588903592*^9}},ExpressionUUID->"9e4ab47b-4075-49ba-8051-\
+48e74256a661"],
 
 Cell[BoxData["\<\"BasePanel[]\\n\\tDefine a table and show the convertion \
 from an input base to an output base defined by manipulation tool of the \
@@ -126,34 +128,36 @@ base 10 and 2\\n\"\>"], "Output",
    3.829193678742885*^9, 3.829195070927163*^9, 3.829195154855125*^9, 
    3.829199937017391*^9, {3.829363722819602*^9, 3.829363722906817*^9}, {
    3.829447274361424*^9, 3.829447274464283*^9}, 3.8296193232176723`*^9, {
-   3.829625741176873*^9, 3.829625741319046*^9}, 3.829704584116559*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"4198a3e3-3b7b-4921-a790-f58461c4bf4a"]
+   3.829625741176873*^9, 3.829625741319046*^9}, 3.829704584116559*^9, {
+   3.8298750986951*^9, 3.82987509879769*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"c602e226-fa08-4f6d-b7f7-e7b3d243aceb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"BaseConverterProject", "::", "usage"}], " ", "=", " ", 
-  "\"\<BaseConvertor[value, inputBase, outputBase]\n\tDefine a convertion of \
-value from base inputBase to outputBase with some\n\tconditions and controls \
-about the value and inputBase/outputBase format:\n\tvalue must be an integer\n\
-\tinputBase and outputBase must be integer between 2 and 62\t\>\""}]], "Input",\
-
+  RowBox[{"BaseConverterManipulate", "::", "usage"}], " ", "=", " ", 
+  "\"\<BaseConvertorManipulate[value, inputBase, outputBase]\n\tDefine a \
+convertion of value from base inputBase to outputBase with some\n\tconditions \
+and controls about the value and inputBase/outputBase format:\n\tvalue must \
+be an integer\n\tinputBase and outputBase must be integer between 2 and 62\t\
+\>\""}]], "Input",
  InitializationCell->True,
  InitializationGroup->True,
  CellChangeTimes->{{3.828863130557317*^9, 3.828863130558015*^9}, {
   3.828863329694722*^9, 3.8288633552845984`*^9}, {3.8294472638856373`*^9, 
   3.8294472640440893`*^9}, {3.829447863518664*^9, 3.8294478638376427`*^9}, {
   3.8294499358461037`*^9, 3.829449957563003*^9}, {3.829807917832308*^9, 
-  3.829807917992351*^9}},ExpressionUUID->"36c52f8c-b143-44bf-adf6-\
+  3.829807917992351*^9}, {3.8298765687642803`*^9, 
+  3.8298765729209347`*^9}},ExpressionUUID->"36c52f8c-b143-44bf-adf6-\
 d9a55d959f3e"],
 
 Cell[BoxData["\<\"BaseConvertor[value, inputBase, outputBase]\\n\\tDefine a \
 convertion of value from base inputBase to outputBase with \
 some\\n\\tconditions and controls about the value and inputBase/outputBase \
 format:\\n\\tvalue must be an integer\\n\\tinputBase and outputBase must be \
-integer between 2 and 61\\t\"\>"], "Output",
+integer between 2 and 62\\t\"\>"], "Output",
  CellChangeTimes->{{3.828863351326748*^9, 3.828863366243939*^9}, {
    3.8288634125708838`*^9, 3.828863438380015*^9}, 3.8290204222740726`*^9, 
    3.829021906287076*^9, 3.829022120872067*^9, {3.8291872347950077`*^9, 
@@ -163,8 +167,8 @@ integer between 2 and 61\\t\"\>"], "Output",
    3.8293637229115257`*^9}, {3.829447274379096*^9, 3.829447274469672*^9}, 
    3.829447864515315*^9, {3.829449937037705*^9, 3.8294499581249113`*^9}, 
    3.8296193232445383`*^9, {3.829625741196294*^9, 3.829625741340508*^9}, 
-   3.829704584120927*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"67171f7a-09f9-4708-9631-9db34fe74f8d"]
+   3.829704584120927*^9, {3.829875098717862*^9, 3.829875098818437*^9}},
+ CellLabel->"Out[15]=",ExpressionUUID->"e5d595de-9edb-4a88-bd38-e1d8a944c761"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -173,14 +177,14 @@ Cell[BoxData[""], "Input",
    3.828863177069255*^9}, {3.828863216637311*^9, 3.828863234154035*^9}, {
    3.828863279895814*^9, 3.828863292614687*^9}, 3.828863343951037*^9, {
    3.82971505228514*^9, 3.8297150524560432`*^9}},
- CellLabel->"",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
+ CellLabel->"In[16]:=",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Begin", "[", "\"\<Private`\>\"", "]"}]], "Code",
  CellChangeTimes->{{3.8288623104913*^9, 3.828862310622814*^9}},
- CellLabel->"In[5]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+ CellLabel->"In[17]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
 
 Cell[BoxData["\<\"Private`\"\>"], "Output",
  CellChangeTimes->{
@@ -192,8 +196,9 @@ Cell[BoxData["\<\"Private`\"\>"], "Output",
    3.8291936788079033`*^9, 3.82919507097701*^9, 3.829195155014367*^9, 
    3.829199937057239*^9, {3.829363722840633*^9, 3.829363722973757*^9}, {
    3.82944727438414*^9, 3.829447274529767*^9}, 3.829619323250823*^9, {
-   3.8296257412044277`*^9, 3.8296257414044447`*^9}, 3.8297045841485023`*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"da4d23ac-31b7-4fb6-9a79-af28b3aad6fd"]
+   3.8296257412044277`*^9, 3.8296257414044447`*^9}, 3.8297045841485023`*^9, {
+   3.829875098722763*^9, 3.829875098825247*^9}},
+ CellLabel->"Out[17]=",ExpressionUUID->"d79574ac-a474-4c5e-a5d6-a46f094d80a9"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -207,34 +212,36 @@ Cell[BoxData[
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"BasePanelProject", "[", "]"}], " ", ":=", "\n", "\t", 
+     RowBox[{"UniversalExercisePanel", "[", "]"}], " ", ":=", "\n", "\t", 
      RowBox[{"Module", "[", 
       RowBox[{
        RowBox[{"{", "}"}], ",", "\n", "\t\t", 
-       RowBox[{"Manipulate", "[", "\n", "\t\t   ", 
-        RowBox[{"Value", ",", " ", "\n", "\t\t   ", 
+       RowBox[{"Manipulate", "[", 
+        RowBox[{
+         RowBox[{"BaseConverterManipulate", "[", 
+          RowBox[{"Valore", ",", " ", "BaseInput", ",", " ", "BaseOutput"}], 
+          "]"}], ",", "\n", "\t\t\t\t", 
          RowBox[{"{", 
-          RowBox[{"Value", ",", "1", ",", "10000", ",", "1"}], "}"}], ",", 
-         " ", "\n", "\t\t   ", 
+          RowBox[{"Valore", ",", "0"}], "}"}], ",", "\n", "\t\t\t\t", 
          RowBox[{"{", 
-          RowBox[{"InputBase", ",", "2", ",", "36", ",", "1"}], "}"}], ",", 
-         " ", "\n", "\t\t   ", 
+          RowBox[{"BaseInput", ",", "10"}], "}"}], ",", "\n", "\t\t\t\t", 
          RowBox[{"{", 
-          RowBox[{"OutputBase", ",", "2", ",", "36", ",", "1"}], "}"}], ",", 
-         "\n", "\t\t   ", 
-         RowBox[{"Button", "[", 
-          RowBox[{"\"\<Genera Esercizio\>\"", ",", "True"}], "]"}], ",", "\n",
-          "\t\t   ", 
-         RowBox[{"Button", "[", 
-          RowBox[{"\"\<Verifica Risultato\>\"", ",", "True"}], "]"}], ",", 
-         "\n", "\t\t   ", 
-         RowBox[{"Button", "[", 
-          RowBox[{"\"\<Mostra Soluzione\>\"", ",", " ", "True"}], "]"}], ",", 
-         "\n", "\t\t   ", 
-         RowBox[{"Button", "[", 
-          RowBox[{"\"\<Pulisci Soluzione\>\"", ",", " ", "True"}], "]"}]}], 
-        "\n", "\t       ", "]"}]}], "\n", "    ", "]"}]}], ";"}], "\n", 
-   "    ", "\n", "\n", 
+          RowBox[{"BaseOutput", ",", "2"}], "}"}], ",", "\n", "\t\t\t\t", 
+         RowBox[{"Button", "[", "\"\<Genera Esercizio\>\"", "]"}], ",", " ", 
+         "\n", "\t\t\t\t", 
+         RowBox[{"Button", "[", "\"\<Verifica Risultato\>\"", "]"}], ",", " ",
+          "\n", "\t\t\t\t", 
+         RowBox[{"Button", "[", "\"\<Mostra soluzione\>\"", "]"}], ",", " ", 
+         "\n", "\t\t\t\t", 
+         RowBox[{"Button", "[", "\"\<Pulisci Soluzione\>\"", "]"}], ",", "\n",
+          "\t\t\t\t", 
+         RowBox[{"(*", " ", 
+          RowBox[{
+          "void", " ", "line", " ", "for", " ", "output", " ", "position"}], 
+          " ", "*)"}], "\n", "\t\t\t\t", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
+         "\"\<\>\"", ",", "\n", "\t\t\t\t", "\"\<\>\""}], "\n", "\t\t\t\t", 
+        "]"}]}], "\n", "\t\t\t", "\n", "\t\t", "\n", "    ", "]"}]}], ";"}], 
+   "\n", "    ", "\n", "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{"BaseConverterProject", "[", 
@@ -254,9 +261,11 @@ Cell[BoxData[
          "valueNum_"}]}]}]}]}], "\n", "*)"}], "\n", 
    RowBox[{
     RowBox[{
-     RowBox[{"BaseConverterProject", "[", 
-      RowBox[{"valueNum_", ",", " ", "inputBase_", ",", " ", "outputBase_"}], 
-      "]"}], " ", ":=", " ", "\n", "\t", 
+     RowBox[{"BaseConverterManipulate", "[", 
+      RowBox[{
+       RowBox[{"valueNum_", ":", "0"}], ",", " ", 
+       RowBox[{"inputBase_", ":", "10"}], ",", " ", 
+       RowBox[{"outputBase_", ":", "2"}]}], "]"}], " ", ":=", " ", "\n", "\t", 
      RowBox[{"Module", "[", 
       RowBox[{
        RowBox[{"{", 
@@ -276,8 +285,8 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"IntegerQ", "[", "inputBase", "]"}], "&&", 
            RowBox[{"IntegerQ", "[", "outputBase", "]"}], " ", "&&", " ", 
-           RowBox[{"outputBase", " ", "<", " ", "61"}], " ", "&&", " ", 
-           RowBox[{"inputBase", " ", "<", " ", "61"}], " ", "&&", " ", 
+           RowBox[{"outputBase", " ", "<=", " ", "62"}], " ", "&&", " ", 
+           RowBox[{"inputBase", " ", "<=", " ", "62"}], " ", "&&", " ", 
            RowBox[{"outputBase", " ", ">=", " ", "2"}], " ", "&&", " ", 
            RowBox[{"inputBase", " ", ">=", " ", "2"}]}], ",", "\n", "\t\t", 
           RowBox[{"(*", " ", 
@@ -298,8 +307,8 @@ Cell[BoxData[
                "valueNum"}], " ", "*)"}], "\n", "\t\t    ", 
              RowBox[{
              "Return", "[", 
-              "\"\<Input Base and OutputBase are the same, value don't change\
-\>\"", "]"}], "\n", "\t\t\t", ",", "\n", "\t\t\t", 
+              "\"\<Le basi di input e output sono le stesse, il valore non \
+cambia nella conversione\>\"", "]"}], "\n", "\t\t\t", ",", "\n", "\t\t\t", 
              RowBox[{"(*", " ", "else", " ", "*)"}], "\n", "\t\t\t", 
              RowBox[{
               RowBox[{"If", "[", 
@@ -350,9 +359,9 @@ Cell[BoxData[
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Bases in not between 2 and 16 or values are not \
-integers!\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", "\t", 
-      "]"}]}], ";"}], "\n", "\t", "\n", "\t\t   ", "\n", "\t", 
+            "\"\<Format Error: Le basi non sono tra 2 e 62 o il valore non \
+\[EGrave] un intero\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", 
+      "\t", "]"}]}], ";"}], "\n", "\t", "\n", "\t\t   ", "\n", "\t", 
    "\n"}]}]], "Code",
  CellChangeTimes->{{3.8288623490021477`*^9, 3.828862417134672*^9}, {
    3.828862559115164*^9, 3.828862560295457*^9}, {3.8288626174968777`*^9, 
@@ -426,8 +435,16 @@ integers!\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", "\t",
    3.8294504622690887`*^9, 3.829450466060336*^9}, {3.8296229815688868`*^9, 
    3.829623003859782*^9}, {3.829623039429934*^9, 3.829623042455674*^9}, {
    3.8296483692469273`*^9, 3.8296484768954773`*^9}, {3.82972929055343*^9, 
-   3.8297293771335077`*^9}},
- CellLabel->"",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+   3.8297293771335077`*^9}, {3.829875118164372*^9, 3.829875132285367*^9}, {
+   3.829875199943281*^9, 3.829875307746917*^9}, {3.829875346869238*^9, 
+   3.829875355134997*^9}, {3.829875386048612*^9, 3.829875390554682*^9}, {
+   3.829875604408551*^9, 3.8298756304183903`*^9}, {3.829875678497983*^9, 
+   3.829875736463048*^9}, {3.8298763468606577`*^9, 3.8298763743597603`*^9}, {
+   3.829876523029907*^9, 3.829876594359871*^9}, {3.829876637210348*^9, 
+   3.8298766966477337`*^9}, {3.829876824885006*^9, 3.829876866356526*^9}, {
+   3.829877080741048*^9, 
+   3.829877089264439*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
+505ba266263a"],
 
 Cell[BoxData[
  RowBox[{
@@ -1490,109 +1507,80 @@ comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}],
    3.829808169195487*^9}, {3.8298082020133877`*^9, 3.8298084880297937`*^9}, {
    3.829808536129183*^9, 3.82980854025089*^9}, {3.829808595794032*^9, 
    3.829808644087269*^9}, {3.829808711670993*^9, 3.829808716737073*^9}},
- CellLabel->
-  "In[236]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+ CellLabel->"In[20]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"ConverterNTo10", "[", 
-  RowBox[{
-   RowBox[{"102", "A"}], ",", " ", "64"}], "]"}]], "Input",
+ RowBox[{"UniversalExercisePanel", "[", "]"}]], "Input",
  CellChangeTimes->{{3.8297045880430813`*^9, 3.829704608787753*^9}, {
    3.829704685145769*^9, 3.8297046858676243`*^9}, {3.829705158060761*^9, 
    3.829705167028947*^9}, 3.8297059415712233`*^9, {3.8297060565059977`*^9, 
    3.829706058210705*^9}, {3.829716611069401*^9, 3.8297166271958237`*^9}, {
    3.829718855547267*^9, 3.829718856967214*^9}, 3.829804249357872*^9, {
    3.829804287221085*^9, 3.8298042968197937`*^9}, 3.829806740005864*^9, {
-   3.829807728701531*^9, 3.829807735709729*^9}},
+   3.829807728701531*^9, 3.829807735709729*^9}, {3.829876620627092*^9, 
+   3.8298766216244802`*^9}},
  CellLabel->
-  "In[240]:=",ExpressionUUID->"e11e47cf-61e7-4032-afe2-b20bac403011"],
-
-Cell[BoxData["\<\"Errore di formato: Puoi usare solamente interi positivi o \
-lettere supportate per la base di input \\n\\t\\t\\t\\t\\tper i valori e \
-interi tra 2 e 62 per le basi.\"\>"], "Output",
- CellChangeTimes->{
-  3.829718857178043*^9, 3.829804489368268*^9, 3.829805081388604*^9, 
-   3.829805284093833*^9, 3.829806740209156*^9, {3.829807732592635*^9, 
-   3.829807736074065*^9}, 3.829808731931047*^9},
- CellLabel->
-  "Out[240]=",ExpressionUUID->"d991560f-7453-4e44-b181-ca23f40e411a"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+  "In[102]:=",ExpressionUUID->"e11e47cf-61e7-4032-afe2-b20bac403011"],
 
 Cell[BoxData[
- RowBox[{"Converter10ToN", "[", 
-  RowBox[{"z", ",", "62"}], "]"}]], "Input",
- CellChangeTimes->{{3.829804490326499*^9, 3.8298045007632017`*^9}, {
-  3.829806734794259*^9, 3.8298067380184793`*^9}, {3.82980774034238*^9, 
-  3.829807769450925*^9}},
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{Private`BaseInput$$ = 11, Private`BaseOutput$$ = 22, 
+    Private`Valore$$ = Private`A, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[Private`Valore$$], 0}, {
+      Hold[Private`BaseInput$$], 10}, {
+      Hold[Private`BaseOutput$$], 2}, {
+      Hold[
+       Button["Genera Esercizio"]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[
+       Button["Verifica Risultato"]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[
+       Button["Mostra soluzione"]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[
+       Button["Pulisci Soluzione"]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
+    905., {111.2010498046875, 119.7989501953125}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {
+       Private`BaseInput$$ = 10, Private`BaseOutput$$ = 2, Private`Valore$$ = 
+        0}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      Private`BaseConverterManipulate[
+       Private`Valore$$, Private`BaseInput$$, Private`BaseOutput$$], 
+      "Specifications" :> {{Private`Valore$$, 0}, {Private`BaseInput$$, 10}, {
+        Private`BaseOutput$$, 2}, 
+        Button["Genera Esercizio"], 
+        Button["Verifica Risultato"], 
+        Button["Mostra soluzione"], 
+        Button["Pulisci Soluzione"], "", "", ""}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{1302., {182., 190.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.829876912531732*^9},
  CellLabel->
-  "In[235]:=",ExpressionUUID->"c4896d3b-e881-4ffa-b700-af1950b26099"],
-
-Cell[BoxData["\<\"Il numero deve essere un intero positivo compreso tra 0 e \
-10.000 (espresso in base 10), le basi devono essere interi tra 2 e 62 e il \
-numero deve essere esprimibile nella base di input\"\>"], "Output",
- CellChangeTimes->{3.8298086680506477`*^9},
- CellLabel->
-  "Out[235]=",ExpressionUUID->"19bf5f90-6727-4545-93ae-6e74320a419a"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"ConverterDiff10", "[", 
-  RowBox[{"102", ",", "11", ",", "14"}], "]"}]], "Input",
- CellChangeTimes->{{3.829804506602829*^9, 3.8298045145080547`*^9}, {
-   3.8298046745749693`*^9, 3.82980467831533*^9}, {3.829805085402279*^9, 
-   3.82980511347164*^9}, {3.829806238048349*^9, 3.829806240228962*^9}, {
-   3.829806291742195*^9, 3.829806299490368*^9}, {3.8298063671951323`*^9, 
-   3.8298063740781317`*^9}, 3.829806561923935*^9, {3.8298085680837812`*^9, 
-   3.8298085744888887`*^9}},
- CellLabel->
-  "In[234]:=",ExpressionUUID->"d1529980-9c7e-43cf-8e67-7b1e61a01304"],
-
-Cell[BoxData[
- TagBox[GridBox[{
-    {"\<\"Dopo aver verificato che il numero si trova nella forma della base \
-di input,\"\>"},
-    {"\<\"Dobbiamo convertire il numero in base 10 assumendo che sia nella \
-base 11\"\>"},
-    {"\<\"\"\>"},
-    {
-     TemplateBox[{
-      "\"1 x 11^2 + \"", "\"0 x 11^1 + \"", "\"2 x 11^0\"", "\" = 123\""},
-      "RowDefault"]},
-    {"\<\"Il risultato della conversione \[EGrave] 123 che bisogna ora \
-convertirlo nella base 14\"\>"},
-    {"\<\"\"\>"},
-    {
-     TagBox[GridBox[{
-        {"\<\"123 / 14 = 8 R 11 = B\"\>"},
-        {"\<\"----------------\"\>"},
-        {"\<\"8 / 14 = 0 R 8 = 8\"\>"},
-        {"\<\"----------------\"\>"},
-        {"\<\"Il risultato \[EGrave]: 8B\"\>"}
-       },
-       DefaultBaseStyle->"Column",
-       GridBoxAlignment->{"Columns" -> {{Left}}},
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-      "Column"]}
-   },
-   DefaultBaseStyle->"Column",
-   GridBoxAlignment->{"Columns" -> {{Left}}},
-   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-  "Column"]], "Output",
- CellChangeTimes->{
-  3.829805962349201*^9, 3.829806065704357*^9, {3.8298062103105497`*^9, 
-   3.8298062406063643`*^9}, {3.829806292100274*^9, 3.829806300005835*^9}, {
-   3.829806367520084*^9, 3.829806374324194*^9}, 3.8298065624032297`*^9, {
-   3.829807055741118*^9, 3.829807059457527*^9}, {3.829807654287026*^9, 
-   3.829807659689519*^9}, 3.8298085112885036`*^9, {3.829808544828906*^9, 
-   3.8298085747644367`*^9}, {3.8298086323835*^9, 3.829808649194203*^9}},
- CellLabel->
-  "Out[234]=",ExpressionUUID->"fe41f356-d08d-4c10-a543-149cc320bc6f"]
+  "Out[102]=",ExpressionUUID->"ecf58c34-7d77-4a6e-acd1-a23ae57a114c"]
 }, Open  ]]
 },
 WindowSize->{1653, 780},
@@ -1613,42 +1601,34 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2136, 51, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
+Cell[558, 20, 2137, 51, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[2719, 75, 365, 7, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
+Cell[2720, 75, 366, 7, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
  InitializationCell->True],
-Cell[3087, 84, 898, 12, 52, "Output",ExpressionUUID->"360972ad-61fe-4fe3-8653-af235de80b5c"]
+Cell[3089, 84, 951, 13, 52, "Output",ExpressionUUID->"7b192268-af95-4e8a-ac5b-ecf8dfd3f8cd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4022, 101, 683, 12, 164, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
+Cell[4077, 102, 740, 13, 164, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
  InitializationCell->True],
-Cell[4708, 115, 1011, 14, 146, "Output",ExpressionUUID->"4198a3e3-3b7b-4921-a790-f58461c4bf4a"]
+Cell[4820, 117, 1059, 15, 146, "Output",ExpressionUUID->"c602e226-fa08-4f6d-b7f7-e7b3d243aceb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5756, 134, 840, 15, 195, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
+Cell[5916, 137, 906, 16, 195, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
  InitializationCell->True,
  InitializationGroup->True],
-Cell[6599, 151, 1095, 15, 177, "Output",ExpressionUUID->"67171f7a-09f9-4708-9631-9db34fe74f8d"]
+Cell[6825, 155, 1142, 15, 177, "Output",ExpressionUUID->"e5d595de-9edb-4a88-bd38-e1d8a944c761"]
 }, Open  ]],
-Cell[7709, 169, 438, 6, 46, "Input",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
+Cell[7982, 173, 446, 6, 46, "Input",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
 Cell[CellGroupData[{
-Cell[8172, 179, 214, 3, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-Cell[8389, 184, 797, 11, 52, "Output",ExpressionUUID->"da4d23ac-31b7-4fb6-9a79-af28b3aad6fd"]
+Cell[8453, 183, 215, 3, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+Cell[8671, 188, 848, 12, 52, "Output",ExpressionUUID->"d79574ac-a474-4c5e-a5d6-a46f094d80a9"]
 }, Open  ]],
-Cell[9201, 198, 12658, 231, 1732, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
-Cell[21862, 431, 54653, 1062, 7097, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+Cell[9534, 203, 13530, 243, 1877, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+Cell[23067, 448, 54649, 1061, 7097, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 Cell[CellGroupData[{
-Cell[76540, 1497, 690, 12, 46, "Input",ExpressionUUID->"e11e47cf-61e7-4032-afe2-b20bac403011"],
-Cell[77233, 1511, 492, 8, 101, "Output",ExpressionUUID->"d991560f-7453-4e44-b181-ca23f40e411a"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[77762, 1524, 341, 7, 46, "Input",ExpressionUUID->"c4896d3b-e881-4ffa-b700-af1950b26099"],
-Cell[78106, 1533, 349, 5, 84, "Output",ExpressionUUID->"19bf5f90-6727-4545-93ae-6e74320a419a"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[78492, 1543, 582, 10, 46, "Input",ExpressionUUID->"d1529980-9c7e-43cf-8e67-7b1e61a01304"],
-Cell[79077, 1555, 1636, 39, 311, "Output",ExpressionUUID->"fe41f356-d08d-4c10-a543-149cc320bc6f"]
+Cell[77741, 1513, 695, 11, 46, "Input",ExpressionUUID->"e11e47cf-61e7-4032-afe2-b20bac403011"],
+Cell[78439, 1526, 2602, 56, 417, "Output",ExpressionUUID->"ecf58c34-7d77-4a6e-acd1-a23ae57a114c"]
 }, Open  ]]
 }
 ]

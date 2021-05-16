@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    147229,       2807]
-NotebookOptionsPosition[    145557,       2770]
-NotebookOutlinePosition[    145984,       2787]
-CellTagsIndexPosition[    145941,       2784]
+NotebookDataLength[    143823,       2778]
+NotebookOptionsPosition[    142503,       2748]
+NotebookOutlinePosition[    142930,       2765]
+CellTagsIndexPosition[    142887,       2762]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,75 +70,18 @@ Cell[BoxData[
   3.828863430302635*^9, 3.828863433476419*^9}, {3.8291998122784653`*^9, 
   3.829199813007018*^9}},
  CellLabel->
-  "In[1666]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
-
-Cell[CellGroupData[{
+  "In[2262]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
 
 Cell[BoxData[
- RowBox[{"BeginPackage", "[", "\"\<BaseConvertorPackage`\>\"", "]"}]], "Input",\
-
+ RowBox[{
+  RowBox[{"BeginPackage", "[", "\"\<BaseConvertorPackage`\>\"", "]"}], 
+  ";"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.828861912575403*^9, 3.82886193066146*^9}, {
-  3.8288623030616407`*^9, 3.828862303811872*^9}, {3.828863270883473*^9, 
-  3.828863273964057*^9}},
+   3.8288623030616407`*^9, 3.828862303811872*^9}, {3.828863270883473*^9, 
+   3.828863273964057*^9}, 3.830183492768435*^9},
  CellLabel->
-  "In[1667]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
-
-Cell[BoxData["\<\"BaseConvertorPackage`\"\>"], "Output",
- CellChangeTimes->{{3.8288619253880987`*^9, 3.8288619312236853`*^9}, 
-   3.828862313347885*^9, 3.828863054351088*^9, 3.828863209896085*^9, 
-   3.8288632440802917`*^9, 3.82886327447279*^9, 3.828863308403469*^9, 
-   3.8288633662016153`*^9, {3.8288634125361233`*^9, 3.828863438348412*^9}, 
-   3.829020422245496*^9, 3.829021906253648*^9, 3.829022120839266*^9, {
-   3.829187234782084*^9, 3.829187234967944*^9}, 3.829191617461318*^9, 
-   3.829191900906138*^9, 3.829193157468171*^9, 3.8291936786974*^9, 
-   3.82919507090889*^9, 3.829195154848454*^9, 3.8291999370100946`*^9, {
-   3.829363722814807*^9, 3.829363722901814*^9}, {3.829447274354781*^9, 
-   3.829447274450078*^9}, 3.829619323213194*^9, {3.8296257411716843`*^9, 
-   3.829625741305622*^9}, 3.829704584112108*^9, {3.829875098682187*^9, 
-   3.8298750987925587`*^9}, 3.8299869781540747`*^9, 3.829987035553053*^9, 
-   3.829987161542314*^9, 3.829987212691042*^9, {3.829988723292386*^9, 
-   3.829988738031794*^9}, 3.829988784385125*^9, 3.829988860940482*^9, 
-   3.82998891009752*^9, 3.8299891507227*^9, {3.8299894761030684`*^9, 
-   3.829989502308887*^9}, {3.8299896427345047`*^9, 3.829989690117031*^9}, {
-   3.829989772075674*^9, 3.829989794256609*^9}, {3.8299898672033987`*^9, 
-   3.829989870767108*^9}, 3.8299900433577633`*^9, 3.829990130162668*^9, 
-   3.829990329177829*^9, 3.8299904098090754`*^9, 3.829991127850398*^9, 
-   3.829992490024069*^9, 3.829992777839416*^9, 3.829993076211521*^9, 
-   3.829993447746089*^9, 3.829993521797317*^9, 3.829993674577464*^9, 
-   3.829994319398818*^9, 3.829996096256329*^9, 3.8299962208889227`*^9, 
-   3.829996589638791*^9, 3.829996725132834*^9, 3.829999097772977*^9, 
-   3.830000405818541*^9, 3.83000048395463*^9, 3.8300012847944098`*^9, 
-   3.83000160069978*^9, 3.830002087441877*^9, 3.830002133610693*^9, {
-   3.83017152320304*^9, 3.830171523343128*^9}, {3.830171632418763*^9, 
-   3.830171656645101*^9}, 3.830171722669381*^9, 3.8301718369945087`*^9, 
-   3.830172242624501*^9, 3.830172325487711*^9, {3.830172479337256*^9, 
-   3.830172480917012*^9}, 3.8301729971116*^9, 3.8301735233677397`*^9, 
-   3.830173623403686*^9, 3.8301736590906467`*^9, 3.830173768982974*^9, 
-   3.830173877795092*^9, {3.8301739126381273`*^9, 3.830173917054779*^9}, 
-   3.830174022957127*^9, {3.830174706144519*^9, 3.830174725251796*^9}, 
-   3.830174838388163*^9, 3.830174937396338*^9, 3.830174983403844*^9, 
-   3.8301750513572817`*^9, 3.830175220224279*^9, 3.8301754361005697`*^9, 
-   3.83017551900422*^9, 3.830175629576038*^9, 3.830175675651215*^9, {
-   3.8301757370551157`*^9, 3.830175758873468*^9}, {3.830175893175024*^9, 
-   3.8301759008196707`*^9}, 3.830175967389271*^9, {3.830176063678711*^9, 
-   3.8301760712830887`*^9}, 3.830176128244512*^9, 3.830176175220213*^9, 
-   3.830176390895994*^9, 3.830176509557605*^9, 3.830176574619935*^9, 
-   3.83017670502985*^9, {3.830176850617694*^9, 3.830176877592507*^9}, 
-   3.830176927066677*^9, 3.830177034057899*^9, 3.830177127601355*^9, 
-   3.8301772035635977`*^9, 3.830177458632862*^9, 3.830177491920422*^9, {
-   3.830177559677144*^9, 3.8301775842416573`*^9}, 3.830177645358951*^9, 
-   3.830177695325425*^9, 3.83017783545059*^9, 3.830177915601552*^9, 
-   3.830178219688993*^9, 3.8301782858866787`*^9, {3.830178640211255*^9, 
-   3.8301786558924437`*^9}, 3.830178860614249*^9, 3.830178895132967*^9, 
-   3.830179049131876*^9, 3.830179132513239*^9, 3.83017916869415*^9, 
-   3.8301793002887287`*^9, 3.830179409495243*^9, {3.830179440740155*^9, 
-   3.830179461317246*^9}, 3.830179508631381*^9, 3.830179550492168*^9, 
-   3.830179821084586*^9, 3.830180848306535*^9, 3.830181297652274*^9, 
-   3.830182047380352*^9, 3.830182083496567*^9},
- CellLabel->
-  "Out[1667]=",ExpressionUUID->"d49ff7b4-3ced-47dd-a7f6-2768cad82f1a"]
-}, Open  ]],
+  "In[2263]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
 
 Cell[BoxData[
  RowBox[{
@@ -146,16 +89,16 @@ Cell[BoxData[
    RowBox[{"UniversalExercisesPanel", "::", "usage"}], " ", "=", " ", 
    "\"\<UniversalExercisePanelProject[]\n\tDefine a table and show the \
 convertion from an input base to an output base defined by manipulation tool \
-of the panel. The last two parameters are optional and have as default value \
-the base 10 and 2\n\>\""}], ";"}]], "Input",
+of the panel\>\""}], ";"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.828862098345055*^9, 3.828862224016768*^9}, {
    3.828863316784349*^9, 3.8288633176285067`*^9}, 3.828863486946001*^9, {
    3.829024186548792*^9, 3.8290242206783447`*^9}, {3.8290242622273912`*^9, 
    3.829024297683467*^9}, {3.8298765818056793`*^9, 3.829876588903592*^9}, {
-   3.829987019156209*^9, 3.8299870202693653`*^9}, 3.8299938767408123`*^9},
+   3.829987019156209*^9, 3.8299870202693653`*^9}, 3.8299938767408123`*^9, {
+   3.830182994231265*^9, 3.830183040636628*^9}},
  CellLabel->
-  "In[1668]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
+  "In[2264]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
 
 Cell[BoxData[{
  RowBox[{
@@ -165,15 +108,29 @@ Cell[BoxData[{
     "\"\<DisplayBaseConvertorManipulate[value, inputBase, outputBase]\n\t\
 Define a convertion of value from base inputBase to outputBase with some\n\t\
 conditions and controls about the value and inputBase/outputBase format:\n\t\
-value must be an integer\n\tinputBase and outputBase must be integer between \
-2 and 62\t\>\""}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+value must be an integer inputBase and outputBase must be integer between 2 \
+and 62. \n    The first parameter is a String type, the second and the third \
+one are Integer type.\>\""}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"VerifySolution", "::", "usage"}], " ", "=", " ", 
+    "\"\<VerifySolution[valueNum_, inputBase_, outputBase_, valueOut_]\n     \
+Define a verification to check if valueNum in inputBase converted by \
+outputBase is\n     equal or not to valueOut. In case of positive result, the \
+function will return \n     'Il valore in output \[EGrave]: Corretto'. In \
+other case, it replaces the 'Corretto' word with 'Errato'.\n     The first \
+and the last one are in String type and inputBase and outputBase are Integer \
+type.\>\""}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"SolveConvertion", "::", "usage"}], " ", "=", " ", 
    "\"\<SolveConvertion[valueNum_, inputBase_, outputBase_]\n   Define the \
 result of the convertion of valueNum in base 'inputBase' to 'outputBase' \n   \
-with no showing the logic procedure behind the convertion itself \>\""}], 
-  ";"}]}], "Input",
+with no showing the logic procedure behind the convertion itself.\n The first \
+parameter is a String type, the second and the third one are Integer \
+type.\>\""}], ";"}]}], "Input",
  InitializationCell->True,
  InitializationGroup->True,
  CellChangeTimes->{{3.828863130557317*^9, 3.828863130558015*^9}, {
@@ -182,81 +139,18 @@ with no showing the logic procedure behind the convertion itself \>\""}],
   3.8294499358461037`*^9, 3.829449957563003*^9}, {3.829807917832308*^9, 
   3.829807917992351*^9}, {3.8298765687642803`*^9, 3.8298765729209347`*^9}, {
   3.8299937732361917`*^9, 3.829993885684105*^9}, {3.830000462239594*^9, 
-  3.830000467108876*^9}, {3.830175924736127*^9, 3.830175925101657*^9}},
+  3.830000467108876*^9}, {3.830175924736127*^9, 3.830175925101657*^9}, {
+  3.830182688805965*^9, 3.830182982031706*^9}},
  CellLabel->
-  "In[1669]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.828861945258877*^9, 3.828862095540606*^9}, {
-   3.8288622274319973`*^9, 3.8288622603711843`*^9}, {3.8288631274032507`*^9, 
-   3.828863177069255*^9}, {3.828863216637311*^9, 3.828863234154035*^9}, {
-   3.828863279895814*^9, 3.828863292614687*^9}, 3.828863343951037*^9, {
-   3.82971505228514*^9, 3.8297150524560432`*^9}},
- CellLabel->
-  "In[1671]:=",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
-
-Cell[CellGroupData[{
+  "In[2265]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
 
 Cell[BoxData[
- RowBox[{"Begin", "[", "\"\<Private`\>\"", "]"}]], "Code",
- CellChangeTimes->{{3.8288623104913*^9, 3.828862310622814*^9}},
+ RowBox[{
+  RowBox[{"Begin", "[", "\"\<Private`\>\"", "]"}], ";"}]], "Code",
+ CellChangeTimes->{{3.8288623104913*^9, 3.828862310622814*^9}, 
+   3.830183481373807*^9},
  CellLabel->
-  "In[1672]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-
-Cell[BoxData["\<\"Private`\"\>"], "Output",
- CellChangeTimes->{
-  3.828863060788678*^9, 3.828863209962535*^9, 3.828863244147821*^9, {
-   3.828863303888382*^9, 3.828863308448839*^9}, {3.828863366298032*^9, 
-   3.82886343840774*^9}, 3.8290204222790117`*^9, 3.829021906343066*^9, 
-   3.829022120896983*^9, {3.8291872348449507`*^9, 3.829187235092498*^9}, 
-   3.8291916175282593`*^9, 3.8291919011728888`*^9, 3.8291931576168118`*^9, 
-   3.8291936788079033`*^9, 3.82919507097701*^9, 3.829195155014367*^9, 
-   3.829199937057239*^9, {3.829363722840633*^9, 3.829363722973757*^9}, {
-   3.82944727438414*^9, 3.829447274529767*^9}, 3.829619323250823*^9, {
-   3.8296257412044277`*^9, 3.8296257414044447`*^9}, 3.8297045841485023`*^9, {
-   3.829875098722763*^9, 3.829875098825247*^9}, 3.82998697834797*^9, 
-   3.8299870356792192`*^9, 3.82998716162047*^9, 3.829987212740505*^9, {
-   3.829988723390622*^9, 3.8299887380926247`*^9}, 3.8299887844920263`*^9, 
-   3.829988861034812*^9, 3.8299889102145157`*^9, 3.829989150773065*^9, {
-   3.829989476186344*^9, 3.8299895024004097`*^9}, {3.8299896428023367`*^9, 
-   3.829989690172658*^9}, {3.829989772198667*^9, 3.829989794308688*^9}, {
-   3.8299898672924757`*^9, 3.829989870819819*^9}, 3.829990043443234*^9, 
-   3.829990130246189*^9, 3.829990329227268*^9, 3.8299904098963013`*^9, 
-   3.829991127900717*^9, 3.829992490089674*^9, 3.8299927778934593`*^9, 
-   3.829993076305909*^9, 3.8299934478018293`*^9, 3.8299935218513412`*^9, 
-   3.829993674629703*^9, 3.8299943194439793`*^9, 3.8299960963066072`*^9, 
-   3.829996220934594*^9, 3.829996589691752*^9, 3.829996725180337*^9, 
-   3.829999097821578*^9, 3.830000405873757*^9, 3.830000484002697*^9, 
-   3.830001284884981*^9, 3.830001600754369*^9, 3.830002087492344*^9, 
-   3.8300021336721773`*^9, {3.830171523243658*^9, 3.830171523381653*^9}, {
-   3.8301716324567003`*^9, 3.8301716566845093`*^9}, 3.8301717227054567`*^9, 
-   3.830171837027713*^9, 3.830172242660589*^9, 3.8301723255226593`*^9, {
-   3.8301724793738317`*^9, 3.830172480961954*^9}, 3.8301729971471*^9, 
-   3.8301735234035673`*^9, 3.830173623439804*^9, 3.830173659129222*^9, 
-   3.830173769041218*^9, 3.83017387783076*^9, {3.830173912677964*^9, 
-   3.830173917090191*^9}, 3.830174022995245*^9, {3.8301747061847*^9, 
-   3.830174725316114*^9}, 3.8301748384325314`*^9, 3.830174937435546*^9, 
-   3.8301749834396057`*^9, 3.830175051398354*^9, 3.830175220260189*^9, 
-   3.830175436139254*^9, 3.830175519041419*^9, 3.830175629616089*^9, 
-   3.830175675688241*^9, {3.8301757370919123`*^9, 3.8301757589139233`*^9}, {
-   3.830175893214507*^9, 3.830175900864111*^9}, 3.830175967437002*^9, {
-   3.830176063713758*^9, 3.830176071322692*^9}, 3.830176128344507*^9, 
-   3.8301761752601957`*^9, 3.830176390933639*^9, 3.8301765096012087`*^9, 
-   3.830176574659342*^9, 3.830176705067429*^9, {3.830176850654148*^9, 
-   3.8301768776107817`*^9}, 3.830176927104129*^9, 3.830177034095373*^9, 
-   3.830177127638667*^9, 3.830177203606678*^9, 3.830177458701836*^9, 
-   3.830177491967732*^9, {3.830177559716464*^9, 3.830177584278034*^9}, 
-   3.830177645398671*^9, 3.830177695365858*^9, 3.830177835518895*^9, 
-   3.83017791563881*^9, 3.830178219728127*^9, 3.830178285928219*^9, {
-   3.8301786402478724`*^9, 3.830178655936788*^9}, 3.830178860654497*^9, 
-   3.830178895175129*^9, 3.8301790491699038`*^9, 3.8301791325497293`*^9, 
-   3.83017916873125*^9, 3.830179300327236*^9, 3.830179409536516*^9, {
-   3.830179440758683*^9, 3.830179461355276*^9}, 3.8301795086722183`*^9, 
-   3.830179550530456*^9, 3.830179821127383*^9, 3.8301808483447742`*^9, 
-   3.830181297694681*^9, 3.830182047420206*^9, 3.830182083516144*^9},
- CellLabel->
-  "Out[1672]=",ExpressionUUID->"92be9dd0-4fed-4523-a8b6-0367f4161d84"]
-}, Open  ]],
+  "In[2268]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
 
 Cell[BoxData[
  RowBox[{
@@ -290,17 +184,43 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"{", "}"}], ",", "\n", "\t\t", 
        RowBox[{"Manipulate", "[", 
-        RowBox[{"output", ",", "\n", "\t\t\t\t", 
-         RowBox[{"{", 
-          RowBox[{"ValoreInput", ",", " ", "2"}], "}"}], ",", "\n", 
-         "\t\t\t\t", 
-         RowBox[{"{", 
-          RowBox[{"BaseInput", ",", "10"}], "}"}], ",", "\n", "\t\t\t\t", 
-         RowBox[{"{", 
-          RowBox[{"BaseOutput", ",", "2"}], "}"}], ",", "\n", "\t\t\t\t", 
-         RowBox[{"{", 
-          RowBox[{"ValoreOutput", ",", " ", "10"}], "}"}], ",", "\n", 
-         "\t\t\t\t", 
+        RowBox[{"output", ",", "\n", "\t\t        ", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<Parametri\>\"", ",", " ", "12", ",", " ", "Bold"}], 
+          "]"}], ",", "\n", "\t\t        ", "\"\<\>\"", ",", "\n", 
+         "                ", 
+         RowBox[{"Control", "@", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"ValoreInput", ",", " ", "2"}], "}"}], ",", " ", 
+            "InputField", ",", " ", 
+            RowBox[{"ImageSize", " ", "\[Rule]", "Small"}]}], "}"}]}], ",", 
+         "\n", "                ", 
+         RowBox[{"Control", "@", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"BaseInput", ",", " ", "10"}], "}"}], ",", " ", 
+            "InputField", ",", " ", 
+            RowBox[{"ImageSize", " ", "->", " ", "Small"}]}], "}"}]}], ",", 
+         "\n", "                ", 
+         RowBox[{"Control", "@", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"BaseOutput", ",", " ", "2"}], "}"}], ",", " ", 
+            "InputField", ",", " ", 
+            RowBox[{"ImageSize", " ", "->", " ", "Small"}]}], "}"}]}], ",", 
+         "\n", "                ", 
+         RowBox[{"Control", "@", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"ValoreOutput", ",", " ", "10"}], "}"}], ",", " ", 
+            "InputField", ",", " ", 
+            RowBox[{"ImageSize", " ", "->", " ", "Small"}]}], "}"}]}], ",", 
+         "\n", "                ", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
          RowBox[{"(*", " ", 
           RowBox[{
           "Input", " ", "value", " ", "is", " ", "between", " ", "0", " ", 
@@ -328,6 +248,10 @@ Cell[BoxData[
             "a", " ", "message", " ", "of", " ", "error", " ", "inside", " ", 
             "the", " ", "output", " ", "of", " ", "the", " ", 
             "Manipulate"}]}], " ", "*)"}], "\n", "\t\t\t\t", 
+         RowBox[{"Style", "[", 
+          RowBox[{
+          "\"\<Funzionalit\[AGrave]\>\"", ",", " ", "12", ",", " ", "Bold"}], 
+          "]"}], ",", "\n", "\t\t\t\t", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
          RowBox[{"Button", "[", 
           RowBox[{"\"\<Genera Campi\>\"", ",", " ", 
            RowBox[{
@@ -384,13 +308,16 @@ Cell[BoxData[
              RowBox[{"Set", "[", 
               RowBox[{"output", ",", 
                RowBox[{"SolveConvertion", "[", 
-                RowBox[{"2", ",", "10", ",", "10"}], "]"}]}], "]"}], ";"}], 
+                RowBox[{"2", ",", "10", ",", "2"}], "]"}]}], "]"}], ";"}], 
             "}"}]}], "]"}], ",", "\n", "\t\t\t\t", 
-         RowBox[{"(*", " ", 
-          RowBox[{
-          "void", " ", "line", " ", "for", " ", "output", " ", "position"}], 
-          " ", "*)"}], "\n", "\t\t\t\t", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
-         "\"\<\>\"", ",", "\n", "\t\t\t\t", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
+         RowBox[{"FrameMargins", " ", "->", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"4", ",", " ", "3"}], "}"}], ",", " ", 
+            RowBox[{"{", 
+             RowBox[{"2", ",", " ", "2"}], "}"}]}], "}"}]}], ",", " ", "\n", 
+         "\t\t\t\t", 
          RowBox[{"FrameLabel", "\[Rule]", "\"\<Esercizio Universale\>\""}], 
          ",", "\n", "\t\t\t\t", 
          RowBox[{"Initialization", "\[RuleDelayed]", " ", 
@@ -398,11 +325,13 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"output", "=", " ", 
              RowBox[{"SolveConvertion", "[", 
-              RowBox[{
-              "ValoreInput", ",", " ", "BaseInput", ",", " ", "BaseOutput"}], 
-              "]"}]}], ";"}], "}"}]}]}], "\n", "\t\t\t\t", "]"}]}], "\n", 
-      "\t\t\t", "\n", "\t\t", "\n", "    ", "]"}]}], ";"}], "\n", "    ", 
-   "\n", "\n", "\n", "\n", 
+              RowBox[{"2", ",", " ", "10", ",", " ", "2"}], "]"}]}], ";", " ", 
+            RowBox[{"BaseInput", " ", "=", " ", "10"}], ";", " ", 
+            RowBox[{"BaseOutput", "=", "2"}], ";", " ", 
+            RowBox[{"ValoreInput", "=", "2"}], ";", " ", 
+            RowBox[{"ValoreOutput", "=", "10"}], ";"}], "}"}]}]}], "\n", 
+        "\t\t\t\t", "]"}]}], "\n", "\t\t\t", "\n", "\t\t", "\n", "    ", 
+      "]"}]}], ";"}], "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{"DisplayBaseConverterProject", "[", 
@@ -1220,8 +1149,9 @@ base 10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t                 ",
                     RowBox[{"listChars", ",", " ", "base"}], "]"}]}], ";"}], 
                     " ", 
                     RowBox[{"(*", " ", 
-                    RowBox[{"the", " ", "final", " ", "result", " ", "of", 
-                    " ", "this", " ", "phase"}], " ", "*)"}], 
+                    RowBox[{
+                    "the", " ", "final", " ", "result", " ", "of", " ", 
+                    "this", " ", "phase"}], " ", "*)"}], 
                     "\[IndentingNewLine]", "                        ", ",", 
                     " ", "\[IndentingNewLine]", "                       ", 
                     RowBox[{"(*", " ", 
@@ -1550,7 +1480,19 @@ esprimibile nella base di input\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}],
    3.830181504548072*^9, 3.830181511175576*^9}, {3.830181564838642*^9, 
    3.8301815673628683`*^9}, {3.830181632265768*^9, 3.830181716292485*^9}, {
    3.830182026401197*^9, 3.830182076431411*^9}, {3.830182111204879*^9, 
-   3.830182132947125*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
+   3.8301821570163517`*^9}, {3.83018347036261*^9, 3.8301834721625423`*^9}, {
+   3.830183726069249*^9, 3.830183734447544*^9}, {3.8301838003695793`*^9, 
+   3.830183820250701*^9}, {3.83018395330165*^9, 3.830184024206628*^9}, {
+   3.830184066217338*^9, 3.830184120975606*^9}, {3.830184347175963*^9, 
+   3.830184431687904*^9}, {3.830184537974416*^9, 3.830184539566455*^9}, {
+   3.830184601250697*^9, 3.830184603876727*^9}, {3.830184642254487*^9, 
+   3.830184643691674*^9}, {3.8301846770999813`*^9, 3.830184827772017*^9}, {
+   3.8301848806278563`*^9, 3.8301849741447906`*^9}, {3.8301850226986313`*^9, 
+   3.8301852914156*^9}, {3.830185363961494*^9, 3.830185369967946*^9}, {
+   3.830185556223299*^9, 3.830185607481052*^9}, {3.830185657988121*^9, 
+   3.830185659112184*^9}, {3.83018571089207*^9, 3.830185733590254*^9}, {
+   3.830185785298123*^9, 
+   3.830185878101924*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
 505ba266263a"],
 
 Cell[BoxData[
@@ -1857,11 +1799,8 @@ Cell[BoxData[
          "listLet", ",", " ", "digits", ",", " ", "i"}], "}"}], ",", "\n", 
        "     ", 
        RowBox[{"(*", " ", 
-        RowBox[{"Input", " ", "controls", " ", "\n", "\t    ", 
-         RowBox[{"TODO", ":", " ", 
-          RowBox[{
-          "Divide", " ", "the", " ", "controls", " ", "and", " ", "check", 
-           " ", "messages"}]}]}], "\n", "      ", "*)"}], "\n", "     ", 
+        RowBox[{"Input", " ", "controls"}], " ", "\n", "      ", "*)"}], "\n",
+        "     ", 
        RowBox[{
         RowBox[{"If", "[", 
          RowBox[{
@@ -1993,7 +1932,7 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
             RowBox[{"Column", "[", "result", "]"}], "]"}], ";"}]}], 
          "\[IndentingNewLine]", "\t\t  ", "]"}], ";"}]}], 
       "\[IndentingNewLine]", "                 ", "\n", "]"}]}], ";"}], "\n", 
-   "\n", "\n", 
+   "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{"DisplayConverterNTo10", "[", 
@@ -2294,7 +2233,6 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                  ";", "\n", "                                      ", 
                  RowBox[{"Return", "[", 
                   RowBox[{"Row", "[", "result", "]"}], "]"}], ";"}], 
-                "\[IndentingNewLine]", "\[IndentingNewLine]", 
                 "\[IndentingNewLine]", "\[IndentingNewLine]", "         ", 
                 ",", "\[IndentingNewLine]", "          ", 
                 RowBox[{"(*", " ", 
@@ -2642,9 +2580,11 @@ comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}],
    3.829993763197811*^9, 3.829993764021256*^9}, {3.829994602295066*^9, 
    3.829994635971993*^9}, {3.82999470347351*^9, 3.829994707301907*^9}, {
    3.8299955288639297`*^9, 3.82999553109721*^9}, {3.829995829583455*^9, 
-   3.829995833550316*^9}, {3.83017178945424*^9, 3.830171827835607*^9}},
+   3.829995833550316*^9}, {3.83017178945424*^9, 3.830171827835607*^9}, {
+   3.830183054730502*^9, 3.830183061432989*^9}, {3.83018344678691*^9, 
+   3.830183448355051*^9}},
  CellLabel->
-  "In[1677]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+  "In[2273]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 
 Cell[CellGroupData[{
 
@@ -2652,108 +2592,147 @@ Cell[BoxData[
  RowBox[{"UniversalExercisesPanel", "[", "]"}]], "Input",
  CellChangeTimes->{{3.830180774745928*^9, 3.83018079152355*^9}},
  CellLabel->
-  "In[1681]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+  "In[2277]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{Private`BaseInput$$ = 10, Private`BaseOutput$$ = 2, 
-    Private`ValoreInput$$ = 2, Private`ValoreOutput$$ = 10, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 10, 
+    BaseConvertorPackage`BaseOutput$$ = 2, 
+    BaseConvertorPackage`ValoreInput$$ = 2, 
+    BaseConvertorPackage`ValoreOutput$$ = 10, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
-      Hold[Private`ValoreInput$$], 2}, {
-      Hold[Private`BaseInput$$], 10}, {
-      Hold[Private`BaseOutput$$], 2}, {
-      Hold[Private`ValoreOutput$$], 10}, {
+      Hold[
+       Style["Parametri", 12, Bold]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[BaseConvertorPackage`ValoreInput$$], 2}}, {{
+       Hold[BaseConvertorPackage`BaseInput$$], 10}}, {{
+       Hold[BaseConvertorPackage`BaseOutput$$], 2}}, {{
+       Hold[BaseConvertorPackage`ValoreOutput$$], 10}}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[
+       Style["Funzionalit\[AGrave]", 12, Bold]], 
+      Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Button[
-       "Genera Campi", Private`ValoreInput$$ = RandomInteger[{0, 299}]; 
-        Private`BaseInput$$ = RandomInteger[{10, 62}]; 
-        Private`BaseOutput$$ = RandomInteger[{10, 62}]; Null]], 
+       "Genera Campi", 
+        BaseConvertorPackage`ValoreInput$$ = RandomInteger[{0, 299}]; 
+        BaseConvertorPackage`BaseInput$$ = RandomInteger[{10, 62}]; 
+        BaseConvertorPackage`BaseOutput$$ = RandomInteger[{10, 62}]; Null]], 
       Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Button[
        "Mostra Soluzione", 
-        Private`output = 
+        BaseConvertorPackage`output = 
          BaseConvertorPackage`SolveConvertion[
-          Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$]; 
-        Null]], Manipulate`Dump`ThisIsNotAControl}, {
+          BaseConvertorPackage`ValoreInput$$, 
+           BaseConvertorPackage`BaseInput$$, 
+           BaseConvertorPackage`BaseOutput$$]; Null]], 
+      Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Button[
-       "Verifica Soluzione", Private`output = 
-        Private`VerifySolution[
-         Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$, 
-          Private`ValoreOutput$$]]], Manipulate`Dump`ThisIsNotAControl}, {
+       "Verifica Soluzione", BaseConvertorPackage`output = 
+        BaseConvertorPackage`VerifySolution[
+         BaseConvertorPackage`ValoreInput$$, BaseConvertorPackage`BaseInput$$,
+           BaseConvertorPackage`BaseOutput$$, 
+          BaseConvertorPackage`ValoreOutput$$]]], 
+      Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Button[
        "Mostra Procedimento", 
-        Private`output = 
+        BaseConvertorPackage`output = 
          BaseConvertorPackage`DisplayBaseConverterManipulate[
-          Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$]; 
-        Null]], Manipulate`Dump`ThisIsNotAControl}, {
+          BaseConvertorPackage`ValoreInput$$, 
+           BaseConvertorPackage`BaseInput$$, 
+           BaseConvertorPackage`BaseOutput$$]; Null]], 
+      Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Button[
        "Resetta Campi", {
-        Private`ValoreInput$$ = 2; Private`BaseInput$$ = 10; 
-         Private`BaseOutput$$ = 2; Private`ValoreOutput$$ = 10; 
-         Private`output = ""; Null}]], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
-    0., {0., 10.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+        BaseConvertorPackage`ValoreInput$$ = 2; 
+         BaseConvertorPackage`BaseInput$$ = 10; 
+         BaseConvertorPackage`BaseOutput$$ = 2; 
+         BaseConvertorPackage`ValoreOutput$$ = 10; 
+         BaseConvertorPackage`output = 
+          BaseConvertorPackage`SolveConvertion[2, 10, 2]; Null}]], 
+      Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
+    248., {3.608642578125, 14.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {
-       Private`BaseInput$$ = 10, Private`BaseOutput$$ = 2, 
-        Private`ValoreInput$$ = 2, Private`ValoreOutput$$ = 10}, 
+       BaseConvertorPackage`BaseInput$$ = 10, 
+        BaseConvertorPackage`BaseOutput$$ = 2, 
+        BaseConvertorPackage`ValoreInput$$ = 2, 
+        BaseConvertorPackage`ValoreOutput$$ = 10}, 
       "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> Private`output, 
-      "Specifications" :> {{Private`ValoreInput$$, 2}, {
-        Private`BaseInput$$, 10}, {Private`BaseOutput$$, 2}, {
-        Private`ValoreOutput$$, 10}, 
+         Typeset`skipInitDone$$}, "Body" :> BaseConvertorPackage`output, 
+      "Specifications" :> {
+        Style["Parametri", 12, Bold], 
+        "", {{BaseConvertorPackage`ValoreInput$$, 2}, ControlType -> 
+         InputField, ImageSize -> Small}, {{
+         BaseConvertorPackage`BaseInput$$, 10}, ControlType -> InputField, 
+         ImageSize -> Small}, {{BaseConvertorPackage`BaseOutput$$, 2}, 
+         ControlType -> InputField, ImageSize -> Small}, {{
+         BaseConvertorPackage`ValoreOutput$$, 10}, ControlType -> InputField, 
+         ImageSize -> Small}, "", 
+        Style["Funzionalit\[AGrave]", 12, Bold], "", 
         Button[
-        "Genera Campi", Private`ValoreInput$$ = RandomInteger[{0, 299}]; 
-         Private`BaseInput$$ = RandomInteger[{10, 62}]; 
-         Private`BaseOutput$$ = RandomInteger[{10, 62}]; Null], 
+        "Genera Campi", 
+         BaseConvertorPackage`ValoreInput$$ = RandomInteger[{0, 299}]; 
+         BaseConvertorPackage`BaseInput$$ = RandomInteger[{10, 62}]; 
+         BaseConvertorPackage`BaseOutput$$ = RandomInteger[{10, 62}]; Null], 
         Button[
         "Mostra Soluzione", 
-         Private`output = 
+         BaseConvertorPackage`output = 
           BaseConvertorPackage`SolveConvertion[
-           Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$]; 
-         Null], 
+           BaseConvertorPackage`ValoreInput$$, 
+            BaseConvertorPackage`BaseInput$$, 
+            BaseConvertorPackage`BaseOutput$$]; Null], 
         Button[
-        "Verifica Soluzione", Private`output = 
-         Private`VerifySolution[
-          Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$, 
-           Private`ValoreOutput$$]], 
+        "Verifica Soluzione", BaseConvertorPackage`output = 
+         BaseConvertorPackage`VerifySolution[
+          BaseConvertorPackage`ValoreInput$$, 
+           BaseConvertorPackage`BaseInput$$, 
+           BaseConvertorPackage`BaseOutput$$, 
+           BaseConvertorPackage`ValoreOutput$$]], 
         Button[
         "Mostra Procedimento", 
-         Private`output = 
+         BaseConvertorPackage`output = 
           BaseConvertorPackage`DisplayBaseConverterManipulate[
-           Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$]; 
-         Null], 
+           BaseConvertorPackage`ValoreInput$$, 
+            BaseConvertorPackage`BaseInput$$, 
+            BaseConvertorPackage`BaseOutput$$]; Null], 
         Button[
         "Resetta Campi", {
-         Private`ValoreInput$$ = 2; Private`BaseInput$$ = 10; 
-          Private`BaseOutput$$ = 2; Private`ValoreOutput$$ = 10; 
-          Private`output = ""; Null}], "", "", ""}, 
-      "Options" :> {FrameLabel -> "Esercizio Universale"}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{407., {232., 241.}},
+         BaseConvertorPackage`ValoreInput$$ = 2; 
+          BaseConvertorPackage`BaseInput$$ = 10; 
+          BaseConvertorPackage`BaseOutput$$ = 2; 
+          BaseConvertorPackage`ValoreOutput$$ = 10; 
+          BaseConvertorPackage`output = 
+           BaseConvertorPackage`SolveConvertion[2, 10, 2]; Null}]}, 
+      "Options" :> {
+       FrameMargins -> {{-4, -3}, {-2, -2}}, FrameLabel -> 
+        "Esercizio Universale"}, "DefaultOptions" :> {}],
+     ImageSizeCache->{525., {254., 263.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
     Initialization:>({
-      Private`output = 
-        BaseConvertorPackage`SolveConvertion[
-         Private`ValoreInput$$, Private`BaseInput$$, Private`BaseOutput$$]; 
-       Null}; Typeset`initDone$$ = True),
+      BaseConvertorPackage`output = 
+        BaseConvertorPackage`SolveConvertion[2, 10, 2]; 
+       BaseConvertorPackage`BaseInput$$ = 10; 
+       BaseConvertorPackage`BaseOutput$$ = 2; 
+       BaseConvertorPackage`ValoreInput$$ = 2; 
+       BaseConvertorPackage`ValoreOutput$$ = 10; Null}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -2761,15 +2740,14 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.830180783317498*^9, 3.8301807920369053`*^9}, 
-   3.83018084843536*^9, 3.830181297767005*^9, 3.830182047494729*^9, 
-   3.830182083587216*^9},
+ CellChangeTimes->{{3.8301856228292637`*^9, 3.830185645381328*^9}, 
+   3.830185719619465*^9, 3.8301858509683437`*^9},
  CellLabel->
-  "Out[1681]=",ExpressionUUID->"d449a139-9ff0-4c8b-9911-42640893dada"]
+  "Out[2277]=",ExpressionUUID->"2a6919ca-9879-4bcf-bc1c-04f0e7ecb795"]
 }, Open  ]]
 },
-WindowSize->{1878, 780},
-WindowMargins->{{0, Automatic}, {Automatic, 58}},
+WindowSize->{1920, 997},
+WindowMargins->{{-1, Automatic}, {Automatic, 0}},
 Magnification:>1.5 Inherited,
 FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
@@ -2788,26 +2766,19 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 2142, 52, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
  InitializationCell->True],
-Cell[CellGroupData[{
-Cell[2725, 76, 371, 8, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
+Cell[2703, 74, 414, 9, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
  InitializationCell->True],
-Cell[3099, 86, 3774, 53, 69, "Output",ExpressionUUID->"d49ff7b4-3ced-47dd-a7f6-2768cad82f1a"]
-}, Open  ]],
-Cell[6888, 142, 860, 15, 164, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
+Cell[3120, 85, 824, 15, 102, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
  InitializationCell->True],
-Cell[7751, 159, 1500, 27, 319, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
+Cell[3947, 102, 2357, 42, 536, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
  InitializationCell->True,
  InitializationGroup->True],
-Cell[9254, 188, 451, 7, 46, "Input",ExpressionUUID->"efc5497a-4240-4b55-b31a-e89f04d2ed94"],
+Cell[6307, 146, 264, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+Cell[6574, 154, 72427, 1341, 8605, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+Cell[79004, 1497, 56503, 1089, 7213, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 Cell[CellGroupData[{
-Cell[9730, 199, 220, 4, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-Cell[9953, 205, 3694, 52, 69, "Output",ExpressionUUID->"92be9dd0-4fed-4523-a8b6-0367f4161d84"]
-}, Open  ]],
-Cell[13662, 260, 70065, 1293, 8663, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
-Cell[83730, 1555, 56645, 1091, 7329, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
-Cell[CellGroupData[{
-Cell[140400, 2650, 220, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
-Cell[140623, 2656, 4918, 111, 535, "Output",ExpressionUUID->"d449a139-9ff0-4c8b-9911-42640893dada"]
+Cell[135532, 2590, 220, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+Cell[135755, 2596, 6732, 149, 579, "Output",ExpressionUUID->"2a6919ca-9879-4bcf-bc1c-04f0e7ecb795"]
 }, Open  ]]
 }
 ]

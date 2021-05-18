@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    183047,       3503]
-NotebookOptionsPosition[    181627,       3472]
-NotebookOutlinePosition[    182056,       3489]
-CellTagsIndexPosition[    182013,       3486]
+NotebookDataLength[    183292,       3506]
+NotebookOptionsPosition[    181872,       3475]
+NotebookOutlinePosition[    182301,       3492]
+CellTagsIndexPosition[    182258,       3489]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -696,9 +696,9 @@ cambia nella conversione\>\"", "]"}], "\n", "\t\t\t", ",", "\n", "\t\t\t",
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Format Error: Le basi non sono tra 2 e 62 o il valore non \
-\[EGrave] un intero\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", 
-      "\t", "]"}]}], ";"}], "\n", "\n", 
+            "\"\<Compatible Error: Valore in input non esprimibile nella base \
+iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n", 
+         "\t\t", "]"}], ";"}]}], "\n", "\t", "]"}]}], ";"}], "\n", "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{"VerifySolution", "[", 
@@ -1176,9 +1176,10 @@ cambia nella conversione\>\"", "]"}], "\n", "\t\t\t", ",", "\n", "\t\t\t",
                     "\t\t          ", 
                     RowBox[{
                     "Return", "[", 
-                    "\"\<Il numero deve essere un intero positivo compreso \
-tra 0 e 10.000 (espresso in base 10)\>\"", "]"}]}], "\n", "\t\t         ", 
-                    "]"}], ";"}], ",", " ", "\n", "\t\t       ", 
+                    "\"\<Number Error: Il valore risultante non risulta \
+essere un intero positivo o inferiore a 10.000\>\"", "]"}]}], "\n", 
+                    "\t\t         ", "]"}], ";"}], ",", " ", "\n", 
+                   "\t\t       ", 
                    RowBox[{"(*", " ", 
                     RowBox[{
                     "else", " ", "the", " ", "input", " ", "base", " ", "is", 
@@ -1425,12 +1426,12 @@ base 10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t                 ",
                     RowBox[{
                     RowBox[{
                     "Return", "[", 
-                    "\"\<Il numero non \[EGrave] in un formato accettabile \
-per la base di input\>\"", "]"}], ";"}]}], "\[IndentingNewLine]", 
-                    "                   ", "]"}], ";"}]}], 
-                    "\[IndentingNewLine]", "                ", "]"}], ";"}], 
-                    "\n", "\t\t          ", ",", "\n", "\t\t          ", "\n",
-                     "\t\t          ", 
+                    "\"\<Compatible Error: Valore in input non esprimibile \
+nella base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}],
+                     "\[IndentingNewLine]", "                   ", "]"}], 
+                    ";"}]}], "\[IndentingNewLine]", "                ", "]"}],
+                     ";"}], "\n", "\t\t          ", ",", "\n", 
+                    "\t\t          ", "\n", "\t\t          ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
                     RowBox[{
@@ -1479,8 +1480,9 @@ per la base di input\>\"", "]"}], ";"}]}], "\[IndentingNewLine]",
                     RowBox[{"resultInt", " ", ">", " ", "10000"}], ",", "  ", 
                     
                     RowBox[{"(*", " ", 
-                    RowBox[{"verifica", " ", "che", " ", "il", " ", "valore", 
-                    " ", "non", " ", "superi", " ", "le", " ", "10.000", " ", 
+                    RowBox[{
+                    "verifica", " ", "che", " ", "il", " ", "valore", " ", 
+                    "non", " ", "superi", " ", "le", " ", "10.000", " ", 
                     "unit\[AGrave]"}], " ", "*)"}], "\n", 
                     "                           ", 
                     RowBox[{"(*", " ", 
@@ -1489,9 +1491,10 @@ per la base di input\>\"", "]"}], ";"}]}], "\[IndentingNewLine]",
                     RowBox[{
                     RowBox[{
                     "Return", "[", 
-                    "\"\<Il numero deve essere un intero tra 0 e 10.000 in \
-base 10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t                 ", 
-                    ",", "\n", "\t\t                   ", 
+                    "\"\<Number Error: Il valore risultante non risulta \
+essere un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+                    "\t\t                 ", ",", "\n", 
+                    "\t\t                   ", 
                     RowBox[{"(*", " ", 
                     RowBox[{"Caso", " ", "di", " ", "successo"}], " ", "*)"}],
                      "\n", "                           ", 
@@ -1613,9 +1616,9 @@ base 10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t                 ",
                     RowBox[{
                     RowBox[{
                     "Return", "[", 
-                    "\"\<Format Error: valore non supportato dalla base o \
-input con caratteri non compatibili\>\"", "]"}], ";"}]}], 
-                    "\[IndentingNewLine]", "                  ", "]"}], ";", 
+                    "\"\<Compatible Error: Valore in input non esprimibile \
+nella base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}],
+                     "\[IndentingNewLine]", "                  ", "]"}], ";", 
                     "\n", "                  ", "\n", "\t\t           ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
@@ -1720,25 +1723,24 @@ input con caratteri non compatibili\>\"", "]"}], ";"}]}],
                     ",", "\n", "\t\t          ", 
                     RowBox[{
                     "Return", "[", 
-                    "\"\<Il numero deve essere un intero positivo compreso \
-tra 0 e 10.000 (espresso in base 10), le basi devono essere interi tra 2 e 62 \
-e il numero deve essere in base 10\>\"", "]"}]}], "\n", "\t\t         ", 
-                    "]"}], ";"}]}], "\n", "\t\t         ", "\n", 
-                    "\t\t          ", "\n", "\t\t         ", "]"}], ";"}]}], 
-                  "\n", "\t\t      ", "]"}], ";"}]}], "     ", "\n", 
-               "\t\t   ", "]"}], ";"}], "\n", "\t\t", ",", "\n", "\t\t", 
+                    "\"\<Compatible Error: Valore in input non esprimibile \
+nella base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}]}], "\n", 
+                    "\t\t         ", "]"}], ";"}]}], "\n", "\t\t         ", 
+                    "\n", "\t\t          ", "\n", "\t\t         ", "]"}], 
+                    ";"}]}], "\n", "\t\t      ", "]"}], ";"}]}], "     ", 
+               "\n", "\t\t   ", "]"}], ";"}], "\n", "\t\t", ",", "\n", "\t\t", 
              RowBox[{
               RowBox[{
               "Return", "[", 
-               "\"\<Format Error: Valore di input non esprimibile nella base \
-di input o basi non comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t", 
-            "]"}], ";"}], "\n", "\t\t", ",", " ", "\n", "\t\t", 
+               "\"\<Compatible Error: Valore in input non esprimibile nella \
+base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
+             "\t\t", "]"}], ";"}], "\n", "\t\t", ",", " ", "\n", "\t\t", 
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Format Error: le basi non sono interi o i parametri hanno \
-caratteri non supportati\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], 
-      "\n", "\t", "]"}]}], ";"}], "\n", "\n", "\n", "      ", "\n", "\t", 
+            "\"\<Format Error: Parametri con caratteri speciali non \
+supportati\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", "\t", 
+      "]"}]}], ";"}], "\n", "\n", "\n", "      ", "\n", "\t", 
    "\n"}]}]], "Code",
  CellChangeTimes->{{3.8288623490021477`*^9, 3.828862417134672*^9}, {
    3.828862559115164*^9, 3.828862560295457*^9}, {3.8288626174968777`*^9, 
@@ -1977,9 +1979,11 @@ caratteri non supportati\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}],
    3.830265310874773*^9}, {3.830339736408646*^9, 3.830339752100778*^9}, {
    3.830339797193221*^9, 3.830339863957349*^9}, {3.83033989764884*^9, 
    3.830339933733449*^9}, {3.830342360021776*^9, 3.830342364460782*^9}, {
-   3.8303429671755466`*^9, 3.830342967722505*^9}},
- CellLabel->
-  "In[855]:=",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+   3.8303429671755466`*^9, 3.830342967722505*^9}, {3.830346515078558*^9, 
+   3.830346541484627*^9}, {3.830346579388298*^9, 3.830346588279435*^9}, {
+   3.8303466206202917`*^9, 3.830346688556098*^9}, {3.830346734517008*^9, 
+   3.830346740705464*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
+505ba266263a"],
 
 Cell[BoxData[
  RowBox[{
@@ -2339,10 +2343,9 @@ Cell[BoxData[
              RowBox[{
               RowBox[{
               "Return", "[", 
-               "\"\<Il numero deve essere un intero positivo compreso tra 0 e \
-10.000 (espresso in base 10), le basi devono essere interi tra 2 e 62 e il \
-numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n", 
-             "\t\t   ", 
+               "\"\<Number Error: Il valore risultante non risulta essere un \
+intero positivo o inferiore a 10.000 o le basi non sono valori interi tra 2 e \
+62\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n", "\t\t   ", 
              RowBox[{
               RowBox[{"out", " ", "=", " ", "outputBase"}], ";", "\n", 
               "\t\t   ", 
@@ -2608,9 +2611,9 @@ iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
                 RowBox[{
                  RowBox[{
                  "Return", "[", 
-                  "\"\<Il numero deve essere un intero tra 0 e 10.000 in base \
-10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t       ", ",", "\n", 
-                "\t\t        ", 
+                  "\"\<Number Error: Il valore risultante non risulta essere \
+un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+                "\t\t       ", ",", "\n", "\t\t        ", 
                 RowBox[{"(*", " ", 
                  RowBox[{
                  "Se", " ", "il", " ", "valore", " ", "\[EGrave]", " ", "tra",
@@ -2813,8 +2816,8 @@ iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
                 RowBox[{
                  RowBox[{
                  "Return", "[", 
-                  "\"\<Number Error: Il numero in input non risulta essere un \
-intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+                  "\"\<Number Error: Il valore risultante non risulta essere \
+un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
                 "               ", ",", "\n", "               ", 
                 RowBox[{
                  RowBox[{"AppendTo", "[", 
@@ -2830,11 +2833,11 @@ intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n",
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Errore di formato: Puoi usare solamente interi positivi o \
-lettere supportate per la base di input \n\t\t\t\t\tper i valori e interi tra \
-2 e 62 per le basi.\>\"", "]"}], ";"}]}], "\[IndentingNewLine]", "      ", 
-         "]"}], ";"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-      "]"}]}], ";"}], "\n", "   ", "\n", 
+            "\"\<Compatible Error: Valore in input non esprimibile nella base \
+iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], 
+         "\[IndentingNewLine]", "      ", "]"}], ";"}]}], 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", "]"}]}], ";"}], "\n", 
+   "   ", "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{
@@ -3075,9 +3078,9 @@ nella base \>\"", " ", "<>", " ",
              RowBox[{
               RowBox[{
               "Return", "[", 
-               "\"\<Number Error: Il numero in input non risulta essere un \
-intero positivo tra 0 e 10.000\>\"", "]"}], ";"}], "\n", "               ", 
-             ",", "\n", "\t\t    ", 
+               "\"\<Number Error: Il valore risultante non risulta essere un \
+intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+             "               ", ",", "\n", "\t\t    ", 
              RowBox[{
               RowBox[{"AppendTo", "[", 
                RowBox[{"strOut", ",", " ", "\"\<\>\""}], "]"}], ";", " ", 
@@ -3098,15 +3101,14 @@ intero positivo tra 0 e 10.000\>\"", "]"}], ";"}], "\n", "               ",
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Il valore iniziale non \[EGrave] nel formato della base di \
-input oppure le basi specificate non sono interi positivi diverse da 10 e \
-comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}], 
-      "\n", "\t", "\n", "]"}]}], ";"}], "\n", "\n", 
+            "\"\<Compatible Error: Valore in input non esprimibile nella base \
+iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n", 
+         "\t\t  ", "]"}], ";"}]}], "\n", "\t", "\n", "]"}]}], ";"}], "\n", 
+   "\n", 
    RowBox[{
-    RowBox[{"End", "[", "]"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{"Fine", " ", "Private", " ", "scope"}], " ", "*)"}], "\n", 
-   RowBox[{
+    RowBox[{"End", "[", "]"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"Fine", " ", "Private", " ", "scope"}], " ", "*)"}], "\n", 
     RowBox[{"EndPackage", "[", "]"}], ";", " ", 
     RowBox[{"(*", " ", 
      RowBox[{"Fine", " ", "Package"}], " ", "*)"}], "\n"}]}]}]], "Code",
@@ -3240,9 +3242,10 @@ comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}],
    3.830342946984097*^9}, 3.830343015561987*^9, {3.830343049139268*^9, 
    3.830343119884162*^9}, {3.830343169886424*^9, 3.8303432752430763`*^9}, {
    3.830344391213798*^9, 3.8303447292492943`*^9}, {3.83034480481374*^9, 
-   3.830344858929134*^9}, {3.830345007774745*^9, 3.830345082604707*^9}},
- CellLabel->
-  "In[859]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+   3.830344858929134*^9}, {3.830345007774745*^9, 3.830345082604707*^9}, {
+   3.830346232603462*^9, 3.830346306639408*^9}, {3.8303464213643923`*^9, 
+   3.830346485884822*^9}},ExpressionUUID->"4bac3604-d82b-4d99-bdb1-\
+74e42b8e69b6"],
 
 Cell[CellGroupData[{
 
@@ -3255,9 +3258,9 @@ Cell[BoxData[
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 35, 
-    BaseConvertorPackage`BaseOutput$$ = 44, 
-    BaseConvertorPackage`ValoreInput$$ = "AAAAA", 
+   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 62, 
+    BaseConvertorPackage`BaseOutput$$ = 3, 
+    BaseConvertorPackage`ValoreInput$$ = "9999", 
     BaseConvertorPackage`ValoreOutput$$ = "10", Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -3498,13 +3501,13 @@ Cell[6162, 132, 3388, 58, 846, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-
  InitializationCell->True,
  InitializationGroup->True],
 Cell[9553, 192, 263, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-Cell[9819, 200, 96313, 1781, 9620, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
-Cell[106135, 1983, 65035, 1261, 7105, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+Cell[9819, 200, 96595, 1785, 9620, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+Cell[106417, 1987, 65000, 1260, 7076, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 Cell[CellGroupData[{
-Cell[171195, 3248, 219, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
-Cell[171417, 3254, 9988, 209, 665, "Output",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
+Cell[171442, 3251, 219, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+Cell[171664, 3257, 9986, 209, 665, "Output",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
 }, Open  ]],
-Cell[181420, 3466, 203, 4, 46, "Input",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
+Cell[181665, 3469, 203, 4, 46, "Input",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
 }
 ]
 *)

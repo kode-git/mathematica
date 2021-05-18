@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    183292,       3506]
-NotebookOptionsPosition[    181872,       3475]
-NotebookOutlinePosition[    182301,       3492]
-CellTagsIndexPosition[    182258,       3489]
+NotebookDataLength[    189962,       3633]
+NotebookOptionsPosition[    188540,       3602]
+NotebookOutlinePosition[    188969,       3619]
+CellTagsIndexPosition[    188926,       3616]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,7 +70,7 @@ Cell[BoxData[
   3.828863430302635*^9, 3.828863433476419*^9}, {3.8291998122784653`*^9, 
   3.829199813007018*^9}, {3.830254762446724*^9, 3.83025483717838*^9}},
  CellLabel->
-  "In[848]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
+  "In[1212]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
 
 Cell[BoxData[
  RowBox[{
@@ -81,7 +81,7 @@ Cell[BoxData[
    3.8288623030616407`*^9, 3.828862303811872*^9}, {3.828863270883473*^9, 
    3.828863273964057*^9}, 3.830183492768435*^9},
  CellLabel->
-  "In[849]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
+  "In[1213]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
 
 Cell[BoxData[
  RowBox[{
@@ -128,7 +128,7 @@ illustrando nell'output del pannello la soluzione.\n \n\>\""}],
    3.830253415087675*^9, 3.830253422343486*^9}, {3.830260930413595*^9, 
    3.830261005468392*^9}},
  CellLabel->
-  "In[850]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
+  "In[1214]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
 
 Cell[BoxData[{
  RowBox[{
@@ -188,7 +188,7 @@ Id4QRD86s84WRPPIGjmD6HvN292WAeknjIfB9Dbd159PAelFjAZfQDQAo/HR
 xA==
   "],
  CellLabel->
-  "In[851]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
+  "In[1215]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
 
 Cell[BoxData[
  RowBox[{
@@ -196,7 +196,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.8288623104913*^9, 3.828862310622814*^9}, 
    3.830183481373807*^9},
  CellLabel->
-  "In[854]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+  "In[1218]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
 
 Cell[BoxData[
  RowBox[{
@@ -324,45 +324,114 @@ Cell[BoxData[
           "]"}], ",", "\n", "\t\t        ", "\"\<\>\"", ",", "\n", 
          "\t\t        ", 
          RowBox[{"{", 
-          RowBox[{"ValoreInput", ",", " ", "\"\<2\>\"", ",", " ", 
-           RowBox[{
-            RowBox[{"InputField", "[", 
-             RowBox[{"#", ",", " ", "String", ",", " ", 
-              RowBox[{
-              "FieldHint", " ", "\[Rule]", " ", 
-               "\"\<Inserisci un intero\>\""}], ",", " ", 
-              RowBox[{"FieldHintStyle", "\[Rule]", 
-               RowBox[{"{", 
-                RowBox[{"Italic", ",", " ", "Gray", ",", " ", "Medium"}], 
-                "}"}]}]}], "]"}], " ", "&"}]}], "}"}], ",", "\n", 
-         "\t\t        ", 
-         RowBox[{"{", 
-          RowBox[{"BaseInput", ",", " ", "2", ",", "62", ",", "1"}], "}"}], 
-         ",", "\n", "\t\t        ", 
-         RowBox[{"{", 
           RowBox[{
-          "ValoreOutput", ",", " ", "\"\<10\>\"", ",", " ", "\n", 
-           "\t\t         ", 
+           RowBox[{"{", 
+            RowBox[{
+            "ValoreInput", ",", " ", "\"\<2\>\"", ",", " ", 
+             "\"\<Valore Input\>\""}], "}"}], ",", "\n", "\t\t          ", 
            RowBox[{
             RowBox[{"Tooltip", "[", 
              RowBox[{
               RowBox[{"InputField", "[", 
                RowBox[{"#", ",", " ", "String", ",", " ", 
+                RowBox[{"ImageSize", "->", "Medium"}], ",", " ", 
                 RowBox[{
                 "FieldHint", " ", "\[Rule]", " ", 
-                 "\"\<Inserisci un intero\>\""}], ",", " ", 
+                 "\"\<Inserisci un valore alfanumerico\>\""}], ",", " ", 
+                RowBox[{"FieldHintStyle", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"Italic", ",", " ", "Gray", ",", " ", "Medium"}], 
+                  "}"}]}]}], "]"}], ",", " ", "\n", "\t\t                  ", 
+              "\"\<Valore da convertire in base di input\>\"", ",", " ", "\n",
+               "\t\t                  ", 
+              RowBox[{"TooltipStyle", "\[Rule]", 
+               RowBox[{"{", 
+                RowBox[{"FontSize", "\[Rule]", "20"}], "}"}]}]}], "]"}], " ", 
+            "&"}]}], "}"}], ",", "\n", "\t\t        ", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+            "BaseInput", ",", " ", "10", ",", " ", "\"\<Base Input\>\""}], 
+            "}"}], ",", "\n", "\t\t            ", 
+           RowBox[{
+            RowBox[{"Tooltip", "[", 
+             RowBox[{
+              RowBox[{"InputField", "[", 
+               RowBox[{"#", ",", " ", 
+                RowBox[{"ImageSize", "->", "Medium"}], ",", " ", 
+                RowBox[{"FieldSize", "\[Rule]", " ", "Medium"}], ",", " ", 
+                RowBox[{
+                "FieldHint", "\[Rule]", " ", 
+                 "\"\<Inserisci un intero tra 2 e 62\>\""}], ",", 
+                RowBox[{"FieldHintStyle", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"Italic", ",", " ", "Gray", ",", " ", "Medium"}], 
+                  "}"}]}]}], "]"}], ",", " ", "\n", 
+              "\t\t                     ", 
+              "\"\<Base in cui \[EGrave] convertito il valore di input\>\"", 
+              ",", " ", "\n", "\t\t                     ", 
+              RowBox[{"TooltipStyle", "\[Rule]", 
+               RowBox[{"{", 
+                RowBox[{"FontSize", "\[Rule]", "20"}], "}"}]}]}], "]"}], " ", 
+            "&"}]}], "}"}], ",", "\n", "\t\t        ", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+            "BaseOutput", ",", " ", "2", ",", " ", "\"\<Base Output\>\""}], 
+            "}"}], ",", "\n", "\t\t         ", 
+           RowBox[{
+            RowBox[{"Tooltip", "[", 
+             RowBox[{
+              RowBox[{"InputField", "[", 
+               RowBox[{"#", ",", " ", 
+                RowBox[{"ImageSize", "->", "Medium"}], ",", "  ", 
+                RowBox[{"FieldSize", "\[Rule]", " ", "Medium"}], ",", " ", 
+                RowBox[{
+                "FieldHint", "\[Rule]", " ", 
+                 "\"\<Inserisci un intero tra 2 e 62\>\""}], ",", 
+                RowBox[{"FieldHintStyle", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"Italic", ",", " ", "Gray", ",", " ", "Medium"}], 
+                  "}"}]}]}], "]"}], ",", " ", "\n", "\t\t                 ", 
+              "\"\<Base in cui convertire il valore di input\>\"", ",", " ", 
+              "\n", "\t\t                 ", 
+              RowBox[{"TooltipStyle", "\[Rule]", 
+               RowBox[{"{", 
+                RowBox[{"FontSize", "\[Rule]", "20"}], "}"}]}]}], "]"}], " ", 
+            "&"}]}], "}"}], ",", " ", "\n", "\t\t         ", "\"\<\>\"", ",", 
+         "\n", "\t\t         ", 
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<Output\>\"", ",", " ", "12", ",", " ", "Bold"}], "]"}],
+          ",", "\n", "                ", "\n", "\t\t\t\t", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+            "ValoreOutput", ",", " ", "\"\<10\>\"", ",", " ", 
+             "\"\<Valore Output\>\""}], "}"}], ",", "\n", "\t\t         ", 
+           RowBox[{
+            RowBox[{"Tooltip", "[", " ", 
+             RowBox[{
+              RowBox[{"InputField", "[", 
+               RowBox[{"#", ",", " ", "String", ",", " ", 
+                RowBox[{"ImageSize", "->", "Medium"}], ",", " ", 
+                RowBox[{"FieldSize", "\[Rule]", " ", "Medium"}], ",", " ", 
+                RowBox[{
+                "FieldHint", " ", "\[Rule]", " ", 
+                 "\"\<Inserisci un valore alfanumerico\>\""}], ",", " ", 
                 RowBox[{"FieldHintStyle", "\[Rule]", 
                  RowBox[{"{", 
                   RowBox[{"Italic", ",", " ", "Gray", ",", " ", "Medium"}], 
                   "}"}]}]}], "]"}], ",", " ", "\n", "\t\t                 ", 
               "\"\<Valore convertito nella base di output\>\"", ",", " ", 
+              "\n", "\t\t                 ", 
               RowBox[{"TooltipStyle", " ", "\[Rule]", 
                RowBox[{"{", 
                 RowBox[{"FontSize", "\[Rule]", "20"}], "}"}]}]}], "]"}], " ", 
-            "&"}]}], "}"}], ",", "\n", "\t\t        ", 
-         RowBox[{"{", 
-          RowBox[{"BaseOutput", ",", " ", "2", ",", "62", ",", "1"}], "}"}], 
-         ",", "\n", "                ", "\"\<\>\"", ",", "\n", "\t\t\t\t", 
+            "&"}]}], "}"}], ",", "\n", "\t\t        ", "\"\<\>\"", ",", "\n", 
+         "\t\t        ", 
          RowBox[{"Style", "[", 
           RowBox[{
           "\"\<Funzionalit\[AGrave]\>\"", ",", " ", "12", ",", " ", "Bold"}], 
@@ -1477,13 +1546,15 @@ nella base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}],
                     "*)"}], "\n", "                        ", 
                     RowBox[{"If", "[", 
                     RowBox[{
-                    RowBox[{"resultInt", " ", ">", " ", "10000"}], ",", "  ", 
-                    
+                    RowBox[{
+                    RowBox[{"resultInt", " ", ">", " ", "10000"}], " ", "||", 
+                    " ", 
+                    RowBox[{"resultInt", " ", "<", " ", "0"}]}], ",", "  ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    "verifica", " ", "che", " ", "il", " ", "valore", " ", 
-                    "non", " ", "superi", " ", "le", " ", "10.000", " ", 
-                    "unit\[AGrave]"}], " ", "*)"}], "\n", 
+                    "verifica", " ", "che", " ", "sia", " ", "positivo", " ", 
+                    "e", " ", "non", " ", "superiore", " ", "a", " ", 
+                    "10.000"}], " ", "*)"}], "\n", 
                     "                           ", 
                     RowBox[{"(*", " ", 
                     RowBox[{"Caso", " ", "di", " ", "errore"}], " ", "*)"}], 
@@ -1492,7 +1563,7 @@ nella base iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}],
                     RowBox[{
                     "Return", "[", 
                     "\"\<Number Error: Il valore risultante non risulta \
-essere un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+essere un intero positivo e inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
                     "\t\t                 ", ",", "\n", 
                     "\t\t                   ", 
                     RowBox[{"(*", " ", 
@@ -1982,8 +2053,18 @@ supportati\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}], "\n", "\t",
    3.8303429671755466`*^9, 3.830342967722505*^9}, {3.830346515078558*^9, 
    3.830346541484627*^9}, {3.830346579388298*^9, 3.830346588279435*^9}, {
    3.8303466206202917`*^9, 3.830346688556098*^9}, {3.830346734517008*^9, 
-   3.830346740705464*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
-505ba266263a"],
+   3.830346740705464*^9}, {3.830346784108932*^9, 3.830346802017365*^9}, {
+   3.830346925045125*^9, 3.83034692725299*^9}, {3.83034825429261*^9, 
+   3.830348304207325*^9}, {3.830348336368683*^9, 3.8303484884393797`*^9}, {
+   3.8303486904212513`*^9, 3.830348781244026*^9}, {3.830348833104239*^9, 
+   3.830348920689328*^9}, {3.830349380855323*^9, 3.8303493879558563`*^9}, {
+   3.8303504449394817`*^9, 3.830350486145445*^9}, {3.830350551173271*^9, 
+   3.830350659168126*^9}, {3.830350691634864*^9, 3.830350750801009*^9}, {
+   3.830350799770851*^9, 3.830350945415037*^9}, {3.83035102284102*^9, 
+   3.830351088456366*^9}, {3.8303512385793447`*^9, 3.830351298496455*^9}, {
+   3.830351419230946*^9, 3.830351442383275*^9}},
+ CellLabel->
+  "In[1219]:=",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
 
 Cell[BoxData[
  RowBox[{
@@ -2344,7 +2425,7 @@ Cell[BoxData[
               RowBox[{
               "Return", "[", 
                "\"\<Number Error: Il valore risultante non risulta essere un \
-intero positivo o inferiore a 10.000 o le basi non sono valori interi tra 2 e \
+intero positivo e inferiore a 10.000 o le basi non sono valori interi tra 2 e \
 62\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n", "\t\t   ", 
              RowBox[{
               RowBox[{"out", " ", "=", " ", "outputBase"}], ";", "\n", 
@@ -2612,7 +2693,7 @@ iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
                  RowBox[{
                  "Return", "[", 
                   "\"\<Number Error: Il valore risultante non risulta essere \
-un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+un intero positivo e inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
                 "\t\t       ", ",", "\n", "\t\t        ", 
                 RowBox[{"(*", " ", 
                  RowBox[{
@@ -2817,7 +2898,7 @@ un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n",
                  RowBox[{
                  "Return", "[", 
                   "\"\<Number Error: Il valore risultante non risulta essere \
-un intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+un intero positivo e inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
                 "               ", ",", "\n", "               ", 
                 RowBox[{
                  RowBox[{"AppendTo", "[", 
@@ -3079,7 +3160,7 @@ nella base \>\"", " ", "<>", " ",
               RowBox[{
               "Return", "[", 
                "\"\<Number Error: Il valore risultante non risulta essere un \
-intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+intero positivo e inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
              "               ", ",", "\n", "\t\t    ", 
              RowBox[{
               RowBox[{"AppendTo", "[", 
@@ -3106,12 +3187,13 @@ iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
          "\t\t  ", "]"}], ";"}]}], "\n", "\t", "\n", "]"}]}], ";"}], "\n", 
    "\n", 
    RowBox[{
-    RowBox[{"End", "[", "]"}], ";", " ", 
-    RowBox[{"(*", " ", 
-     RowBox[{"Fine", " ", "Private", " ", "scope"}], " ", "*)"}], "\n", 
-    RowBox[{"EndPackage", "[", "]"}], ";", " ", 
-    RowBox[{"(*", " ", 
-     RowBox[{"Fine", " ", "Package"}], " ", "*)"}], "\n"}]}]}]], "Code",
+    RowBox[{"End", "[", "]"}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Fine", " ", "Private", " ", "scope"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"EndPackage", "[", "]"}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Fine", " ", "Package"}], " ", "*)"}], "\n"}]}]], "Code",
  CellChangeTimes->{{3.829194168962496*^9, 3.82919418308774*^9}, {
    3.8291948591595783`*^9, 3.829194865720334*^9}, {3.829194955341823*^9, 
    3.829195031363605*^9}, {3.829195094895567*^9, 3.829195122503929*^9}, {
@@ -3244,8 +3326,9 @@ iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n",
    3.830344391213798*^9, 3.8303447292492943`*^9}, {3.83034480481374*^9, 
    3.830344858929134*^9}, {3.830345007774745*^9, 3.830345082604707*^9}, {
    3.830346232603462*^9, 3.830346306639408*^9}, {3.8303464213643923`*^9, 
-   3.830346485884822*^9}},ExpressionUUID->"4bac3604-d82b-4d99-bdb1-\
-74e42b8e69b6"],
+   3.830346485884822*^9}, {3.8303514499075603`*^9, 3.830351472497283*^9}},
+ CellLabel->
+  "In[1223]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 
 Cell[CellGroupData[{
 
@@ -3253,31 +3336,49 @@ Cell[BoxData[
  RowBox[{"UniversalExercisesPanel", "[", "]"}]], "Input",
  CellChangeTimes->{{3.830180774745928*^9, 3.83018079152355*^9}},
  CellLabel->
-  "In[865]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+  "In[1229]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 62, 
-    BaseConvertorPackage`BaseOutput$$ = 3, 
-    BaseConvertorPackage`ValoreInput$$ = "9999", 
+   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 30, 
+    BaseConvertorPackage`BaseOutput$$ = 17, 
+    BaseConvertorPackage`ValoreInput$$ = "220", 
     BaseConvertorPackage`ValoreOutput$$ = "10", Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[
        Style["Parametri", 12, Bold]], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[BaseConvertorPackage`ValoreInput$$], "2", "Valore Input"}, Tooltip[
+       InputField[#, String, ImageSize -> Medium, FieldHint -> 
+        "Inserisci un valore alfanumerico", 
+        FieldHintStyle -> {Italic, Gray, Medium}], 
+       "Valore da convertire in base di input", 
+       TooltipStyle -> {FontSize -> 20}]& }, {{
+       Hold[BaseConvertorPackage`BaseInput$$], 10, "Base Input"}, Tooltip[
+       InputField[#, ImageSize -> Medium, FieldSize -> Medium, FieldHint -> 
+        "Inserisci un intero tra 2 e 62", 
+        FieldHintStyle -> {Italic, Gray, Medium}], 
+       "Base in cui \[EGrave] convertito il valore di input", 
+       TooltipStyle -> {FontSize -> 20}]& }, {{
+       Hold[BaseConvertorPackage`BaseOutput$$], 2, "Base Output"}, Tooltip[
+       InputField[#, ImageSize -> Medium, FieldSize -> Medium, FieldHint -> 
+        "Inserisci un intero tra 2 e 62", 
+        FieldHintStyle -> {Italic, Gray, Medium}], 
+       "Base in cui convertire il valore di input", 
+       TooltipStyle -> {FontSize -> 20}]& }, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[BaseConvertorPackage`ValoreInput$$], "2", 
-      InputField[#, String, FieldHint -> "Inserisci un intero", 
-       FieldHintStyle -> {Italic, Gray, Medium}]& }, {
-      Hold[BaseConvertorPackage`BaseInput$$], 2, 62, 1}, {
-      Hold[BaseConvertorPackage`ValoreOutput$$], "10", Tooltip[
-       InputField[#, String, FieldHint -> "Inserisci un intero", 
+      Hold[
+       Style["Output", 12, Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[BaseConvertorPackage`ValoreOutput$$], "10", "Valore Output"}, 
+      Tooltip[
+       InputField[#, String, ImageSize -> Medium, FieldSize -> Medium, 
+        FieldHint -> "Inserisci un valore alfanumerico", 
         FieldHintStyle -> {Italic, Gray, Medium}], 
        "Valore convertito nella base di output", 
        TooltipStyle -> {FontSize -> 20}]& }, {
-      Hold[BaseConvertorPackage`BaseOutput$$], 2, 62, 1}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["Funzionalit\[AGrave]", 12, Bold]], 
@@ -3345,12 +3446,12 @@ annessa", TooltipStyle -> {FontSize -> 20}]],
       Manipulate`Dump`ThisIsNotAControl}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
-    999., {4., 14.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False}, 
+    929., {176.2010498046875, 184.7989501953125}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {
-       BaseConvertorPackage`BaseInput$$ = 2, 
+       BaseConvertorPackage`BaseInput$$ = 10, 
         BaseConvertorPackage`BaseOutput$$ = 2, 
         BaseConvertorPackage`ValoreInput$$ = "2", 
         BaseConvertorPackage`ValoreOutput$$ = "10"}, 
@@ -3361,18 +3462,39 @@ annessa", TooltipStyle -> {FontSize -> 20}]],
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, "Body" :> BaseConvertorPackage`output, 
       "Specifications" :> {
-        Style["Parametri", 12, Bold], "", {
-        BaseConvertorPackage`ValoreInput$$, "2", 
-         InputField[#, String, FieldHint -> "Inserisci un intero", 
-          FieldHintStyle -> {Italic, Gray, Medium}]& }, {
-        BaseConvertorPackage`BaseInput$$, 2, 62, 1}, {
-        BaseConvertorPackage`ValoreOutput$$, "10", Tooltip[
+        Style["Parametri", 12, Bold], 
+        "", {{BaseConvertorPackage`ValoreInput$$, "2", "Valore Input"}, 
+         Tooltip[
           
-          InputField[#, String, FieldHint -> "Inserisci un intero", 
+          InputField[#, String, ImageSize -> Medium, FieldHint -> 
+           "Inserisci un valore alfanumerico", 
+           FieldHintStyle -> {Italic, Gray, Medium}], 
+          "Valore da convertire in base di input", 
+          TooltipStyle -> {FontSize -> 20}]& }, {{
+         BaseConvertorPackage`BaseInput$$, 10, "Base Input"}, Tooltip[
+          
+          InputField[#, ImageSize -> Medium, FieldSize -> Medium, FieldHint -> 
+           "Inserisci un intero tra 2 e 62", 
+           FieldHintStyle -> {Italic, Gray, Medium}], 
+          "Base in cui \[EGrave] convertito il valore di input", 
+          TooltipStyle -> {FontSize -> 20}]& }, {{
+         BaseConvertorPackage`BaseOutput$$, 2, "Base Output"}, Tooltip[
+          
+          InputField[#, ImageSize -> Medium, FieldSize -> Medium, FieldHint -> 
+           "Inserisci un intero tra 2 e 62", 
+           FieldHintStyle -> {Italic, Gray, Medium}], 
+          "Base in cui convertire il valore di input", 
+          TooltipStyle -> {FontSize -> 20}]& }, "", 
+        Style[
+        "Output", 12, Bold], {{
+         BaseConvertorPackage`ValoreOutput$$, "10", "Valore Output"}, Tooltip[
+         
+          
+          InputField[#, String, ImageSize -> Medium, FieldSize -> Medium, 
+           FieldHint -> "Inserisci un valore alfanumerico", 
            FieldHintStyle -> {Italic, Gray, Medium}], 
           "Valore convertito nella base di output", 
-          TooltipStyle -> {FontSize -> 20}]& }, {
-        BaseConvertorPackage`BaseOutput$$, 2, 62, 1}, "", 
+          TooltipStyle -> {FontSize -> 20}]& }, "", 
         Style["Funzionalit\[AGrave]", 12, Bold], "", 
         Tooltip[
          Button[
@@ -3426,7 +3548,7 @@ spiegazione annessa", TooltipStyle -> {FontSize -> 20}],
          TooltipStyle -> {FontSize -> 20}], "", ""}, 
       "Options" :> {FrameLabel -> "Esercizio Universale"}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1480., {314., 323.}},
+     ImageSizeCache->{1400., {302., 311.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3462,16 +3584,21 @@ spiegazione annessa", TooltipStyle -> {FontSize -> 20}],
    3.8303395144525747`*^9, {3.83033964645331*^9, 3.830339647711357*^9}, {
    3.830342957802544*^9, 3.830342988913384*^9}, 3.830343028055663*^9, {
    3.830343136662554*^9, 3.8303431983915873`*^9}, 3.830343301142601*^9, 
-   3.830345088168414*^9},
+   3.830345088168414*^9, 3.830346812103839*^9, 3.830348494927998*^9, 
+   3.830348792280004*^9, 3.830350494202235*^9, 3.8303506653425417`*^9, {
+   3.830350703963976*^9, 3.830350754806994*^9}, 3.830350810739707*^9, {
+   3.830350859373311*^9, 3.83035088057705*^9}, {3.830350912291068*^9, 
+   3.830350936795237*^9}, {3.830351030952873*^9, 3.830351036820176*^9}, 
+   3.830351250463677*^9, 3.83035130131017*^9, 3.83035148409422*^9},
  CellLabel->
-  "Out[865]=",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
+  "Out[1229]=",ExpressionUUID->"6c020f38-12c5-4159-a907-a9bd8c9bf5b9"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.8303405052186127`*^9, 3.830340527157741*^9}, 
    3.830343210070368*^9},
  CellLabel->
-  "In[866]:=",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
+  "In[1230]:=",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
 },
 WindowSize->{Full, Full},
 WindowMargins->{{275, Automatic}, {1, Automatic}},
@@ -3491,23 +3618,23 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2148, 52, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
+Cell[558, 20, 2149, 52, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
  InitializationCell->True],
-Cell[2709, 74, 413, 9, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
+Cell[2710, 74, 414, 9, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
  InitializationCell->True],
-Cell[3125, 85, 3034, 45, 753, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
+Cell[3127, 85, 3035, 45, 753, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
  InitializationCell->True],
-Cell[6162, 132, 3388, 58, 846, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
+Cell[6165, 132, 3389, 58, 846, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
  InitializationCell->True,
  InitializationGroup->True],
-Cell[9553, 192, 263, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-Cell[9819, 200, 96595, 1785, 9620, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
-Cell[106417, 1987, 65000, 1260, 7076, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+Cell[9557, 192, 264, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+Cell[9824, 200, 100778, 1866, 9997, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+Cell[110605, 2068, 65085, 1262, 7076, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 Cell[CellGroupData[{
-Cell[171442, 3251, 219, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
-Cell[171664, 3257, 9986, 209, 665, "Output",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
+Cell[175715, 3334, 220, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+Cell[175938, 3340, 12379, 253, 658, "Output",ExpressionUUID->"6c020f38-12c5-4159-a907-a9bd8c9bf5b9"]
 }, Open  ]],
-Cell[181665, 3469, 203, 4, 46, "Input",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
+Cell[188332, 3596, 204, 4, 46, "Input",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
 }
 ]
 *)

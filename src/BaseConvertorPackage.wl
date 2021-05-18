@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    174457,       3327]
-NotebookOptionsPosition[    173003,       3294]
-NotebookOutlinePosition[    173430,       3311]
-CellTagsIndexPosition[    173387,       3308]
+NotebookDataLength[    183047,       3503]
+NotebookOptionsPosition[    181627,       3472]
+NotebookOutlinePosition[    182056,       3489]
+CellTagsIndexPosition[    182013,       3486]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,7 +70,7 @@ Cell[BoxData[
   3.828863430302635*^9, 3.828863433476419*^9}, {3.8291998122784653`*^9, 
   3.829199813007018*^9}, {3.830254762446724*^9, 3.83025483717838*^9}},
  CellLabel->
-  "In[1517]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
+  "In[848]:=",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7"],
 
 Cell[BoxData[
  RowBox[{
@@ -81,7 +81,7 @@ Cell[BoxData[
    3.8288623030616407`*^9, 3.828862303811872*^9}, {3.828863270883473*^9, 
    3.828863273964057*^9}, 3.830183492768435*^9},
  CellLabel->
-  "In[1518]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
+  "In[849]:=",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f"],
 
 Cell[BoxData[
  RowBox[{
@@ -128,9 +128,7 @@ illustrando nell'output del pannello la soluzione.\n \n\>\""}],
    3.830253415087675*^9, 3.830253422343486*^9}, {3.830260930413595*^9, 
    3.830261005468392*^9}},
  CellLabel->
-  "In[1519]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
-
-Cell[CellGroupData[{
+  "In[850]:=",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661"],
 
 Cell[BoxData[{
  RowBox[{
@@ -151,8 +149,9 @@ valore di ritorno \[EGrave] una\n    stringa che raffigura il procedimento di \
 conversione.\>\""}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-   RowBox[{"VerifySolution", "::", "usage"}], " ", "=", " ", 
-   "\"\<VerifySolution[valueNum_, inputBase_, outputBase_, valueOut_]\n     \
+   RowBox[{
+    RowBox[{"VerifySolution", "::", "usage"}], " ", "=", " ", 
+    "\"\<VerifySolution[valueNum_, inputBase_, outputBase_, valueOut_]\n     \
 la funzione verifica se la conversione del valore di 'valueNum' nella base \
 espressa da 'inputBase', \n     \[EGrave] uguale a 'valueOut' nella base \
 espressa da 'outputBase'. Se l'esito \[EGrave] positivo, ossia quando la \
@@ -164,8 +163,8 @@ e valueOut sono due stringhe alfanumeriche che devono essere esprimibili come \
 valori nelle basi rispettive espresse dagli interi 'inputBase' e \
 'outputBase', in caso di errori di formattazione di tale genere, \
 verr\[AGrave] data in output la stringa 'Il valore dato in output \[EGrave]: \
-'Errato', trattandola come se fosse un semplice caso di errore.;\>\""}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+'Errato', trattandola come se fosse un semplice caso di errore.\>\""}], ";"}],
+   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"SolveConvertion", "::", "usage"}], " ", "=", " ", 
@@ -179,37 +178,17 @@ output della conversione.\n\>\""}], ";"}]}], "Input",
  InitializationCell->True,
  InitializationGroup->True,
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQB2IQ3XU1UPhX2xtHp9sQWsvaTAdE50ln6oNolfA/3uId
+1:eJxTTMoPSmViYGCQAGIQ3XU1UPhX2xtHp9sQWsvaTAdE50ln6oNolfA/3uId
 bxz1Mhl9QPTTGR+mgegfZ3+BaQ/h3zMlgLQ8y6Y5INpl0a7U40A6/OB+MP2n
 ROL1CyDtUzEXTD/qW66q1PnG0eDJVmMQfXDV8UxVIP2qOjkLREf1TRerBtLH
 HBaD6fJTkil1QHoP88EOEP1v9bfN84A0rzTnVhD9ZdmMAyD6BFvbKRA9defG
 qyBazMfyEYh2XvviD4jedP0B83wg/aYihgNETyjh5wTRu5huKIDoa4VHVED0
 lh+1EQuA9KeWoHwQfe6v2VUQnXbq6zUQPUHk0HsQbXN92icQvUzmsM5CIC38
-Id4QRD86s84WRPPIGjmD6HvN292WAeknjIfBNADKD8g7
+Id4QRD86s84WRPPIGjmD6HvN292WAeknjIfB9Dbd159PAelFjAZfQDQAo/HR
+xA==
   "],
  CellLabel->
-  "In[1520]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
-
-Cell[BoxData["\<\"VerifySolution[valueNum_, inputBase_, outputBase_, \
-valueOut_]\\n     la funzione verifica se la conversione del valore di \
-'valueNum' nella base espressa da 'inputBase', \\n     \[EGrave] uguale a \
-'valueOut' nella base espressa da 'outputBase'. Se l'esito \[EGrave] \
-positivo, ossia quando la risposta \[EGrave] corretta, si avr\[AGrave] come \
-stringa di ritorno 'Il valore dato in output \[EGrave]: Corretto', in altri \
-casi, invece, sar\[AGrave] restituita la stringa 'Il valore dato in output \
-\[EGrave]: 'Errato'.\\n     I parametri della funzione sono definiti come \
-segue: valueNum e valueOut sono due stringhe alfanumeriche che devono essere \
-esprimibili come valori nelle basi rispettive espresse dagli interi \
-'inputBase' e 'outputBase', in caso di errori di formattazione di tale \
-genere, verr\[AGrave] data in output la stringa 'Il valore dato in output \
-\[EGrave]: 'Errato', trattandola come se fosse un semplice caso di errore.;\"\
-\>"], "Output",
- CellChangeTimes->{
-  3.830261734277193*^9, {3.830262477048499*^9, 3.830262479469276*^9}, 
-   3.8302626900093184`*^9, 3.830264291714312*^9},
- CellLabel->
-  "Out[1521]=",ExpressionUUID->"88a0102c-2488-42c5-b06e-caa7e0cfe6dc"]
-}, Open  ]],
+  "In[851]:=",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e"],
 
 Cell[BoxData[
  RowBox[{
@@ -217,7 +196,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.8288623104913*^9, 3.828862310622814*^9}, 
    3.830183481373807*^9},
  CellLabel->
-  "In[1523]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+  "In[854]:=",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
 
 Cell[BoxData[
  RowBox[{
@@ -1651,9 +1630,10 @@ input con caratteri non compatibili\>\"", "]"}], ";"}]}],
                     "\t\t           ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    "Now", " ", "we", " ", "need", " ", "to", " ", "convert", 
-                    " ", "it", " ", "to", " ", "base", " ", "Y"}], " ", 
-                    "*)"}], "\n", "\t\t           ", "\n", "\t\t          ", 
+                    "Ora", " ", "dobbiamo", " ", "convertire", " ", 
+                    "resultInt", " ", "da", " ", "base", " ", "10", " ", "a", 
+                    " ", "base", " ", "Y"}], " ", "*)"}], "\n", 
+                    "\t\t           ", "\n", "\t\t          ", 
                     RowBox[{"If", "[", 
                     RowBox[{
                     RowBox[{
@@ -1669,9 +1649,9 @@ input con caratteri non compatibili\>\"", "]"}], ";"}]}],
                     "\n", "\t\t         ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    "Procedure", " ", "of", " ", "convertion", " ", "with", 
-                    " ", "correct", " ", "result", " ", "will", " ", "be", 
-                    " ", "here"}], " ", "*)"}], "\n", "\t\t          ", 
+                    "Variabili", " ", "locali", " ", "utili", " ", "per", " ",
+                     "la", " ", "conversione"}], " ", "*)"}], "\n", 
+                    "\t\t          ", 
                     RowBox[{
                     RowBox[{"val", " ", "=", " ", "resultInt"}], ";", "\n", 
                     "\t\t          ", 
@@ -1683,15 +1663,14 @@ input con caratteri non compatibili\>\"", "]"}], ";"}]}],
                     RowBox[{"{", "}"}]}], ";", "\n", "\t\t   ", "\n", 
                     "\t\t         ", 
                     RowBox[{"(*", " ", 
-                    RowBox[{"Base", " ", "Procedure"}], " ", "*)"}], "\n", 
-                    "\t\t   ", "\n", "\t\t         ", 
+                    RowBox[{
+                    "Generazione", " ", "della", " ", "stringa", " ", "del", 
+                    " ", "procedimento"}], " ", "*)"}], "\n", "\t\t   ", "\n",
+                     "\t\t         ", 
                     RowBox[{"While", "[", 
                     RowBox[{
                     RowBox[{"res", " ", "\[NotEqual]", " ", "0"}], ",", "  ", 
-                    "\n", "\t\t         ", 
-                    RowBox[{"(*", " ", 
-                    RowBox[{"to", " ", "check"}], " ", "*)"}], "\n", 
-                    "\t\t            ", 
+                    "\n", "\t\t            ", 
                     RowBox[{
                     RowBox[{"res", " ", "=", " ", 
                     RowBox[{"Quotient", "[", 
@@ -1704,19 +1683,30 @@ input con caratteri non compatibili\>\"", "]"}], ";"}]}],
                     "1"}]}], ";", " ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    RowBox[{
-                    "1", " ", "is", " ", "for", " ", "Mathematica", " ", 
-                    "indexing", " ", "1", " ", "to", " ", "N", " ", "and", 
-                    " ", "not", " ", "0", " ", "to", " ", "N"}], " ", "-", 
-                    " ", "1"}], " ", "*)"}], "\n", "\t\t            ", 
+                    "rest", " ", "verr\[AGrave]", " ", "utilizzato", " ", 
+                    "per", " ", 
+                    RowBox[{"l", "'"}], "indicizzazione", " ", "della", " ", 
+                    "lista", " ", "alfanumerica", " ", "e", " ", "prelevare", 
+                    " ", "il", " ", "valore", " ", "numerico", " ", "per", 
+                    " ", "associarlo", " ", "al", " ", "resto"}], " ", "*)"}],
+                     "\n", "\t\t            ", 
                     RowBox[{"AppendTo", "[", 
                     RowBox[{"restComp", ",", 
                     RowBox[{"ToString", "[", 
                     RowBox[{"Part", "[", 
                     RowBox[{"listLet", ",", " ", "rest"}], "]"}], "]"}]}], 
-                    "]"}], ";", "\n", "\t\t            ", 
-                    RowBox[{"val", " ", "=", " ", "res"}], ";"}]}], " ", "\n",
-                     "\t\t          ", "]"}], ";", "\n", "\t\t          ", 
+                    "]"}], ";", " ", 
+                    RowBox[{"(*", " ", 
+                    RowBox[{
+                    "associazione", " ", "del", " ", "valore", " ", 
+                    "numerico", " ", "al", " ", "resto"}], " ", "*)"}], "\n", 
+                    "\t\t            ", 
+                    RowBox[{"val", " ", "=", " ", "res"}], ";"}]}], " ", 
+                    RowBox[{"(*", " ", 
+                    RowBox[{
+                    "aggiornamento", " ", "per", " ", "la", " ", "prossima", 
+                    " ", "divisione"}], " ", "*)"}], "\n", "\t\t          ", 
+                    "]"}], ";", "\n", "\t\t          ", 
                     RowBox[{"Return", "[", 
                     RowBox[{
                     RowBox[{"ToString", "[", "valueNum", "]"}], " ", "<>", 
@@ -1984,33 +1974,38 @@ caratteri non supportati\>\"", "]"}], ";"}]}], "\n", "\t\t", "]"}], ";"}]}],
    3.8302640701636133`*^9, 3.830264285859549*^9}, {3.830264392976071*^9, 
    3.830264398141624*^9}, {3.8302644712922277`*^9, 3.8302645751287527`*^9}, {
    3.830264836638517*^9, 3.8302649633075027`*^9}, {3.830265307037335*^9, 
-   3.830265310874773*^9}},ExpressionUUID->"7d260a63-9de2-47a9-9cab-\
-505ba266263a"],
+   3.830265310874773*^9}, {3.830339736408646*^9, 3.830339752100778*^9}, {
+   3.830339797193221*^9, 3.830339863957349*^9}, {3.83033989764884*^9, 
+   3.830339933733449*^9}, {3.830342360021776*^9, 3.830342364460782*^9}, {
+   3.8303429671755466`*^9, 3.830342967722505*^9}},
+ CellLabel->
+  "In[855]:=",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", 
-   RowBox[{"Internal", " ", "functions"}], " ", "*)"}], "\n", "\n", "\n", 
-  RowBox[{"(*", " ", 
-   RowBox[{"Logic", " ", "internal", " ", "functions"}], " ", "*)"}], "\n", 
-  "\n", 
+   RowBox[{"funzioni", " ", "interne"}], " ", "*)"}], "\n", "\n", 
   RowBox[{"(*", "\n", "\t", 
    RowBox[{
     RowBox[{
      RowBox[{"VerifyBase", "[", 
-      RowBox[{"num_", ",", " ", "base_"}], "]"}], " ", "\n", "\t", 
+      RowBox[{"num_", ",", " ", "base_"}], "]"}], " ", "\n", "\t", "La", " ", 
+     "funzione", " ", "ritorna", " ", "True", " ", "se", " ", "il", " ", 
+     RowBox[{"valore", " ", "'"}], 
+     RowBox[{"num", "'"}], " ", "\[EGrave]", " ", "esprimibile", " ", "in", 
+     " ", 
+     RowBox[{"base", " ", "'"}], 
+     RowBox[{"base", "'"}]}], ",", " ", 
+    RowBox[{"False", " ", "altrimenti", "\n", "\t", 
      RowBox[{"num_", " ", ":", " ", 
-      RowBox[{"Value", " ", "to", " ", "verify", "\n", "\t", "base_"}], " ", 
-      ":", " ", 
       RowBox[{
-      "Base", " ", "to", " ", "check", " ", "if", " ", "value", " ", "is", 
-       " ", "or", " ", "not", " ", "in", " ", "its", " ", "representation", 
-       "\n", "\t", "This", " ", "function", " ", "check", " ", "if", " ", 
-       "num_", " ", "is", " ", "in", " ", "base_", " ", "format"}]}]}], ",", 
-    " ", 
-    RowBox[{"if", " ", "it", " ", "is", " ", "return", " ", "true"}], ",", 
-    " ", 
-    RowBox[{"else", " ", "return", " ", "false"}]}], "\n", "*)"}], "\n", "\n", 
+      "Valore", " ", "di", " ", "input", " ", "da", " ", "convertire", " ", 
+       "\n", "\t", "base_"}], " ", ":", " ", 
+      RowBox[{
+      "base", " ", "di", " ", "input", " ", "in", " ", "cui", " ", 
+       "verificare", " ", "se", " ", "il", " ", "valore", " ", "di", " ", 
+       "input", " ", "sia", " ", "esprimibile", " ", "o", " ", "meno"}]}]}]}],
+    "\n", "*)"}], "\n", "\n", 
   RowBox[{
    RowBox[{
     RowBox[{"VerifyBase", "[", 
@@ -2021,14 +2016,7 @@ Cell[BoxData[
       RowBox[{"{", 
        RowBox[{
        "listChars", ",", "listNum", ",", " ", "symb", ",", " ", "max", ",", 
-        " ", "i", ",", " ", "j"}], "}"}], ",", "\[IndentingNewLine]", 
-      "\[IndentingNewLine]", 
-      RowBox[{"(*", " ", 
-       RowBox[{
-       "It", " ", "is", " ", "the", " ", "list", " ", "of", " ", "symbols", 
-        " ", "availables", " ", "in", " ", "a", " ", "base", " ", "between", 
-        " ", "2", " ", "and", " ", "62"}], " ", "*)"}], "\t", 
-      "\[IndentingNewLine]", "\t", 
+        " ", "i", ",", " ", "j"}], "}"}], ",", "\[IndentingNewLine]", "\t", 
       RowBox[{
        RowBox[{"symb", " ", "=", " ", 
         RowBox[{"Join", "[", 
@@ -2041,12 +2029,10 @@ Cell[BoxData[
           RowBox[{"ToLowerCase", "[", 
            RowBox[{"CharacterRange", "[", 
             RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], "]"}]}], 
-       ";", "\[IndentingNewLine]", 
+       ";", " ", 
        RowBox[{"(*", " ", 
-        RowBox[{
-        "Splitting", " ", "the", " ", "num", " ", "in", " ", "a", " ", "list",
-          " ", "of", " ", "characters"}], " ", "*)"}], "\[IndentingNewLine]", 
-       "\t", 
+        RowBox[{"vettore", " ", "dei", " ", "simboli"}], " ", "*)"}], 
+       "\[IndentingNewLine]", "\t", 
        RowBox[{"listChars", " ", "=", " ", 
         RowBox[{"DeleteCases", "[", 
          RowBox[{
@@ -2055,41 +2041,32 @@ Cell[BoxData[
           "\"\< \>\""}], "]"}]}], ";", " ", 
        RowBox[{"(*", " ", 
         RowBox[{
-        "deleting", " ", "whitespaces", " ", "from", " ", "the", " ", "list", 
-         " ", "of", " ", "characters"}], " ", "*)"}], "\[IndentingNewLine]", 
-       "\t", 
+        "trasformiamo", " ", "il", " ", "numero", " ", "di", " ", "input", 
+         " ", "in", " ", "una", " ", "lista", " ", "di", " ", "caratteri", 
+         " ", "ignorando", " ", "i", " ", "whitespace"}], " ", "*)"}], 
+       "\[IndentingNewLine]", "\t", 
        RowBox[{"listNum", " ", "=", " ", 
         RowBox[{"Range", "[", 
          RowBox[{"0", ",", "62"}], "]"}]}], ";", " ", 
        RowBox[{"(*", " ", 
         RowBox[{
-         RowBox[{"list", " ", "of", " ", "numbers", " ", 
-          RowBox[{"listChars", "[", 
-           RowBox[{"Part", "[", 
-            RowBox[{"ListNum", ",", "10"}], "]"}], "]"}]}], " ", "=", " ", 
-         RowBox[{"'", 
-          RowBox[{"A", "'"}]}]}], " ", "*)"}], "\[IndentingNewLine]", "\t", 
+        "indici", " ", "del", " ", "vettore", " ", "dei", " ", "simboli"}], 
+        " ", "*)"}], "\[IndentingNewLine]", "\t", 
        RowBox[{"max", " ", "=", " ", "base"}], ";", " ", 
        RowBox[{"(*", " ", 
         RowBox[{
-        "max", " ", "digit", " ", "that", " ", "can", " ", "be", " ", 
-         "defined", " ", "for", " ", "the", " ", "value", " ", 
-         RowBox[{"of", " ", "'"}], 
-         RowBox[{"num", "'"}], " ", "variable"}], " ", "*)"}], 
-       "\[IndentingNewLine]", 
+        "il", " ", "valore", " ", "della", " ", "base", " ", "identifica", 
+         " ", "il", " ", "valore", " ", "massimo", " ", "che", " ", "non", 
+         " ", "pu\[OGrave]", " ", "essere", " ", "uguagliato", " ", "o", " ", 
+         "superato", " ", "da", " ", "ogni", " ", 
+         RowBox[{"cifra", "/", "lettera"}], " ", "della", " ", "base"}], " ", 
+        "*)"}], "\n", "\t", 
        RowBox[{"(*", " ", 
         RowBox[{
-         RowBox[{
-          RowBox[{
-          "If", " ", "the", " ", "list", " ", "of", " ", "characters", " ", 
-           "contains", " ", "only", " ", "symbols", " ", "0"}], "-", "9"}], 
-         ",", " ", 
-         RowBox[{"A", "-", 
-          RowBox[{"Z", " ", "and", " ", "a"}], "-", "z"}], ",", " ", 
-         RowBox[{"than", " ", "is", " ", "in", " ", "correct", " ", "form"}], 
-         ",", " ", 
-         RowBox[{"else", " ", "is", " ", "a", " ", "format", " ", "error"}]}],
-         " ", "*)"}], "\[IndentingNewLine]", "\t", 
+        "controllo", " ", "della", " ", "lista", " ", "dei", " ", "caratteri",
+          " ", "andando", " ", "a", " ", "verificare", " ", "che", " ", 
+         "contenga", " ", "solo", " ", "caratteri", " ", "alfanumerici"}], 
+        " ", "*)"}], "\[IndentingNewLine]", "\t", 
        RowBox[{"If", "[", 
         RowBox[{
          RowBox[{"ContainsAll", "[", 
@@ -2097,19 +2074,27 @@ Cell[BoxData[
          "\[IndentingNewLine]", "\t\t\t", 
          RowBox[{"(*", " ", 
           RowBox[{
-          "Good", " ", "format", " ", "composed", " ", "by", " ", "letters", 
-           " ", "or", " ", "digits"}], " ", "*)"}], "\[IndentingNewLine]", 
-         "\t         ", 
+          "verifichiamo", " ", "la", " ", "base", " ", "se", " ", "sia", " ", 
+           "minore", " ", "o", " ", "uguale", " ", "a", " ", "10", " ", "o", 
+           " ", "maggiore", " ", "cosi", " ", "da", " ", "gestire", " ", 
+           "solamente", " ", "cifre", " ", "o", " ", "tutti", " ", "i", " ", 
+           "caratteri", " ", "alfanumerici"}], " ", "*)"}], 
+         "\[IndentingNewLine]", "\t         ", 
          RowBox[{
           RowBox[{"If", "[", 
            RowBox[{
             RowBox[{"base", " ", "\[LessEqual]", " ", "10"}], ",", 
             "\[IndentingNewLine]", "\t\t\t", 
-            RowBox[{"(*", 
+            RowBox[{"(*", " ", 
              RowBox[{
-             "Check", " ", "digits", " ", "and", " ", "that", " ", "the", " ",
-               "digit", " ", "is", " ", "less", " ", "than", " ", "base"}], 
-             " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
+             "caso", " ", "in", " ", "cui", " ", "la", " ", "base", " ", 
+              "\[EGrave]", " ", "numerica"}], " ", "*)"}], "\n", "\t\t\t", 
+            RowBox[{"(*", " ", 
+             RowBox[{
+             "andiamo", " ", "a", " ", "verificare", " ", "che", " ", "le", 
+              " ", "cifre", " ", "del", " ", "numero", " ", "siano", " ", 
+              "idonee", " ", "per", " ", "la", " ", "base", " ", "di", " ", 
+              "input"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
             RowBox[{
              RowBox[{"For", "[", 
               RowBox[{
@@ -2131,16 +2116,17 @@ Cell[BoxData[
                     RowBox[{"[", "i", "]"}], "]"}], "]"}], " ", "<", " ", 
                     "max"}]}], ",", "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{"(*", " ", 
-                   RowBox[{"Do", " ", "nothing"}], " ", "*)"}], 
-                  "\[IndentingNewLine]", "\t\t\t\t", ",", " ", 
-                  "\[IndentingNewLine]", "\t\t\t\t", 
+                   RowBox[{
+                    RowBox[{"esito", " ", "positivo"}], ",", " ", 
+                    RowBox[{
+                    "si", " ", "passa", " ", "al", " ", "prossimo", " ", 
+                    "termine"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+                  "\t\t\t\t", ",", " ", "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{"(*", " ", 
                    RowBox[{
-                   "Some", " ", "character", " ", "of", " ", "input", " ", 
-                    "value", " ", "is", " ", "not", " ", "a", " ", "digit", 
-                    " ", "or", " ", "is", " ", "a", " ", "digit", " ", "not", 
-                    " ", "less", " ", "than", " ", "the", " ", "base", " ", 
-                    "value"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t", 
+                    RowBox[{"esito", " ", "negativo"}], ",", " ", 
+                    RowBox[{"si", " ", "ritorna", " ", "False"}]}], " ", 
+                   "*)"}], "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{
                    RowBox[{"Return", "[", "False", "]"}], ";"}]}], " ", 
                  "\[IndentingNewLine]", "\t\t\t\t", "]"}], ";"}]}], 
@@ -2148,14 +2134,35 @@ Cell[BoxData[
              "\[IndentingNewLine]", "\t\t\t", 
              RowBox[{"(*", " ", 
               RowBox[{
-              "Value", " ", "is", " ", "in", " ", "the", " ", "base", " ", 
-               "form"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
+               RowBox[{
+               "tutte", " ", "le", " ", "cifre", " ", "rispettano", " ", "il",
+                 " ", "valore", " ", "massimo", " ", "della", " ", "base"}], 
+               ",", " ", 
+               RowBox[{
+               "quindi", " ", "il", " ", "valore", " ", "\[EGrave]", " ", 
+                "esprimibile", " ", "in", " ", 
+                RowBox[{"base", " ", "'"}], 
+                RowBox[{"base", "'"}]}], ",", " ", 
+               RowBox[{"possiamo", " ", "tornare", " ", "True"}]}], " ", 
+              "*)"}], "\[IndentingNewLine]", "\t\t\t", 
              RowBox[{"Return", "[", "True", "]"}], ";"}], 
             "\[IndentingNewLine]", "\t\t\t", ",", "\[IndentingNewLine]", 
             "\t\t\t", 
             RowBox[{"(*", " ", 
-             RowBox[{"Convert", " ", "letters", " ", "in", " ", "digits"}], 
-             " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
+             RowBox[{
+              RowBox[{
+              "nel", " ", "caso", " ", "in", " ", "cui", " ", "la", " ", 
+               "base", " ", "sia", " ", "maggiore", " ", "di", " ", "10"}], 
+              ",", " ", 
+              RowBox[{
+              "dobbiamo", " ", "considerare", " ", "i", " ", "caratteri", " ",
+                "alfanumerici"}]}], " ", "*)"}], "\n", "\t\t\t", 
+            RowBox[{"(*", " ", 
+             RowBox[{
+             "per", " ", "prima", " ", "cosa", " ", "andiamo", " ", "a", " ", 
+              "convertire", " ", "i", " ", "caratteri", " ", "nel", " ", 
+              "loro", " ", "valore", " ", "numerico"}], " ", "*)"}], 
+            "\[IndentingNewLine]", "\t\t\t", 
             RowBox[{
              RowBox[{"For", "[", 
               RowBox[{
@@ -2180,15 +2187,20 @@ Cell[BoxData[
                     RowBox[{"[", "j", "]"}], "]"}], "\[Equal]", " ", 
                     RowBox[{"listChars", "[", 
                     RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
-                    "\[IndentingNewLine]", "\t\t\t\t         ", 
-                    RowBox[{"(*", " ", 
-                    RowBox[{"We", " ", "found", " ", "the", " ", "element"}], 
-                    " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    "\[IndentingNewLine]", "\t\t\t\t     ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    "We", " ", "replace", " ", "the", " ", "element", " ", 
-                    "with", " ", "the", " ", "number"}], " ", "*)"}], 
-                    "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    RowBox[{"Trovato", " ", 
+                    RowBox[{"l", "'"}], "elemento", " ", "nel", " ", 
+                    "vettore", " ", "dei", " ", "simboli", " ", "\n", 
+                    "\t\t\t\t     ", "corrispondente", " ", "alla", " ", 
+                    "lettera", " ", "presa", " ", "in", " ", 
+                    "considerazione"}], ",", " ", 
+                    RowBox[{
+                    "andiamo", " ", "a", " ", "sostituirla", " ", "con", " ", 
+                    "il", " ", "suo", " ", "\n", "\t\t\t\t     ", "valore", 
+                    " ", "numerico"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+                    "\t\t\t\t\t", 
                     RowBox[{
                     RowBox[{
                     RowBox[{"listChars", "[", 
@@ -2197,7 +2209,10 @@ Cell[BoxData[
                     "\[IndentingNewLine]", "\t\t\t\t\t", ",", " ", 
                     "\[IndentingNewLine]", "\t\t\t\t\t", 
                     RowBox[{"(*", " ", 
-                    RowBox[{"do", " ", "nothing"}], " ", "*)"}], 
+                    RowBox[{
+                    "altrimenti", " ", "scorriamo", " ", "al", " ", 
+                    "prossimo", " ", "carattere", " ", "del", " ", "vettore", 
+                    " ", "dei", " ", "simboli"}], " ", "*)"}], 
                     "\[IndentingNewLine]", "\t\t\t\t\t", 
                     RowBox[{
                     RowBox[{"listChars", "[", 
@@ -2221,16 +2236,17 @@ Cell[BoxData[
                     RowBox[{"[", "i", "]"}], "]"}], "<", " ", "max"}], ",", 
                   "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{"(*", " ", 
-                   RowBox[{"Do", " ", "nothing"}], " ", "*)"}], 
-                  "\[IndentingNewLine]", "\t\t\t\t", ",", " ", 
-                  "\[IndentingNewLine]", "\t\t\t\t", 
+                   RowBox[{
+                    RowBox[{"esito", " ", "positivo"}], ",", " ", 
+                    RowBox[{
+                    "si", " ", "passa", " ", "al", " ", "prossimo", " ", 
+                    "termine"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+                  "\t\t\t\t", ",", " ", "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{"(*", " ", 
                    RowBox[{
-                   "Some", " ", "character", " ", "of", " ", "input", " ", 
-                    "value", " ", "is", " ", "not", " ", "a", " ", "digit", 
-                    " ", "or", " ", "is", " ", "a", " ", "digit", " ", "not", 
-                    " ", "less", " ", "than", " ", "the", " ", "base", " ", 
-                    "value"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t", 
+                    RowBox[{"esito", " ", "negativo"}], ",", " ", 
+                    RowBox[{"si", " ", "ritorna", " ", "False"}]}], " ", 
+                   "*)"}], "\[IndentingNewLine]", "\t\t\t\t", 
                   RowBox[{
                    RowBox[{"Return", "[", "False", "]"}], ";"}]}], " ", 
                  "\[IndentingNewLine]", "\t\t\t\t", "]"}], ";"}]}], 
@@ -2238,14 +2254,15 @@ Cell[BoxData[
              "\[IndentingNewLine]", "\t\t\t", 
              RowBox[{"(*", " ", 
               RowBox[{
-              "Value", " ", "is", " ", "in", " ", "the", " ", "base", " ", 
-               "form"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
+              "il", " ", "valore", " ", "\[EGrave]", " ", "esprimibile", " ", 
+               "nella", " ", "base", " ", "data", " ", "in", " ", "input"}], 
+              " ", "*)"}], "\[IndentingNewLine]", "\t\t\t", 
              RowBox[{"Return", "[", "True", "]"}], ";"}]}], 
            "\[IndentingNewLine]", "\t\t\t", "\[IndentingNewLine]", "\t\t", 
            "]"}], ";"}], "\[IndentingNewLine]", "\t\t", ",", " ", 
          "\[IndentingNewLine]", "\t\t\t", 
          RowBox[{"(*", " ", 
-          RowBox[{"Format", " ", "Error"}], " ", "*)"}], 
+          RowBox[{"errore", " ", "di", " ", "formattazione"}], " ", "*)"}], 
          "\[IndentingNewLine]", "\t\t", 
          RowBox[{
           RowBox[{"Return", "[", "False", "]"}], ";"}]}], "\t\t\t", 
@@ -2255,25 +2272,27 @@ Cell[BoxData[
     RowBox[{"Display", " ", "output", " ", "functions"}], " ", "*)"}], "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
-     RowBox[{
-      RowBox[{"DisplayConvert10ToN", "[", 
-       RowBox[{"valueNum_", ",", " ", "outputBase_"}], "]"}], "\n", "\t", 
-      RowBox[{"Valuenum_", " ", ":", " ", 
+     RowBox[{"DisplayConvert10ToN", "[", 
+      RowBox[{"valueNum_", ",", " ", "outputBase_"}], "]"}], "\n", "\t", "La",
+      " ", "funzione", " ", "converte", " ", "il", " ", 
+     RowBox[{"valore", " ", "'"}], 
+     RowBox[{"valueNum", "'"}], " ", "che", " ", "\[EGrave]", " ", "espresso",
+      " ", "in", " ", "base", " ", "10", " ", "alla", " ", "base", " ", 
+     "espressa", " ", 
+     RowBox[{"da", " ", "'"}], 
+     RowBox[{"outputBase", "'"}], " ", "andando", " ", "a", " ", "ritornare", 
+     " ", "la", " ", "procedura", " ", "con", " ", "i", " ", "risultati", " ", 
+     RowBox[{"annessi", ".", "\n", "\t", 
+      RowBox[{"valueNum_", " ", ":", " ", 
        RowBox[{
-       "It", " ", "is", " ", "the", " ", "value", " ", "to", " ", "convert", 
-        " ", "between", " ", "0", " ", "and", " ", "10.000", " ", "expressed",
-         " ", "in", " ", "base", " ", "10", "\n", "\t", "outputBase_"}], " ", 
+       "Valore", " ", "in", " ", "base", " ", "10", " ", "che", " ", 
+        "bisogna", " ", "convertire", " ", "composta", " ", "da", " ", "una", 
+        " ", "stringa", " ", "numerica", "\n", "\t", "outputBase_"}], " ", 
        ":", " ", 
        RowBox[{
-       "It", " ", "is", " ", "the", " ", "base", " ", "to", " ", "convert", 
-        " ", "the", " ", "value"}]}]}], ",", " ", 
-     RowBox[{
-     "it", " ", "would", " ", "be", " ", "between", " ", "2", " ", "and", " ",
-       "62", "\n", "\t", "The", " ", "function", " ", "convert", " ", "the", 
-      " ", "num_", " ", "from", " ", "base", " ", "10", " ", "to", " ", 
-      "base", " ", "defined", " ", "by", " ", "base_", " ", "variable", " ", 
-      "and", " ", "display", " ", "result", " ", "with", " ", "final", " ", 
-      RowBox[{"result", "."}]}]}], "\n", "\t", "\n", "*)"}], "\n", 
+       "Base", " ", "di", " ", "output", " ", "espressa", " ", "come", " ", 
+        "intero", " ", "tra", " ", "2", " ", "e", " ", "62"}]}]}]}], "\n", 
+    "\t", "\n", "*)"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"DisplayConverter10ToN", "[", 
@@ -2291,147 +2310,173 @@ Cell[BoxData[
          "listLet", ",", " ", "digits", ",", " ", "i"}], "}"}], ",", "\n", 
        "     ", 
        RowBox[{"(*", " ", 
-        RowBox[{"Input", " ", "controls"}], " ", "\n", "      ", "*)"}], "\n",
-        "     ", 
+        RowBox[{"Controllo", " ", "di", " ", "input"}], " ", "*)"}], "\n", 
+       "     ", 
        RowBox[{
         RowBox[{"If", "[", 
          RowBox[{
+          RowBox[{"VerifyBase", "[", 
+           RowBox[{"valueNum", ",", " ", "10"}], "]"}], ",", " ", "\n", 
+          "       ", 
           RowBox[{
-           RowBox[{"!", 
-            RowBox[{"IntegerQ", "[", "valueNum", "]"}]}], " ", "||", " ", 
-           RowBox[{"valueNum", " ", ">=", " ", "10000000"}], " ", "||", " ", 
-           RowBox[{"!", 
-            RowBox[{"IntegerQ", "[", "outputBase", "]"}]}], " ", "||", " ", 
-           RowBox[{"valueNum", " ", "<", " ", "0"}], " ", "||", " ", 
-           RowBox[{"outputBase", " ", "<", " ", "0"}], " ", "||", " ", 
-           RowBox[{"outputBase", " ", ">", " ", "62"}], " ", "||", " ", 
-           RowBox[{"!", 
-            RowBox[{"VerifyBase", "[", 
-             RowBox[{"valueNum", ",", " ", "10"}], "]"}]}]}], ",", "\n", 
-          "\t\t   ", 
+           RowBox[{"val", " ", "=", " ", 
+            RowBox[{"FromDigits", "[", "valueNum", "]"}]}], ";", "\n", 
+           "       ", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{"FromDigits", "[", "valueNum", "]"}], " ", ">", " ", 
+               "10000"}], " ", "||", " ", 
+              RowBox[{"!", 
+               RowBox[{"IntegerQ", "[", "outputBase", "]"}]}], " ", "||", " ", 
+              RowBox[{
+               RowBox[{"FromDigits", "[", "valueNum", "]"}], " ", "<", " ", 
+               "0"}], " ", "||", " ", 
+              RowBox[{"outputBase", " ", "<", " ", "0"}], " ", "||", " ", 
+              RowBox[{"outputBase", " ", ">", " ", "62"}]}], ",", "\n", 
+             "\t\t   ", 
+             RowBox[{
+              RowBox[{
+              "Return", "[", 
+               "\"\<Il numero deve essere un intero positivo compreso tra 0 e \
+10.000 (espresso in base 10), le basi devono essere interi tra 2 e 62 e il \
+numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n", 
+             "\t\t   ", 
+             RowBox[{
+              RowBox[{"out", " ", "=", " ", "outputBase"}], ";", "\n", 
+              "\t\t   ", 
+              RowBox[{"res", " ", "=", " ", 
+               RowBox[{"-", "1"}]}], ";", "\n", "\t\t   ", 
+              RowBox[{"restComp", " ", "=", " ", 
+               RowBox[{"{", "}"}]}], ";", "\n", "\t\t   ", 
+              RowBox[{"digits", " ", "=", " ", 
+               RowBox[{"Range", "[", 
+                RowBox[{"0", ",", "9"}], "]"}]}], ";", "\n", "\t\t   ", 
+              RowBox[{"listLet", " ", "=", " ", 
+               RowBox[{"Join", "[", 
+                RowBox[{"digits", ",", 
+                 RowBox[{"ToUpperCase", "[", 
+                  RowBox[{"CharacterRange", "[", 
+                   RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}], ",",
+                  " ", 
+                 RowBox[{"ToLowerCase", "[", 
+                  RowBox[{"CharacterRange", "[", 
+                   RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], 
+                "]"}]}], ";", "\n", "\t\t   ", 
+              RowBox[{"result", " ", "=", " ", 
+               RowBox[{"{", "}"}]}], ";", "\n", "\t\t   ", "\n", "\t\t   ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "Procedura", " ", "di", " ", "generazione", " ", "dei", " ", 
+                "resti", " ", "data", " ", "dalle", " ", "operazioni", " ", 
+                "intermedie", " ", "con", " ", "generazione", " ", "di", " ", 
+                "stringa", " ", "di", " ", "output", " ", 
+                RowBox[{"in", " ", "'"}], 
+                RowBox[{"result", "'"}]}], " ", "*)"}], "\n", "\t\t    ", 
+              RowBox[{"While", "[", 
+               RowBox[{
+                RowBox[{"res", " ", "\[NotEqual]", " ", "0"}], ",", "  ", 
+                "\n", "\t\t       ", 
+                RowBox[{
+                 RowBox[{"res", " ", "=", " ", 
+                  RowBox[{"Quotient", "[", 
+                   RowBox[{"val", ",", " ", "out"}], "]"}]}], ";", "\n", 
+                 "\t\t       ", 
+                 RowBox[{"rest", " ", "=", " ", 
+                  RowBox[{
+                   RowBox[{"Mod", "[", 
+                    RowBox[{"val", ",", "out"}], "]"}], " ", "+", " ", 
+                   "1"}]}], ";", " ", 
+                 RowBox[{"(*", " ", 
+                  RowBox[{
+                  "Indice", " ", "del", " ", "vettore", " ", "dei", " ", 
+                   "simboli", " ", "da", " ", "1", " ", "a", " ", "N"}], " ", 
+                  "*)"}], "\n", "\t\t       ", 
+                 RowBox[{"AppendTo", "[", 
+                  RowBox[{"restComp", ",", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"Part", "[", 
+                    RowBox[{"listLet", ",", " ", "rest"}], "]"}], "]"}]}], 
+                  "]"}], ";", " ", 
+                 RowBox[{"(*", " ", 
+                  RowBox[{
+                  "valore", " ", "del", " ", "resto", " ", "per", " ", "la", 
+                   " ", "divisione", " ", "corrente"}], " ", "*)"}], "\n", 
+                 "\t\t       ", 
+                 RowBox[{"strLine", " ", "=", " ", 
+                  RowBox[{
+                   RowBox[{"ToString", "[", "val", "]"}], " ", "<>", " ", 
+                   "\"\< / \>\"", " ", "<>", " ", 
+                   RowBox[{"ToString", "[", "out", "]"}], " ", "<>", " ", 
+                   "\"\< = \>\"", " ", "<>", " ", 
+                   RowBox[{"ToString", "[", "res", "]"}], " ", "<>", " ", 
+                   "\"\< R \>\"", " ", "<>", " ", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"Mod", "[", 
+                    RowBox[{"val", ",", "out"}], "]"}], "]"}], " ", "<>", 
+                   " ", "\"\< = \>\"", " ", "<>", " ", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"Part", "[", 
+                    RowBox[{"listLet", ",", " ", "rest"}], "]"}], "]"}]}]}], 
+                 ";", "\n", "\t\t       ", 
+                 RowBox[{"AppendTo", "[", 
+                  RowBox[{"result", ",", " ", "strLine"}], "]"}], ";", "\n", 
+                 "\t\t       ", 
+                 RowBox[{"AppendTo", "[", 
+                  RowBox[{"result", ",", " ", "\"\<----------------\>\""}], 
+                  "]"}], ";", "\n", "\t\t       ", 
+                 RowBox[{"val", " ", "=", " ", "res"}], ";"}]}], " ", "\n", 
+               "\t\t   ", "]"}], ";", "\n", "\t\t   ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"Appending", " ", "del", " ", "risultato"}], " ", 
+               "*)"}], "\n", "\t\t   ", 
+              RowBox[{"AppendTo", "[", 
+               RowBox[{"result", ",", " ", 
+                RowBox[{"StringJoin", "[", 
+                 RowBox[{"\"\<Il risultato \[EGrave]: \>\"", ",", " ", 
+                  RowBox[{"Reverse", "[", "restComp", "]"}]}], "]"}]}], "]"}],
+               ";", "\n", "\t\t   ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "Ritorno", " ", "della", " ", "stringa", " ", "di", " ", 
+                "output"}], " ", "*)"}], "\n", "            ", 
+              RowBox[{"Return", "[", 
+               RowBox[{"Column", "[", "result", "]"}], "]"}], ";"}]}], 
+            "\[IndentingNewLine]", "\t\t    ", "]"}], ";"}], "\n", "\t\t", 
+          ",", "\n", "\t\t   ", 
+          RowBox[{"(*", " ", 
+           RowBox[{
+           "Nel", " ", "caso", " ", "in", " ", "cui", " ", "il", " ", 
+            "valore", " ", "di", " ", "input", " ", "non", " ", "sia", " ", 
+            "compatibile", " ", "con", " ", "la", " ", "base", " ", "10"}], 
+           " ", "*)"}], "\n", "\t\t   ", 
           RowBox[{
            RowBox[{
            "Return", "[", 
-            "\"\<Il numero deve essere un intero positivo compreso tra 0 e \
-10.000 (espresso in base 10), le basi devono essere interi tra 2 e 62 e il \
-numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n", 
-          "\t\t   ", "\n", "\t\t   ", 
-          RowBox[{
-           RowBox[{"val", " ", "=", " ", "valueNum"}], ";", "\n", "\t\t   ", 
-           RowBox[{"out", " ", "=", " ", "outputBase"}], ";", "\n", "\t\t   ", 
-           RowBox[{"res", " ", "=", " ", 
-            RowBox[{"-", "1"}]}], ";", "\n", "\t\t   ", 
-           RowBox[{"restComp", " ", "=", " ", 
-            RowBox[{"{", "}"}]}], ";", "\n", "\t\t   ", 
-           RowBox[{"digits", " ", "=", " ", 
-            RowBox[{"Range", "[", 
-             RowBox[{"0", ",", "9"}], "]"}]}], ";", "\n", "\t\t   ", 
-           RowBox[{"listLet", " ", "=", " ", 
-            RowBox[{"Join", "[", 
-             RowBox[{"digits", ",", 
-              RowBox[{"ToUpperCase", "[", 
-               RowBox[{"CharacterRange", "[", 
-                RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}], ",", 
-              " ", 
-              RowBox[{"ToLowerCase", "[", 
-               RowBox[{"CharacterRange", "[", 
-                RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], 
-             "]"}]}], ";", "\n", "\t\t   ", 
-           RowBox[{"result", " ", "=", " ", 
-            RowBox[{"{", "}"}]}], ";", "\n", "\t\t   ", "\n", "\t\t   ", 
-           RowBox[{"(*", " ", 
-            RowBox[{
-            "Procedura", " ", "di", " ", "generazione", " ", "dei", " ", 
-             "resti", " ", "data", " ", "dalle", " ", "operazioni", " ", 
-             "intermedie", " ", "con", " ", "generazione", " ", "di", " ", 
-             "stringa", " ", "di", " ", "output", " ", 
-             RowBox[{"in", " ", "'"}], 
-             RowBox[{"result", "'"}]}], " ", "*)"}], "\n", "\t\t    ", 
-           RowBox[{"While", "[", 
-            RowBox[{
-             RowBox[{"res", " ", "\[NotEqual]", " ", "0"}], ",", "  ", "\n", 
-             "\t\t    ", 
-             RowBox[{"(*", " ", 
-              RowBox[{"to", " ", "check"}], " ", "*)"}], "\n", "\t\t       ", 
-             
-             RowBox[{
-              RowBox[{"res", " ", "=", " ", 
-               RowBox[{"Quotient", "[", 
-                RowBox[{"val", ",", " ", "out"}], "]"}]}], ";", "\n", 
-              "\t\t       ", 
-              RowBox[{"rest", " ", "=", " ", 
-               RowBox[{
-                RowBox[{"Mod", "[", 
-                 RowBox[{"val", ",", "out"}], "]"}], " ", "+", " ", "1"}]}], 
-              ";", " ", 
-              RowBox[{"(*", " ", 
-               RowBox[{
-                RowBox[{
-                "1", " ", "is", " ", "for", " ", "Mathematica", " ", 
-                 "indexing", " ", "1", " ", "to", " ", "N", " ", "and", " ", 
-                 "not", " ", "0", " ", "to", " ", "N"}], " ", "-", " ", "1"}],
-                " ", "*)"}], "\n", "\t\t       ", 
-              RowBox[{"AppendTo", "[", 
-               RowBox[{"restComp", ",", 
-                RowBox[{"ToString", "[", 
-                 RowBox[{"Part", "[", 
-                  RowBox[{"listLet", ",", " ", "rest"}], "]"}], "]"}]}], 
-               "]"}], ";", "\n", "\t\t       ", 
-              RowBox[{"strLine", " ", "=", " ", 
-               RowBox[{
-                RowBox[{"ToString", "[", "val", "]"}], " ", "<>", " ", 
-                "\"\< / \>\"", " ", "<>", " ", 
-                RowBox[{"ToString", "[", "out", "]"}], " ", "<>", " ", 
-                "\"\< = \>\"", " ", "<>", " ", 
-                RowBox[{"ToString", "[", "res", "]"}], " ", "<>", " ", 
-                "\"\< R \>\"", " ", "<>", " ", 
-                RowBox[{"ToString", "[", 
-                 RowBox[{"Mod", "[", 
-                  RowBox[{"val", ",", "out"}], "]"}], "]"}], " ", "<>", " ", 
-                "\"\< = \>\"", " ", "<>", " ", 
-                RowBox[{"ToString", "[", 
-                 RowBox[{"Part", "[", 
-                  RowBox[{"listLet", ",", " ", "rest"}], "]"}], "]"}]}]}], 
-              ";", "\n", "\t\t       ", 
-              RowBox[{"AppendTo", "[", 
-               RowBox[{"result", ",", " ", "strLine"}], "]"}], ";", "\n", 
-              "\t\t       ", 
-              RowBox[{"AppendTo", "[", 
-               RowBox[{"result", ",", " ", "\"\<----------------\>\""}], 
-               "]"}], ";", "\n", "\t\t       ", 
-              RowBox[{"val", " ", "=", " ", "res"}], ";"}]}], " ", "\n", 
-            "\t\t   ", "]"}], ";", "\n", "\t\t   ", 
-           RowBox[{"AppendTo", "[", 
-            RowBox[{"result", ",", " ", 
-             RowBox[{"StringJoin", "[", 
-              RowBox[{"\"\<Il risultato \[EGrave]: \>\"", ",", " ", 
-               RowBox[{"Reverse", "[", "restComp", "]"}]}], "]"}]}], "]"}], 
-           ";", "\n", "\n", "\t\t   ", "\n", "\t\t   ", 
-           RowBox[{"(*", " ", 
-            RowBox[{"Print", " ", "section"}], " ", "*)"}], "\n", 
-           "            ", 
-           RowBox[{"Return", "[", 
-            RowBox[{"Column", "[", "result", "]"}], "]"}], ";"}]}], 
-         "\[IndentingNewLine]", "\t\t  ", "]"}], ";"}]}], 
-      "\[IndentingNewLine]", "                 ", "\n", "]"}]}], ";"}], "\n", 
-   "\n", 
+            "\"\<Compatible Error: Valore in input non esprimibile nella base \
+iniziale o le basi non sono interi tra 2 e 62\>\"", "]"}], ";"}]}], "\n", 
+         "\t\t", "]"}], ";"}]}], "\n", "                 ", 
+      "\[IndentingNewLine]", "]"}]}], ";"}], "\n", "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
      RowBox[{"DisplayConverterNTo10", "[", 
-      RowBox[{"num_", ",", " ", "base_"}], "]"}], "\n", "\t", 
-     RowBox[{"num_", " ", ":", " ", 
-      RowBox[{
-      "It", " ", "is", " ", "the", " ", "value", " ", "to", " ", "convert", 
-       " ", "\n", "\t", "base_"}], " ", ":", " ", 
-      RowBox[{
-      "It", " ", "is", " ", "the", " ", "base", " ", "to", " ", "convert", 
-       " ", "the", " ", "value", "\n", "\t", "The", " ", "function", " ", 
-       "convert", " ", "the", " ", "num_", " ", "from", " ", "the", " ", 
-       "input", " ", "base", " ", "defined", " ", "by", " ", "base_", " ", 
-       "variable", " ", "to", " ", "base", " ", "10", " ", "and", " ", 
-       "display", " ", "the", " ", "procedure", " ", "with", " ", "final", 
-       " ", "result", " ", "and", " ", "display", " ", "result", " ", "with", 
-       " ", "final", " ", "result"}]}]}], "\n", "*)"}], "\n", 
+      RowBox[{"num_", ",", " ", "base_"}], "]"}], "\n", "\t", "La", " ", 
+     "funzione", " ", "converte", " ", "il", " ", 
+     RowBox[{"valore", " ", "'"}], 
+     RowBox[{"num", "'"}], " ", "dalla", " ", 
+     RowBox[{"base", " ", "'"}], 
+     RowBox[{"base", "'"}], " ", "alla", " ", "base", " ", "10", " ", 
+     "andando", " ", "a", " ", "ritornare", " ", "la", " ", "procedura", " ", 
+     "insieme", " ", "ai", " ", "risultati", " ", 
+     RowBox[{"annessi", ".", "\n", "\t", 
+      RowBox[{"num_", " ", ":", " ", 
+       RowBox[{
+       "Valore", " ", "alfanumerico", " ", "da", " ", "convertire", "\n", 
+        "\t", "base_"}], " ", ":", " ", 
+       RowBox[{
+       "base", " ", "di", " ", "input", " ", "in", " ", "cui", " ", 
+        "partire"}]}]}]}], "\n", "*)"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"DisplayConverterNTo10", "[", 
@@ -2452,15 +2497,20 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
            RowBox[{"VerifyBase", "[", 
             RowBox[{"num", ",", " ", "base"}], "]"}], "&&", 
            RowBox[{"base", "\[GreaterEqual]", "2"}], "&&", 
-           RowBox[{"base", "\[LessEqual]", "62"}]}], ",", 
-          "\[IndentingNewLine]", "        ", 
+           RowBox[{"base", "\[LessEqual]", "62"}]}], ",", " ", 
+          RowBox[{"(*", " ", 
+           RowBox[{
+           "controllo", " ", "sulle", " ", "basi", " ", "e", " ", "la", " ", 
+            "compatibilit\[AGrave]", " ", "del", " ", "valore"}], " ", "*)"}],
+           "\[IndentingNewLine]", "        ", 
           RowBox[{
            RowBox[{"If", "[", 
             RowBox[{
-             RowBox[{
-              RowBox[{"base", " ", "\[LessEqual]", " ", "10"}], " ", "&&", 
-              " ", 
-              RowBox[{"IntegerQ", "[", "num", "]"}]}], " ", ",", 
+             RowBox[{"base", " ", "\[LessEqual]", " ", "10"}], ",", " ", 
+             RowBox[{"(*", " ", 
+              RowBox[{
+              "bel", " ", "caso", " ", "sia", " ", "una", " ", "base", " ", 
+               "minore", " ", "di", " ", "10"}], " ", "*)"}], 
              "\[IndentingNewLine]", "         ", 
              RowBox[{
               RowBox[{"listChars", " ", "=", " ", 
@@ -2468,26 +2518,45 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                 RowBox[{"num", ",", " ", "base"}], "]"}]}], ";", 
               RowBox[{"(*", " ", 
                RowBox[{
-               "I", " ", "have", " ", "a", " ", "list", " ", "of", " ", 
-                "digits"}], " ", "*)"}], "\n", "          ", 
+                RowBox[{
+                "Poich\[EGrave]", " ", "VerifyBase", " ", "\[EGrave]", " ", 
+                 "True"}], ",", " ", 
+                RowBox[{
+                "possiamo", " ", "essere", " ", "sicuri", " ", "che", " ", 
+                 "la", " ", "stringa", " ", "abbia", " ", "solo", " ", 
+                 "caratteri", " ", "numerici"}]}], " ", "*)"}], "\n", 
+              "          ", 
               RowBox[{"size", " ", "=", " ", 
                RowBox[{"(", 
                 RowBox[{
                  RowBox[{"Length", "[", "listChars", "]"}], "-", "1"}], 
-                ")"}]}], ";", "\n", "          ", 
+                ")"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "size", " ", "\[EGrave]", " ", "la", " ", "dimensione", " ", 
+                "massima", " ", "della", " ", "lista", " ", "dei", " ", 
+                "caratteri", " ", "del", " ", "valore", " ", "di", " ", 
+                "input"}], " ", "*)"}], "\n", "          ", 
               RowBox[{"expPos", " ", "=", " ", 
                RowBox[{"Reverse", "[", 
                 RowBox[{"Range", "[", 
-                 RowBox[{"0", ",", " ", "size"}], "]"}], "]"}]}], ";", "\n", 
-              "          ", 
+                 RowBox[{"0", ",", " ", "size"}], "]"}], "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "rappresenta", " ", "la", " ", "posizione", " ", "degli", " ", 
+                "esponenti", " ", "per", " ", "la", " ", "generazione", " ", 
+                RowBox[{"dell", "'"}], "espressione", " ", "della", " ", 
+                "conversione"}], " ", "*)"}], "\n", "          ", 
               RowBox[{"result", " ", "=", " ", 
                RowBox[{"{", "}"}]}], ";", " ", 
               RowBox[{"(*", " ", 
-               RowBox[{"List", " ", "of", " ", "strings"}], " ", "*)"}], "\n",
-               "         ", 
+               RowBox[{
+               "lista", " ", "delle", " ", "stringhe", " ", "data", " ", "in",
+                 " ", "output"}], " ", "*)"}], "\n", "         ", 
               RowBox[{"(*", " ", 
-               RowBox[{"Formatting", " ", "expression"}], " ", "*)"}], "\n", 
-              "          ", 
+               RowBox[{"Formattazione", " ", 
+                RowBox[{"dell", "'"}], "espressione", " ", "di", " ", 
+                "conversione"}], " ", "*)"}], "\n", "          ", 
               RowBox[{"For", "[", 
                RowBox[{
                 RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
@@ -2524,16 +2593,28 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                RowBox[{"FromDigits", "[", 
                 RowBox[{
                  RowBox[{"ToString", "[", "num", "]"}], ",", " ", "base"}], 
-                "]"}]}], ";", "\n", "             ", 
+                "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "il", " ", "risultato", " ", "\[EGrave]", " ", "in", " ", 
+                "resultInt"}], " ", "*)"}], "\n", "             ", 
               RowBox[{"If", "[", 
                RowBox[{
-                RowBox[{"resultInt", " ", ">", " ", "10000"}], ",", " ", "\n",
-                 "                ", 
+                RowBox[{
+                 RowBox[{"resultInt", " ", ">", " ", "10000"}], " ", "||", 
+                 " ", 
+                 RowBox[{"resultInt", " ", "<", " ", "0"}]}], ",", " ", "\n", 
+                "                ", 
                 RowBox[{
                  RowBox[{
                  "Return", "[", 
                   "\"\<Il numero deve essere un intero tra 0 e 10.000 in base \
 10 per essere valido\>\"", "]"}], ";"}], "\n", "\t\t       ", ",", "\n", 
+                "\t\t        ", 
+                RowBox[{"(*", " ", 
+                 RowBox[{
+                 "Se", " ", "il", " ", "valore", " ", "\[EGrave]", " ", "tra",
+                   " ", "0", " ", "e", " ", "10000"}], " ", "*)"}], "\n", 
                 "                ", 
                 RowBox[{
                  RowBox[{"AppendTo", "[", 
@@ -2544,74 +2625,74 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                  RowBox[{"Return", "[", 
                   RowBox[{"Row", "[", "result", "]"}], "]"}], ";"}]}], "\n", 
                "              ", "]"}], ";"}], "\[IndentingNewLine]", 
-             "         ", ",", "\[IndentingNewLine]", "\t\t", 
+             "         ", ",", " ", 
              RowBox[{"(*", " ", 
               RowBox[{
-               RowBox[{
-                RowBox[{"else", " ", "of", " ", "base"}], " ", "\[LessEqual]",
-                 " ", "10"}], " ", "&&", " ", 
-               RowBox[{"IntegerQ", "[", "num", "]"}]}], " ", "*)"}], 
-             "\[IndentingNewLine]", "           ", 
+               RowBox[{"else", " ", "di", " ", "base"}], " ", "\[LessEqual]", 
+               "10"}], " ", "*)"}], "\[IndentingNewLine]", "\t\t", 
+             RowBox[{"(*", " ", 
+              RowBox[{
+              "La", " ", "base", " ", "\[EGrave]", " ", "di", " ", "tipo", 
+               " ", "alfanumerico", " ", 
+               RowBox[{"(", 
+                RowBox[{"superiore", " ", "a", " ", "10"}], ")"}]}], " ", 
+              "*)"}], "\[IndentingNewLine]", "              ", 
              RowBox[{
-              RowBox[{"If", "[", 
-               RowBox[{
-                RowBox[{"VerifyBase", "[", 
-                 RowBox[{"num", ",", " ", "base"}], "]"}], ",", 
-                "\[IndentingNewLine]", "              ", 
+              RowBox[{"listChars", " ", "=", " ", 
+               RowBox[{"DeleteCases", "[", 
                 RowBox[{
-                 RowBox[{"listChars", " ", "=", " ", 
-                  RowBox[{"DeleteCases", "[", 
-                   RowBox[{
-                    RowBox[{"Characters", "[", 
-                    RowBox[{"ToString", "[", "num", "]"}], "]"}], ",", " ", 
-                    "\"\< \>\""}], "]"}]}], ";", "\n", "               ", 
-                 RowBox[{"listNum", " ", "=", " ", 
-                  RowBox[{"Range", "[", 
-                   RowBox[{"0", ",", "62"}], "]"}]}], ";", " ", 
-                 RowBox[{"(*", " ", 
-                  RowBox[{
-                   RowBox[{"list", " ", "of", " ", "numbers", " ", 
-                    RowBox[{"listChars", "[", 
-                    RowBox[{"Part", "[", 
-                    RowBox[{"ListNum", ",", "10"}], "]"}], "]"}]}], " ", "=", 
-                   " ", 
-                   RowBox[{"'", 
-                    RowBox[{"A", "'"}]}]}], " ", "*)"}], "\n", 
-                 "               ", 
-                 RowBox[{"symb", " ", "=", " ", 
-                  RowBox[{"Join", "[", 
-                   RowBox[{
-                    RowBox[{"CharacterRange", "[", 
-                    RowBox[{"\"\<0\>\"", ",", "\"\<9\>\""}], "]"}], ",", " ", 
-                    
-                    RowBox[{"ToUpperCase", "[", 
-                    RowBox[{"CharacterRange", "[", 
-                    RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}], 
-                    ",", " ", 
-                    RowBox[{"ToLowerCase", "[", 
-                    RowBox[{"CharacterRange", "[", 
-                    RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], 
-                   "]"}]}], ";", "\n", "               ", 
-                 RowBox[{"(*", " ", 
-                  RowBox[{
-                  "Convert", " ", "letters", " ", "in", " ", "digits"}], " ", 
-                  "*)"}], "\[IndentingNewLine]", "\t       ", 
+                 RowBox[{"Characters", "[", 
+                  RowBox[{"ToString", "[", "num", "]"}], "]"}], ",", " ", 
+                 "\"\< \>\""}], "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "creiamo", " ", "la", " ", "lista", " ", "dei", " ", 
+                "caratteri", " ", "ignorando", " ", "gli", " ", "spazi"}], 
+               " ", "*)"}], "\n", "               ", 
+              RowBox[{"listNum", " ", "=", " ", 
+               RowBox[{"Range", "[", 
+                RowBox[{"0", ",", "62"}], "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "indici", " ", "del", " ", "vettore", " ", "dei", " ", 
+                "simboli"}], " ", "*)"}], "\n", "               ", 
+              RowBox[{"symb", " ", "=", " ", 
+               RowBox[{"Join", "[", 
+                RowBox[{
+                 RowBox[{"CharacterRange", "[", 
+                  RowBox[{"\"\<0\>\"", ",", "\"\<9\>\""}], "]"}], ",", " ", 
+                 RowBox[{"ToUpperCase", "[", 
+                  RowBox[{"CharacterRange", "[", 
+                   RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}], ",",
+                  " ", 
+                 RowBox[{"ToLowerCase", "[", 
+                  RowBox[{"CharacterRange", "[", 
+                   RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], 
+                "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"vettore", " ", "dei", " ", "simboli"}], " ", "*)"}], 
+              "\n", "           ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "Processo", " ", "di", " ", "conversione", " ", "da", " ", 
+                "lettere", " ", "a", " ", "valori", " ", "numerici"}], "  ", 
+               "*)"}], "\[IndentingNewLine]", "\t       ", 
+              RowBox[{"For", "[", 
+               RowBox[{
+                RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
+                RowBox[{"i", " ", "<=", " ", 
+                 RowBox[{"Length", "[", "listChars", "]"}]}], ",", " ", 
+                RowBox[{"i", "++"}], ",", " ", "\[IndentingNewLine]", 
+                "\t\t\t\t", 
+                RowBox[{
                  RowBox[{"For", "[", 
                   RowBox[{
-                   RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
-                   RowBox[{"i", " ", "<=", " ", 
-                    RowBox[{"Length", "[", "listChars", "]"}]}], ",", " ", 
-                   RowBox[{"i", "++"}], ",", " ", "\[IndentingNewLine]", 
-                   "\t\t\t\t", 
-                   RowBox[{
-                    RowBox[{"For", "[", 
-                    RowBox[{
-                    RowBox[{"j", " ", "=", " ", "1"}], ",", " ", 
-                    RowBox[{"j", " ", "\[LessEqual]", " ", 
+                   RowBox[{"j", " ", "=", " ", "1"}], ",", " ", 
+                   RowBox[{"j", " ", "\[LessEqual]", " ", 
                     RowBox[{"Length", "[", "symb", "]"}]}], ",", " ", 
-                    RowBox[{"j", "++"}], " ", ",", "\[IndentingNewLine]", 
-                    "\t\t\t\t\t", 
-                    RowBox[{
+                   RowBox[{"j", "++"}], " ", ",", "\[IndentingNewLine]", 
+                   "\t\t\t\t\t", 
+                   RowBox[{
                     RowBox[{"If", "[", 
                     RowBox[{
                     RowBox[{
@@ -2619,15 +2700,17 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                     RowBox[{"[", "j", "]"}], "]"}], "\[Equal]", " ", 
                     RowBox[{"listChars", "[", 
                     RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
-                    "\[IndentingNewLine]", "\t\t\t\t         ", 
-                    RowBox[{"(*", " ", 
-                    RowBox[{"We", " ", "found", " ", "the", " ", "element"}], 
-                    " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    "\[IndentingNewLine]", "\t\t\t\t     ", 
                     RowBox[{"(*", " ", 
                     RowBox[{
-                    "We", " ", "replace", " ", "the", " ", "element", " ", 
-                    "with", " ", "the", " ", "number"}], " ", "*)"}], 
-                    "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    RowBox[{
+                    "Trovato", " ", "il", " ", "simbolo", " ", 
+                    "corrispondente", " ", "alla", " ", "lettera", " ", "in", 
+                    " ", "input"}], ",", " ", "\n", "\t\t\t\t     ", 
+                    RowBox[{
+                    "andiamo", " ", "a", " ", "cambiarlo", " ", "con", " ", 
+                    "il", " ", "suo", " ", "valore", " ", "numerico"}]}], " ",
+                     "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
                     RowBox[{
                     RowBox[{
                     RowBox[{"listChars", "[", 
@@ -2636,50 +2719,61 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                     "\[IndentingNewLine]", "\t\t\t\t\t", ",", " ", 
                     "\[IndentingNewLine]", "\t\t\t\t\t", 
                     RowBox[{"(*", " ", 
-                    RowBox[{"do", " ", "nothing"}], " ", "*)"}], 
+                    RowBox[{
+                    "altrimenti", " ", "scorriamo", " ", "il", " ", "vettore",
+                     " ", "dei", " ", "simboli"}], " ", "*)"}], 
                     "\[IndentingNewLine]", "\t\t\t\t\t", 
                     RowBox[{
                     RowBox[{"listChars", "[", 
                     RowBox[{"[", "i", "]"}], "]"}], ";"}]}], "\n", 
                     "\t\t\t\t\t    ", "\[IndentingNewLine]", "\t\t\t\t\t  ", 
                     "]"}], ";"}]}], " ", "\n", "\t              ", "]"}], 
-                    ";"}]}], "\n", "\t\t      ", "]"}], ";", " ", 
-                 "\[IndentingNewLine]", "\[IndentingNewLine]", 
-                 "              ", 
-                 RowBox[{"(*", " ", 
-                  RowBox[{
-                  "We", " ", "have", " ", "in", " ", "listChars", " ", 
-                   "letters", " ", "converted", " ", "with", " ", "the", " ", 
-                   "correct", " ", "integer", " ", "value"}], " ", "*)"}], 
-                 "\[IndentingNewLine]", "              ", 
-                 RowBox[{"size", " ", "=", " ", 
-                  RowBox[{"(", 
+                 ";"}]}], "\n", "\t\t      ", "]"}], ";", " ", 
+              "\[IndentingNewLine]", "\[IndentingNewLine]", "              ", 
+              
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "nella", " ", "lista", " ", "dei", " ", "caratteri", " ", "di",
+                 " ", "input", " ", "ci", " ", "sono", " ", "solo", " ", 
+                "valori", " ", "alfanumerici"}], " ", "*)"}], 
+              "\[IndentingNewLine]", "              ", 
+              RowBox[{"size", " ", "=", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"Length", "[", "listChars", "]"}], "-", "1"}], 
+                ")"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"dimensione", " ", "della", " ", "lista"}], " ", 
+               "*)"}], "\n", "              ", 
+              RowBox[{"expPos", " ", "=", " ", 
+               RowBox[{"Reverse", "[", 
+                RowBox[{"Range", "[", 
+                 RowBox[{"0", ",", " ", "size"}], "]"}], "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"ordine", " ", "degli", " ", "esponenti"}], " ", 
+               "*)"}], "\n", "              ", 
+              RowBox[{"result", " ", "=", " ", 
+               RowBox[{"{", "}"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "lista", " ", "delle", " ", "stringhe", " ", "date", " ", "in",
+                 " ", "output"}], " ", "*)"}], "\n", "               ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "ora", " ", "abbiamo", " ", "tutte", " ", "le", " ", 
+                "informazioni", " ", "per", " ", "poter", " ", "formattare", 
+                " ", 
+                RowBox[{"l", "'"}], "espressione", " ", "di", " ", 
+                "conversione"}], " ", "*)"}], "\n", "               ", 
+              RowBox[{"For", "[", 
+               RowBox[{
+                RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
+                RowBox[{"i", " ", "<=", " ", "size"}], ",", " ", 
+                RowBox[{"i", "++"}], ",", " ", "\n", "                   ", 
+                RowBox[{
+                 RowBox[{"AppendTo", "[", 
+                  RowBox[{"result", ",", " ", 
                    RowBox[{
-                    RowBox[{"Length", "[", "listChars", "]"}], "-", "1"}], 
-                   ")"}]}], ";", "\n", "                                    ", 
-                 RowBox[{"expPos", " ", "=", " ", 
-                  RowBox[{"Reverse", "[", 
-                   RowBox[{"Range", "[", 
-                    RowBox[{"0", ",", " ", "size"}], "]"}], "]"}]}], ";", 
-                 "\n", "                                    ", 
-                 RowBox[{"result", " ", "=", " ", 
-                  RowBox[{"{", "}"}]}], ";", " ", 
-                 RowBox[{"(*", " ", 
-                  RowBox[{"List", " ", "of", " ", "strings"}], " ", "*)"}], 
-                 "\n", "                                    ", 
-                 RowBox[{"(*", " ", 
-                  RowBox[{"Formatting", " ", "expression"}], " ", "*)"}], 
-                 "\n", "                                    ", 
-                 RowBox[{"For", "[", 
-                  RowBox[{
-                   RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
-                   RowBox[{"i", " ", "<=", " ", "size"}], ",", " ", 
-                   RowBox[{"i", "++"}], ",", " ", "\n", 
-                   "                                        ", 
-                   RowBox[{
-                    RowBox[{"AppendTo", "[", 
-                    RowBox[{"result", ",", " ", 
-                    RowBox[{
                     RowBox[{"ToString", "[", 
                     RowBox[{"listChars", "[", 
                     RowBox[{"[", "i", "]"}], "]"}], "]"}], " ", "<>", " ", 
@@ -2689,48 +2783,50 @@ numero deve essere in base 10\>\"", "]"}], ";"}], "\n", "\t\t   ", ",", "\n",
                     RowBox[{"ToString", "[", 
                     RowBox[{"size", " ", "-", "i", " ", "+", " ", "1"}], 
                     "]"}], " ", "<>", " ", "\"\< + \>\""}]}], "]"}], ";"}]}], 
-                  "                  ", "\n", 
-                  "                                          ", "]"}], ";", 
-                 "\n", "                                     ", 
-                 RowBox[{"AppendTo", "[", 
-                  RowBox[{"result", ",", " ", 
-                   RowBox[{
-                    RowBox[{"ToString", "[", 
-                    RowBox[{"listChars", "[", 
-                    RowBox[{"[", 
+               "                  ", "\n", "                  ", "]"}], ";", 
+              "\n", "               ", 
+              RowBox[{"AppendTo", "[", 
+               RowBox[{"result", ",", " ", 
+                RowBox[{
+                 RowBox[{"ToString", "[", 
+                  RowBox[{"listChars", "[", 
+                   RowBox[{"[", 
                     RowBox[{"size", " ", "+", " ", "1"}], "]"}], "]"}], "]"}],
-                     " ", "<>", " ", "\"\< x \>\"", " ", "<>", " ", 
-                    RowBox[{"ToString", "[", "base", "]"}], " ", "<>", " ", 
-                    "\"\<^\>\"", " ", "<>", " ", 
-                    RowBox[{"ToString", "[", "0", "]"}]}]}], "]"}], ";", "\n",
-                  "     ", "\n", "                                     ", 
-                 RowBox[{"resultInt", " ", "=", " ", 
-                  RowBox[{"FromDigits", "[", 
-                   RowBox[{"listChars", ",", " ", "base"}], "]"}]}], ";", 
-                 "\n", "                                     ", 
+                  " ", "<>", " ", "\"\< x \>\"", " ", "<>", " ", 
+                 RowBox[{"ToString", "[", "base", "]"}], " ", "<>", " ", 
+                 "\"\<^\>\"", " ", "<>", " ", 
+                 RowBox[{"ToString", "[", "0", "]"}]}]}], "]"}], ";", "\n", 
+              "     ", "\n", "               ", 
+              RowBox[{"resultInt", " ", "=", " ", 
+               RowBox[{"FromDigits", "[", 
+                RowBox[{"listChars", ",", " ", "base"}], "]"}]}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{
+               "il", " ", "risultato", " ", "\[EGrave]", " ", "dentro", " ", 
+                "resultInt"}], " ", "*)"}], "\n", "               ", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"resultInt", " ", ">", " ", "10000"}], " ", "||", 
+                 " ", 
+                 RowBox[{"resultInt", " ", "<", " ", "0"}]}], ",", " ", 
+                RowBox[{
+                 RowBox[{
+                 "Return", "[", 
+                  "\"\<Number Error: Il numero in input non risulta essere un \
+intero positivo o inferiore a 10.000\>\"", "]"}], ";"}], "\n", 
+                "               ", ",", "\n", "               ", 
+                RowBox[{
                  RowBox[{"AppendTo", "[", 
                   RowBox[{"result", ",", " ", 
                    RowBox[{"\"\< = \>\"", " ", "<>", " ", 
                     RowBox[{"ToString", "[", "resultInt", "]"}]}]}], "]"}], 
-                 ";", "\n", "                                      ", 
+                 ";", "\n", "               ", 
                  RowBox[{"Return", "[", 
-                  RowBox[{"Row", "[", "result", "]"}], "]"}], ";"}], 
-                "\[IndentingNewLine]", "\[IndentingNewLine]", "         ", 
-                ",", "\[IndentingNewLine]", "          ", 
-                RowBox[{"(*", " ", 
-                 RowBox[{"Else", " ", "of", " ", 
-                  RowBox[{"VerifyBase", "[", 
-                   RowBox[{"num", ",", " ", "base"}], "]"}]}], " ", "*)"}], 
-                "\[IndentingNewLine]", "           ", "\[IndentingNewLine]", 
-                "            ", 
-                RowBox[{
-                 RowBox[{
-                 "Return", "[", 
-                  "\"\<Il numero non \[EGrave] in un formato accettabile per \
-la base di input\>\"", "]"}], ";"}]}], "\[IndentingNewLine]", 
+                  RowBox[{"Row", "[", "result", "]"}], "]"}], ";"}]}], "\n", 
                "               ", "]"}], ";"}]}], "\[IndentingNewLine]", 
-            "           ", "]"}], ";"}], "\[IndentingNewLine]", "      ", ",",
-           "\[IndentingNewLine]", "\n", "            ", 
+            "           ", "]"}], ";"}], "\[IndentingNewLine]", "           ",
+           ",", "\[IndentingNewLine]", "\n", "            ", 
           RowBox[{
            RowBox[{
            "Return", "[", 
@@ -2741,22 +2837,36 @@ lettere supportate per la base di input \n\t\t\t\t\tper i valori e interi tra \
       "]"}]}], ";"}], "\n", "   ", "\n", 
    RowBox[{"(*", "\n", "\t", 
     RowBox[{
-     RowBox[{"DisplayConverterDiff10", "[", 
-      RowBox[{"valueNum_", ",", "inputBase_", ",", " ", "outputBase_"}], 
-      "]"}], "\n", "\t", 
-     RowBox[{"valueNum_", " ", ":", " ", 
-      RowBox[{"Value", " ", "to", " ", "convert", "\n", "\t", "inputBase_"}], 
-      " ", ":", " ", 
-      RowBox[{"Initial", " ", "base", " ", "of", " ", "valueNum_", "\n", "\t", 
-       RowBox[{"outputBase_", " ", ":", " ", 
-        RowBox[{
-        "Base", " ", "to", " ", "convert", " ", "the", " ", "valueNum_", "\n",
-          "\t", "This", " ", "function", "  ", "convert", " ", "the", " ", 
-         "valueNum", " ", "from", " ", "the", " ", "inputBase_", " ", "to", 
-         " ", "outputBase_", " ", "with", " ", "both", " ", "values", " ", 
-         "different", " ", "from", " ", "10", " ", "and", " ", "display", " ",
-          "the", " ", "procedure", " ", "with", " ", "final", " ", 
-         "result"}]}]}]}]}], "\n", "\n", "*)"}], "\n", "\n", 
+     RowBox[{
+      RowBox[{"DisplayConverterDiff10", "[", 
+       RowBox[{"valueNum_", ",", "inputBase_", ",", " ", "outputBase_"}], 
+       "]"}], "\n", "\t", "La", " ", "funzione", " ", "converte", " ", "il", 
+      " ", 
+      RowBox[{"valore", " ", "'"}], 
+      RowBox[{"valueNum", "'"}], " ", "dalla", " ", 
+      RowBox[{"base", " ", "'"}], 
+      RowBox[{"inputBase", "'"}], " ", "alla", " ", 
+      RowBox[{"base", " ", "'"}], 
+      RowBox[{"outputBase", "'"}], " ", "andando", " ", "a", " ", 
+      "descrivere", " ", "la", " ", "procedura", " ", "di", " ", 
+      "conversione", " ", "e", " ", "a", " ", "stampare", " ", "i", " ", 
+      RowBox[{"risultati", ".", "\n", "\t", "Inoltre"}]}], ",", " ", 
+     RowBox[{
+     "le", " ", "basi", " ", "in", " ", "input", " ", "devono", " ", "essere",
+       " ", "diverse", " ", "da", " ", "10.", "\n", "\t", 
+      RowBox[{"valueNum_", " ", ":", " ", 
+       RowBox[{
+       "Valore", " ", "alfanumerico", " ", "da", " ", "convertire", "\n", 
+        "\t", "inputBase_"}], " ", ":", " ", 
+       RowBox[{
+       "Base", " ", "iniziale", " ", "differente", " ", "da", " ", "10", " ", 
+        "e", " ", "compresa", " ", "tra", " ", "2", " ", "e", " ", "62", "\n",
+         "\t", 
+        RowBox[{"outputBase_", " ", ":", " ", 
+         RowBox[{
+         "Base", " ", "finale", " ", "differente", " ", "da", " ", "10", " ", 
+          "e", " ", "compresa", " ", "tra", " ", "2", " ", "e", " ", 
+          "62"}]}]}]}]}]}], "\n", "*)"}], "\n", "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"DisplayConverterDiff10", "[", 
@@ -2769,7 +2879,10 @@ lettere supportate per la base di input \n\t\t\t\t\tper i valori e interi tra \
         RowBox[{
         "strOut", ",", " ", "listChars", ",", " ", "listNum", ",", " ", 
          "symb", ",", "i", ",", "j", ",", " ", "result"}], "}"}], ",", " ", 
-       "\n", "\t\t", 
+       "\n", "\t", 
+       RowBox[{"(*", " ", 
+        RowBox[{"Controlli", " ", "degli", " ", "input"}], " ", "*)"}], "\n", 
+       "\t\t", 
        RowBox[{
         RowBox[{"If", "[", 
          RowBox[{
@@ -2787,7 +2900,10 @@ lettere supportate per la base di input \n\t\t\t\t\tper i valori e interi tra \
           "\t\t\t", 
           RowBox[{
            RowBox[{"strOut", " ", "=", " ", 
-            RowBox[{"{", "}"}]}], ";", "\n", "\t\t\t", 
+            RowBox[{"{", "}"}]}], ";", " ", 
+           RowBox[{"(*", " ", 
+            RowBox[{"stringa", " ", "di", " ", "output"}], " ", "*)"}], "\n", 
+           "\t\t\t", 
            RowBox[{"AppendTo", "[", 
             RowBox[{
             "strOut", ",", " ", 
@@ -2803,50 +2919,46 @@ nella base \>\"", " ", "<>", " ",
            RowBox[{"AppendTo", "[", 
             RowBox[{"strOut", ",", " ", "\"\<\>\""}], "]"}], ";", " ", 
            RowBox[{"(*", " ", 
-            RowBox[{"void", " ", "line"}], " ", "*)"}], "\n", "\t\t\t", 
+            RowBox[{"linea", " ", "di", " ", "output", " ", "vuota"}], " ", 
+            "*)"}], "\n", "\t\t\t", 
            RowBox[{"AppendTo", "[", 
             RowBox[{"strOut", ",", " ", 
              RowBox[{"DisplayConverterNTo10", "[", 
               RowBox[{"valueNum3", ",", " ", "inputBase3"}], "]"}]}], "]"}], 
-           ";", "\n", "\t\t\t", 
+           ";", " ", 
            RowBox[{"(*", " ", 
             RowBox[{
-            "now", " ", "we", " ", "need", " ", "the", " ", "input", " ", 
-             "for", " ", "Converter10ToN", " ", "calculated", " ", "as", " ", 
-             "ConverterNTo10", " ", "do", " ", "but", " ", "with", " ", "no", 
-             " ", "string", " ", "formatting"}], " ", "*)"}], "\n", "\t\t\t", 
-           
-           RowBox[{"(*", " ", 
-            RowBox[{
+             RowBox[{"andiamo", " ", "ad", " ", "inserire", " ", 
+              RowBox[{"nell", "'"}], "output"}], ",", " ", 
              RowBox[{
-             "We", " ", "need", " ", "the", " ", "number", " ", "in", " ", 
-              "list", " ", "of", " ", "characters"}], ",", " ", 
-             RowBox[{
-             "the", " ", "list", " ", "of", " ", "numbers", " ", "associated",
-               " ", "with", " ", "letters", " ", "and", " ", "the", " ", 
-              "symbols", " ", "list"}]}], " ", "*)"}], "\n", "\t\t\t", 
+              RowBox[{"l", "'"}], "output", " ", "della", " ", "procedura", 
+              " ", "di", " ", "conversione", " ", "da", " ", "base", " ", "N",
+               " ", "a", " ", "base", " ", "10"}]}], " ", "*)"}], "\n", 
+           "\t\t\t", 
            RowBox[{"(*", " ", 
             RowBox[{
-            "We", " ", "will", " ", "mantain", " ", "in", " ", "result", " ", 
-             "the", " ", "temporal", " ", "convertion"}], " ", "*)"}], "\n", 
+            "Andiamo", " ", "a", " ", "trovare", " ", "il", " ", "risultato", 
+             " ", "della", " ", "prima", " ", "fase"}], " ", "*)"}], "\n", 
            "\t\t\t", 
            RowBox[{"listChars", " ", "=", " ", 
             RowBox[{"DeleteCases", "[", 
              RowBox[{
               RowBox[{"Characters", "[", 
                RowBox[{"ToString", "[", "valueNum3", "]"}], "]"}], ",", " ", 
-              "\"\< \>\""}], "]"}]}], ";", "\n", "            ", 
+              "\"\< \>\""}], "]"}]}], ";", " ", 
+           RowBox[{"(*", " ", 
+            RowBox[{
+            "convertiamo", " ", "la", " ", "stringa", " ", "di", " ", "input",
+              " ", "in", " ", "una", " ", "lista", " ", "alfanumerica", " ", 
+             "andando", " ", "a", " ", "cancellare", " ", "gli", " ", 
+             "spazi"}], " ", "*)"}], "\n", "            ", 
            RowBox[{"listNum", " ", "=", " ", 
             RowBox[{"Range", "[", 
              RowBox[{"0", ",", "62"}], "]"}]}], ";", " ", 
            RowBox[{"(*", " ", 
             RowBox[{
-             RowBox[{"list", " ", "of", " ", "numbers", " ", 
-              RowBox[{"listChars", "[", 
-               RowBox[{"Part", "[", 
-                RowBox[{"ListNum", ",", "10"}], "]"}], "]"}]}], " ", "=", " ", 
-             RowBox[{"'", 
-              RowBox[{"A", "'"}]}]}], " ", "*)"}], "\n", "            ", 
+            "indici", " ", "del", " ", "vettore", " ", "dei", " ", 
+             "simboli"}], " ", "*)"}], "\n", "            ", 
            RowBox[{"symb", " ", "=", " ", 
             RowBox[{"Join", "[", 
              RowBox[{
@@ -2859,7 +2971,16 @@ nella base \>\"", " ", "<>", " ",
               RowBox[{"ToLowerCase", "[", 
                RowBox[{"CharacterRange", "[", 
                 RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}], 
-             "]"}]}], ";", "\n", "            ", 
+             "]"}]}], ";", " ", 
+           RowBox[{"(*", " ", 
+            RowBox[{"vettore", " ", "dei", " ", "simboli"}], " ", "*)"}], 
+           "\n", "            ", 
+           RowBox[{"(*", " ", 
+            RowBox[{
+            "Processo", " ", "di", " ", "conversione", " ", "dei", " ", 
+             "valori", " ", "alfanumerici", " ", "nei", " ", "rispettivo", 
+             " ", "valore", " ", "numerico"}], " ", "*)"}], "\n", 
+           "            ", 
            RowBox[{"For", "[", 
             RowBox[{
              RowBox[{"i", " ", "=", " ", "1"}], ",", " ", 
@@ -2882,15 +3003,26 @@ nella base \>\"", " ", "<>", " ",
                     RowBox[{"[", "j", "]"}], "]"}], "\[Equal]", " ", 
                     RowBox[{"listChars", "[", 
                     RowBox[{"[", "i", "]"}], "]"}]}], ",", " ", 
-                   "\[IndentingNewLine]", "\t\t\t\t         ", 
-                   RowBox[{"(*", " ", 
-                    RowBox[{"We", " ", "found", " ", "the", " ", "element"}], 
-                    " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
+                   "\[IndentingNewLine]", "\t\t\t\t    ", 
                    RowBox[{"(*", " ", 
                     RowBox[{
-                    "We", " ", "replace", " ", "the", " ", "element", " ", 
-                    "with", " ", "the", " ", "number"}], " ", "*)"}], 
-                   "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    RowBox[{"se", " ", "troviamo", " ", 
+                    RowBox[{"l", "'"}], "elemento", " ", "nel", " ", 
+                    "vettore", " ", "dei", " ", "simboli", " ", "uguale", " ",
+                     "alla", " ", "lettera", " ", "in", " ", "input"}], ",", 
+                    "\n", "\t\t\t\t    ", 
+                    RowBox[{
+                    "sostituiamo", " ", "tale", " ", "valore", " ", "con", 
+                    " ", 
+                    RowBox[{"l", "'"}], "indice", " ", "della", " ", "cella", 
+                    " ", "\n", "\t\t\t\t    ", "del", " ", "vettore", " ", 
+                    "dei", " ", "simboli", " ", "corrente", " ", 
+                    RowBox[{"(", 
+                    RowBox[{"j", " ", "-", " ", "1"}], ")"}]}], ",", " ", 
+                    RowBox[{
+                    "ossia", " ", "con", " ", "il", " ", "corrispondente", 
+                    "\n", "\t\t\t\t    ", "valore", " ", "numerico"}]}], " ", 
+                    "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
                    RowBox[{
                     RowBox[{
                     RowBox[{"listChars", "[", 
@@ -2899,11 +3031,16 @@ nella base \>\"", " ", "<>", " ",
                    "\[IndentingNewLine]", "\t\t\t\t\t", ",", " ", 
                    "\[IndentingNewLine]", "\t\t\t\t\t", 
                    RowBox[{"(*", " ", 
-                    RowBox[{"do", " ", "nothing"}], " ", "*)"}], 
-                   "\[IndentingNewLine]", "\t\t\t\t\t", 
+                    RowBox[{
+                    "altrimenti", " ", "scorriamo", " ", "il", " ", "vettore",
+                     " ", "dei", " ", "simboli"}], " ", "*)"}], "\n", 
+                   "\t\t\t\t\t", 
+                   RowBox[{"(*", " ", 
+                    RowBox[{"istruzione", " ", "di", " ", "placeholder"}], 
+                    " ", "*)"}], "\[IndentingNewLine]", "\t\t\t\t\t", 
                    RowBox[{
                     RowBox[{"listChars", "[", 
-                    RowBox[{"[", "i", "]"}], "]"}], ";"}]}], "\n", 
+                    RowBox[{"[", "i", "]"}], "]"}], ";"}]}], " ", "\n", 
                   "\t\t\t\t\t    ", "\[IndentingNewLine]", "\t\t\t\t\t  ", 
                   "]"}], ";"}]}], " ", "\n", "\t              ", "]"}], 
               ";"}]}], "\n", "\t\t      ", "]"}], ";", " ", "\n", "\t\t    ", 
@@ -2924,20 +3061,40 @@ nella base \>\"", " ", "<>", " ",
               " ", 
               RowBox[{"ToString", "[", "outputBase3", "]"}]}]}], "]"}], ";", 
            "\n", "\t\t    ", 
-           RowBox[{"AppendTo", "[", 
-            RowBox[{"strOut", ",", " ", "\"\<\>\""}], "]"}], ";", " ", 
-           RowBox[{"(*", " ", 
-            RowBox[{"void", " ", "line"}], " ", "*)"}], "\n", "\t\t    ", 
-           RowBox[{"AppendTo", "[", 
-            RowBox[{"strOut", ",", " ", 
-             RowBox[{"DisplayConverter10ToN", "[", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{
               RowBox[{
                RowBox[{"FromDigits", "[", 
-                RowBox[{"listChars", ",", " ", "inputBase3"}], "]"}], ",", 
-               " ", "outputBase3"}], "]"}]}], "]"}], ";", "\n", "\t\t\t", 
-           RowBox[{"Return", "[", 
-            RowBox[{"Column", "[", "strOut", "]"}], "]"}], ";"}], "\n", 
-          "\t\t\t", ",", "\n", "\t\t\t", 
+                RowBox[{"listChars", ",", " ", "inputBase3"}], "]"}], " ", 
+               ">", " ", "10000"}], " ", "||", " ", 
+              RowBox[{
+               RowBox[{"FromDigits", "[", 
+                RowBox[{"listChars", ",", " ", "inputBase3"}], "]"}], " ", 
+               "<", " ", "0"}]}], ",", " ", "\n", "\t\t       ", 
+             RowBox[{
+              RowBox[{
+              "Return", "[", 
+               "\"\<Number Error: Il numero in input non risulta essere un \
+intero positivo tra 0 e 10.000\>\"", "]"}], ";"}], "\n", "               ", 
+             ",", "\n", "\t\t    ", 
+             RowBox[{
+              RowBox[{"AppendTo", "[", 
+               RowBox[{"strOut", ",", " ", "\"\<\>\""}], "]"}], ";", " ", 
+              RowBox[{"(*", " ", 
+               RowBox[{"linea", " ", "vuota"}], " ", "*)"}], "\n", "\t\t    ", 
+              RowBox[{"AppendTo", "[", 
+               RowBox[{"strOut", ",", " ", 
+                RowBox[{"DisplayConverter10ToN", "[", 
+                 RowBox[{
+                  RowBox[{"ToString", "[", 
+                   RowBox[{"FromDigits", "[", 
+                    RowBox[{"listChars", ",", " ", "inputBase3"}], "]"}], 
+                   "]"}], ",", " ", "outputBase3"}], "]"}]}], "]"}], ";", 
+              "\n", "\t\t\t", 
+              RowBox[{"Return", "[", 
+               RowBox[{"Column", "[", "strOut", "]"}], "]"}], ";"}]}], "\n", 
+            "\t\t\t", "]"}], ";"}], "\n", "\t\t\t", ",", "\n", "\t\t\t", 
           RowBox[{
            RowBox[{
            "Return", "[", 
@@ -2946,9 +3103,13 @@ input oppure le basi specificate non sono interi positivi diverse da 10 e \
 comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}], 
       "\n", "\t", "\n", "]"}]}], ";"}], "\n", "\n", 
    RowBox[{
-    RowBox[{"End", "[", "]"}], ";"}], "\n", 
+    RowBox[{"End", "[", "]"}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Fine", " ", "Private", " ", "scope"}], " ", "*)"}], "\n", 
    RowBox[{
-    RowBox[{"EndPackage", "[", "]"}], ";"}], "\n"}]}]], "Code",
+    RowBox[{"EndPackage", "[", "]"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"Fine", " ", "Package"}], " ", "*)"}], "\n"}]}]}]], "Code",
  CellChangeTimes->{{3.829194168962496*^9, 3.82919418308774*^9}, {
    3.8291948591595783`*^9, 3.829194865720334*^9}, {3.829194955341823*^9, 
    3.829195031363605*^9}, {3.829195094895567*^9, 3.829195122503929*^9}, {
@@ -3072,9 +3233,16 @@ comprese tra 2 e 62\>\"", "]"}], ";"}]}], "\n", "\t\t  ", "]"}], ";"}]}],
    3.830231923612207*^9, 3.830231925275033*^9}, {3.8302583629930887`*^9, 
    3.830258438118194*^9}, {3.830258493447057*^9, 3.830258605089128*^9}, {
    3.830259723841584*^9, 3.8302598397542057`*^9}, {3.830260008442878*^9, 
-   3.830260011718259*^9}},
+   3.830260011718259*^9}, {3.8303395056960487`*^9, 3.830339565673717*^9}, {
+   3.8303399707795973`*^9, 3.830340489370577*^9}, {3.8303405994507523`*^9, 
+   3.830340679517515*^9}, {3.830341785155731*^9, 3.830341973626567*^9}, {
+   3.830342405105558*^9, 3.830342654463073*^9}, {3.830342699275721*^9, 
+   3.830342946984097*^9}, 3.830343015561987*^9, {3.830343049139268*^9, 
+   3.830343119884162*^9}, {3.830343169886424*^9, 3.8303432752430763`*^9}, {
+   3.830344391213798*^9, 3.8303447292492943`*^9}, {3.83034480481374*^9, 
+   3.830344858929134*^9}, {3.830345007774745*^9, 3.830345082604707*^9}},
  CellLabel->
-  "In[1528]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+  "In[859]:=",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 
 Cell[CellGroupData[{
 
@@ -3082,14 +3250,14 @@ Cell[BoxData[
  RowBox[{"UniversalExercisesPanel", "[", "]"}]], "Input",
  CellChangeTimes->{{3.830180774745928*^9, 3.83018079152355*^9}},
  CellLabel->
-  "In[1512]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+  "In[865]:=",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = Private`AAA, 
-    BaseConvertorPackage`BaseOutput$$ = 20, 
-    BaseConvertorPackage`ValoreInput$$ = "46", 
+   DynamicModuleBox[{BaseConvertorPackage`BaseInput$$ = 35, 
+    BaseConvertorPackage`BaseOutput$$ = 44, 
+    BaseConvertorPackage`ValoreInput$$ = "AAAAA", 
     BaseConvertorPackage`ValoreOutput$$ = "10", Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -3174,7 +3342,7 @@ annessa", TooltipStyle -> {FontSize -> 20}]],
       Manipulate`Dump`ThisIsNotAControl}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = {
-    812., {1., 14.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    999., {4., 14.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
@@ -3255,7 +3423,7 @@ spiegazione annessa", TooltipStyle -> {FontSize -> 20}],
          TooltipStyle -> {FontSize -> 20}], "", ""}, 
       "Options" :> {FrameLabel -> "Esercizio Universale"}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1293., {274., 283.}},
+     ImageSizeCache->{1480., {314., 323.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3287,12 +3455,22 @@ spiegazione annessa", TooltipStyle -> {FontSize -> 20}],
    3.830236768608898*^9, 3.830236801402872*^9}, {3.8302467799364653`*^9, 
    3.830246803435177*^9}, 3.830249797574541*^9, 3.83025015122567*^9, 
    3.8302617343875217`*^9, {3.830262477130846*^9, 3.8302624795436773`*^9}, {
-   3.830262690144821*^9, 3.830262697173023*^9}},
+   3.830262690144821*^9, 3.830262697173023*^9}, 3.830339484086402*^9, 
+   3.8303395144525747`*^9, {3.83033964645331*^9, 3.830339647711357*^9}, {
+   3.830342957802544*^9, 3.830342988913384*^9}, 3.830343028055663*^9, {
+   3.830343136662554*^9, 3.8303431983915873`*^9}, 3.830343301142601*^9, 
+   3.830345088168414*^9},
  CellLabel->
-  "Out[1512]=",ExpressionUUID->"1cc1ff8b-be6f-4cb3-aead-eeec8b31352e"]
-}, Open  ]]
+  "Out[865]=",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8303405052186127`*^9, 3.830340527157741*^9}, 
+   3.830343210070368*^9},
+ CellLabel->
+  "In[866]:=",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
 },
-WindowSize->{730, 997},
+WindowSize->{Full, Full},
 WindowMargins->{{275, Automatic}, {1, Automatic}},
 Magnification:>1.5 Inherited,
 FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
@@ -3310,25 +3488,23 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2149, 52, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
+Cell[558, 20, 2148, 52, 381, "Input",ExpressionUUID->"dc8673ef-990c-4ab4-a413-0ea8a2a2c4a7",
  InitializationCell->True],
-Cell[2710, 74, 414, 9, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
+Cell[2709, 74, 413, 9, 70, "Input",ExpressionUUID->"83ba9a24-105e-453d-9ab2-057fc8b72e8f",
  InitializationCell->True],
-Cell[3127, 85, 3035, 45, 753, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
+Cell[3125, 85, 3034, 45, 753, "Input",ExpressionUUID->"9e4ab47b-4075-49ba-8051-48e74256a661",
  InitializationCell->True],
-Cell[CellGroupData[{
-Cell[6187, 134, 3348, 56, 846, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
+Cell[6162, 132, 3388, 58, 846, "Input",ExpressionUUID->"36c52f8c-b143-44bf-adf6-d9a55d959f3e",
  InitializationCell->True,
  InitializationGroup->True],
-Cell[9538, 192, 1217, 18, 256, "Output",ExpressionUUID->"88a0102c-2488-42c5-b06e-caa7e0cfe6dc"]
-}, Open  ]],
-Cell[10770, 213, 264, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
-Cell[11037, 221, 95511, 1766, 9649, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
-Cell[106551, 1989, 56460, 1087, 7039, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
+Cell[9553, 192, 263, 6, 78, "Code",ExpressionUUID->"700f309b-d38f-4f21-a2e9-5c63753d2137"],
+Cell[9819, 200, 96313, 1781, 9620, "Code",ExpressionUUID->"7d260a63-9de2-47a9-9cab-505ba266263a"],
+Cell[106135, 1983, 65035, 1261, 7105, "Code",ExpressionUUID->"4bac3604-d82b-4d99-bdb1-74e42b8e69b6"],
 Cell[CellGroupData[{
-Cell[163036, 3080, 220, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
-Cell[163259, 3086, 9728, 205, 602, "Output",ExpressionUUID->"1cc1ff8b-be6f-4cb3-aead-eeec8b31352e"]
-}, Open  ]]
+Cell[171195, 3248, 219, 4, 46, "Input",ExpressionUUID->"7da74077-e8db-4687-a84c-e6d2500cb92b"],
+Cell[171417, 3254, 9988, 209, 665, "Output",ExpressionUUID->"c4057676-8d1d-4ec7-b691-b395a55f92e1"]
+}, Open  ]],
+Cell[181420, 3466, 203, 4, 46, "Input",ExpressionUUID->"5fa88399-443c-46ef-99b4-f47a0122bad3"]
 }
 ]
 *)

@@ -16,7 +16,7 @@ BeginPackage["MainPackage`"];
 
 UniversalExercise::usage = "UniversalExercise[] crea l'interfaccia per lavorare sull'esercizio universale della conversione di numeri fra basi differenti.";
 
-Begin["Private`"];
+Begin["`Private`"];
 
 (* :constant {List of Characters} Lista dei simboli dallo '0' alla 'z' (0-9|A-Z|a-z) *)
 Symbols = Join[Map[ToString, Range[0,9]], ToUpperCase[CharacterRange["a","z"]], CharacterRange["a", "z"]];
@@ -46,7 +46,7 @@ ConvertToBase10[inputValue_, inputBase_] := Module[
 	(* Calcolo il risultato sommando assieme i valori finali delle varie cifre *)
 	result = Fold[#1 + #2&, 0, figureValues];
 	(* Genero i passaggi per la spiegazione guidata dell'esercizio *)
-	steps = Table["Prendiamo il simbolo in posizione " <> ToString[exponents[[i]]] <> " che avr\[AGrave] valore numerico pari a " <> ToString[symbolValues[[i]]] <> ": il valore finale di questa posizione sar\[AGrave] il valore del simbolo moltiplicato per il multiplo corretto di " <> ToString[inputBase] <> ", ovvero " <> ToString[symbolValues[[i]]] <> " \[Bullet] " <> ToString[inputBase] <> "^" <> ToString[exponents[[i]]] <> " che sar\[AGrave] uguale a " <> ToString[figureValues[[i]]] <> ";",\[NonBreakingSpace]{i, 1, Length[symbolValues]}];
+	steps = Table["Prendiamo il simbolo in posizione " <> ToString[exponents[[i]]] <> " con valore numerico pari a " <> ToString[symbolValues[[i]]] <> ": il valore finale di questa posizione sar\[AGrave] " <> ToString[symbolValues[[i]]] <> " \[Bullet] " <> ToString[inputBase] <> "^" <> ToString[exponents[[i]]] <> " = " <> ToString[figureValues[[i]]] <> ";",\[NonBreakingSpace]{i, 1, Length[symbolValues]}];
 	Return[<| "result" -> result, "steps" -> steps |>];
 ];
 
@@ -92,9 +92,22 @@ ConvertFromBase10[inputValue_, outputBase_] := Module[
 (* :param {String} inputValue - Stringa corrispondente al numero in input espresso nella base di input *)
 (* :param {Integer} inputBase - Base di input tra 2 e 62 compresi nella quale \[EGrave] espresso il numero in input *)
 (* :param {Integer} outputBase - Valore della base verso la quale convertire il numero, valore compreso tra 2 e 62 compresi *)
-(* :return {<| "result" \[Rule] String, "conversionToBase10" \[Rule] <| result \[Rule] String, steps \[Rule] List of Strings |>, "conversionFromBase10" \[Rule] <| result \[Rule] String, steps \[Rule] List of Strings |> |>} *)
+(* :return {<| "result" \[Rule] String, "conversionToBase10" \[Rule] Null OR <| result \[Rule] String, steps \[Rule] List of Strings |>, "conversionFromBase10" \[Rule] Null OR <| result \[Rule] String, steps \[Rule] List of Strings |> |>} Infomazioni della conversione, dove vengono messi a Null i sottorisultati delle conversioni se non sono state eseguite *)
 ConvertBase[inputValue_, inputBase_, outputBase_] := Module[
 	{ conversionToBase10, conversionFromBase10 },
+	(* Se le due basi sono uguali, non effettuo la conversione *)
+	If[inputBase == outputBase, Return[<| "result" -> inputValue, "conversionToBase10" -> Null, "conversionFromBase10" -> Null |>];];
+	(* Se la base di arrivo \[EGrave] la base 10, effettuo solo la prima parte della conversione *)
+	If[outputBase == 10,
+		conversionToBase10 = ConvertToBase10[inputValue, inputBase];
+		Return[<| "result" -> ToString[conversionToBase10[["result"]]], "conversionToBase10" -> conversionToBase10, "conversionFromBase10" -> Null |>];
+	];
+	(* Se la base di partenza \[EGrave] la base 10, effettuo solo la seconda parte della conversione *)
+	If[outputBase == 10,
+		conversionFromBase10 = ConvertFromBase10[inputValue, outputBase];
+		Return[<| "result" -> conversionFromBase10[["result"]], "conversionToBase10" -> Null, "conversionFromBase10" -> conversionFromBase10 |>];
+	];
+	(* Effettuo la conversione completa *)
 	conversionToBase10 = ConvertToBase10[inputValue, inputBase];
 	conversionFromBase10 = ConvertFromBase10[conversionToBase10[["result"]], outputBase];
 	Return[<| "result" -> conversionFromBase10[["result"]], "conversionToBase10" -> conversionToBase10, "conversionFromBase10" -> conversionFromBase10 |>];
@@ -137,11 +150,29 @@ GenerateStepsFromBase10[conversion_] := Module[
 ];
 
 (* Genera i passaggi per la conversione da una base M a una base N *)
-(* :param {<| result \[Rule] String, steps \[Rule] List of Strings |>} conversionToBase10 - Informazioni ottenute durante la conversione verso la base 10 *)
-(* :param {<| result \[Rule] String, steps \[Rule] List of Strings |>} conversionFromBase10 - Informazioni ottenute durante la conversione dalla base 10 *)
+(* :param {Null OR <| result \[Rule] String, steps \[Rule] List of Strings |>} conversionToBase10 - Informazioni ottenute durante la conversione verso la base 10 *)
+(* :param {Null OR <| result \[Rule] String, steps \[Rule] List of Strings |>} conversionFromBase10 - Informazioni ottenute durante la conversione dalla base 10 *)
 (* :return {List of Strings} Ritorna l'elenco dei passaggi sotto forma di lista *)
 GenerateStepsUniversal[conversionToBase10_, conversionFromBase10_] := Module[
-	{ steps, firstSteps = GenerateStepsToBase10[conversionToBase10], secondSteps = GenerateStepsFromBase10[conversionFromBase10] },
+	{ steps, firstSteps, secondSteps },
+	(* Non genero i passaggi se non \[EGrave] avvenuta alcuna conversione *)
+	If[conversionToBase10 == Null && conversionFromBase10 == Null,
+		steps = { "Il numero non necessita di alcuna conversione!" };
+		Return[steps];
+	];
+	(* Non genero i passaggi se la base di output \[EGrave] 10 *)
+	If[conversionFromBase10 == Null,
+		steps = GenerateStepsToBase10[conversionToBase10];
+		Return[steps];
+	];
+	(* Non genero i passaggi se la base di input \[EGrave] 10 *)
+	If[conversionToBase10 == Null,
+		steps = GenerateStepsFromBase10[conversionFromBase10];
+		Return[steps];
+	];
+	(* Genero i passaggi completi se \[EGrave] avvenuta la conversione verso e da base 10 *)
+	firstSteps = GenerateStepsToBase10[conversionToBase10];
+	secondSteps = GenerateStepsFromBase10[conversionFromBase10];
 	steps = Join[
 		{ "Per prima cosa procediamo con la conversione del numero verso la base 10;" },
 		firstSteps,
@@ -190,16 +221,17 @@ CheckBaseError[base_] := If[ base >= 2 && base <= 62, Return[False];, Return[Tru
 (* :return {Boolean} Ritorna True se \[EGrave] stato rilevato un errore, altrimenti ritorna False *)
 CheckValueError[input_, base_] := Module[
 	{ i, symbolsSubset = Symbols[[1;;base]] },
-	If[ Length[input] == 0,
+	If[Length[input] == 0,
 		Return[True]; (* Input missing case *)
 	];
 	For[i = 1, i <= Length[input], i++,
-		If[ Length[Position[symbolsSubset, input[[i]]]] != 1,
+		If[Length[Position[symbolsSubset, input[[i]]]] != 1,
 			Return[True]; (* Invalid input case *)
 		];
 	];
 	Return[False]; (* No errors *)
 ];
+
 (* Controlla se ci sono errori tra i valori della consegna dell'esercizio *)
 (* :param <| message \[Rule] String, inputValue \[Rule] Boolean, inputBase \[Rule] Boolean, outputValue \[Rule] Boolean, outputBase \[Rule] Boolean|>} errors - Stringa dell'errore e flags dei singoli errori *)
 (* :return {Boolean} Ritorna True se sono presenti errori, o False se non ci sono *)
@@ -227,86 +259,117 @@ LoadExercise[exercise_] := Return[<|
 	"conversion" -> ConvertBase[exercise[["inputValue"]], exercise[["inputBase"]], exercise[["outputBase"]]]
 |>];
 
+universalExerciseGuideURI = FileNameJoin[{ NotebookDirectory[], "resources", "img", "universal_exercise_guide.png" }];
+
 UniversalExercise[] := DynamicModule[
 	{
 		errors = <| "message" -> "", "inputValue" -> False, "inputBase" -> False, "outputValue" -> False, "outputBase" -> False |>,
-		exercise = <| "inputValue" -> "0", "inputBase" -> 10, "outputValue" -> "", "outputBase" -> 2 |>,
-		loadedExercise = LoadExercise[<| "inputValue" -> "0", "inputBase" -> 10, "outputValue" -> "", "outputBase" -> 2 |>],
+		exercise = <| "inputValue" -> "", "inputBase" -> 10, "outputValue" -> "", "outputBase" -> 10 |>,
+		loadedExercise = LoadExercise[<| "inputValue" -> "0", "inputBase" -> 10, "outputValue" -> "", "outputBase" -> 10 |>],
 		steps = { "Crea un nuovo esercizio!" },
 		stepNumber = 0
 	},
-	Grid[{{
-		Framed[Grid[{{
-			Text[Style["(", FontSize->28]],
-			Tooltip[InputField[Dynamic[exercise[["inputValue"]]], String, FieldSize -> Small], "Valore di partenza"],
-			Text[Style[")", FontSize->28]],
-			Tooltip[InputField[Dynamic[exercise[["inputBase"]]], Number, FieldSize -> Tiny, BaselinePosition -> Top], "Base di partenza"],
-			Text[Style["=", FontSize->28]],
-			Text[Style["(", FontSize->28]],
-			Tooltip[InputField[Dynamic[exercise[["outputValue"]]], String, FieldSize -> Small], "Soluzione finale"],
-			Text[Style[")", FontSize->28]],
-			Tooltip[InputField[Dynamic[exercise[["outputBase"]]], Number, FieldSize -> Tiny, BaselinePosition -> Top], "Base della soluzione"]
-		}}], FrameMargins -> {{50, 50}, {10, 50}}, FrameStyle -> None]}, {
-		Grid[{{
-			Tooltip[Button["Nuovo esercizio",
-				exercise = <| "inputBase" -> RandomInteger[{2, 62}], "inputValue" -> exercise[["inputValue"]], "outputBase" -> RandomInteger[{2, 62}], "outputValue" -> "" |>;
-				exercise[["inputValue"]] = ConvertFromBase10[RandomInteger[{0, 500}], exercise[["inputBase"]]][[1]];
-				errors = <| "message" -> "", "inputValue" -> False, "inputBase" -> False, "outputValue" -> False, "outputBase" -> False |>;
-				loadedExercise = LoadExercise[exercise];
-				steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]];
-				stepNumber = 0;
-			], "Crea un nuovo esercizio"],
-			Tooltip[Button["Verifica soluzione", 
-				(* Controllo eventuali errori negli input *)
-				errors = CheckErrors[exercise];
-				(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
-				If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
-				(* Mostro il messaggio della verifica della soluzione se non ci sono errori di input *)
-				If[errors[["message"]] == "",
-					If[exercise[["outputValue"]] == loadedExercise[["conversion"]][["result"]],
-						MessageDialog["La soluzione inserita \[EGrave] CORRETTA!", WindowTitle -> "Verifica della soluzione"];,
-						MessageDialog["La soluzione inserita \[EGrave] SBAGLIATA!", WindowTitle -> "Verifica della soluzione"];
+	Framed[Grid[{
+		{
+			Row[{
+				Item[
+					Tooltip[Button[Style["?", FontColor -> White],
+						MessageDialog[Import[universalExerciseGuideURI], WindowTitle -> "Aiuto", WindowSize -> {1000, 650}, Background -> White];,
+						ImageSize -> Large, Background -> RGBColor[0.28,0.5,0.89], Appearance -> "Frameless", FrameMargins -> 5
+					], "Aiuto"], ItemSize -> {100, 100}, Alignment -> Right
+				]
+			}]
+		},
+		{
+			Row[{
+				Text[Style["(", FontSize->28]],
+				Tooltip[InputField[Dynamic[exercise[["inputValue"]]], String, FieldSize -> Small, FieldHint -> "Inserisci un valore"], "Valore di partenza"],
+				Text[Style[")", FontSize->28]],
+				Tooltip[InputField[Dynamic[exercise[["inputBase"]]], Number, FieldSize -> Tiny, BaselinePosition -> Top, FieldHint -> "Inserisci una base"], "Base di partenza"],
+				Text[Style["=", FontSize->28]],
+				Text[Style["(", FontSize->28]],
+				Tooltip[InputField[Dynamic[exercise[["outputValue"]]], String, FieldSize -> Small, FieldHint -> "Inserisci la soluzione"], "Soluzione finale"],
+				Text[Style[")", FontSize->28]],
+				Tooltip[InputField[Dynamic[exercise[["outputBase"]]], Number, FieldSize -> Tiny, BaselinePosition -> Top, FieldHint -> "Inserisci una base"], "Base della soluzione"]
+			}]
+		},
+		{
+			Row[{
+				Tooltip[Button["Nuovo esercizio",
+					(* Creo un nuovo esercizio con campi casuali *)
+					exercise = <| "inputBase" -> RandomInteger[{2, 62}], "inputValue" -> exercise[["inputValue"]], "outputBase" -> RandomInteger[{2, 62}], "outputValue" -> "" |>;
+					exercise[["inputValue"]] = ConvertFromBase10[RandomInteger[{0, 500}], exercise[["inputBase"]]][[1]];
+					errors = <| "message" -> "", "inputValue" -> False, "inputBase" -> False, "outputValue" -> False, "outputBase" -> False |>;
+					loadedExercise = LoadExercise[exercise];
+					steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]];
+					stepNumber = 0;
+				], "Crea un nuovo esercizio"],
+				Tooltip[Button["Verifica soluzione", 
+					(* Controllo eventuali errori negli input *)
+					errors = CheckErrors[exercise];
+					(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
+					If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
+					(* Mostro il messaggio della verifica della soluzione se non ci sono errori di input *)
+					If[errors[["message"]] == "",
+						If[exercise[["outputValue"]] == loadedExercise[["conversion"]][["result"]],
+							MessageDialog["La soluzione inserita \[EGrave] CORRETTA!", WindowTitle -> "Verifica della soluzione"];,
+							MessageDialog["La soluzione inserita \[EGrave] SBAGLIATA!", WindowTitle -> "Verifica della soluzione"];
+						];
 					];
-				];
-			], "Verifica se la soluzione inserita \[EGrave] corretta"],
-			Tooltip[Button["Mostra soluzione",
-				(* Controllo eventuali errori negli input *)
-				errors = CheckErrors[exercise];
-				(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
-				If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
-				(* Mostro il messaggio della verifica della soluzione se la consegna dell'esercizio \[EGrave] senza errori *)
-				If[HasExerciseError[errors] == False,
-					MessageDialog["La soluzione corretta \[EGrave]  '" <> loadedExercise[["conversion"]][["result"]] <> "'  .", WindowTitle -> "Verifica della soluzione"];
-				];
-			], "Mostra la soluzione finale"]
-		}}]}, {
+				], "Verifica se la soluzione inserita \[EGrave] corretta"],
+				Tooltip[Button["Mostra soluzione",
+					(* Controllo eventuali errori negli input *)
+					errors = CheckErrors[exercise];
+					(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
+					If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
+					(* Mostro il messaggio della verifica della soluzione se la consegna dell'esercizio \[EGrave] senza errori *)
+					If[HasExerciseError[errors] == False,
+						MessageDialog["La soluzione corretta \[EGrave]  '" <> ToString[loadedExercise[["conversion"]][["result"]]] <> "'  .", WindowTitle -> "Verifica della soluzione"];
+					];
+				], "Mostra la soluzione finale"],
+				Tooltip[Button["Cancella",
+					(* Cancello l'esercizio attuale *)
+					exercise = <| "inputBase" -> 10, "inputValue" -> "", "outputBase" -> 10, "outputValue" -> "" |>;
+					errors = <| "message" -> "", "inputValue" -> False, "inputBase" -> False, "outputValue" -> False, "outputBase" -> False |>;
+					steps = { "Crea un nuovo esercizio!" };
+					stepNumber = 0;
+				], "Cancella l'esercizio"]
+			}]
+		},
+		{
 			Text[Style[Dynamic[errors[["message"]]], FontColor -> Red]]
-		}, {
-		Framed[Text[Style["Passaggi:", FontSize -> 26]], FrameMargins -> {{50, 50}, {5, 20}}, FrameStyle -> None]}, {
-		Framed[Grid[{{
-			Tooltip[Button["<",
-				(* Torno allo step precedente, con valore minimo lo 0 *)
-				If[stepNumber > 0, stepNumber--, stepNumber = 0];
-				(* Controllo eventuali errori negli input *)
-				errors = CheckErrors[exercise];
-				(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
-				If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
-				(* Torno allo step di default in caso di errori nella consegna dell'esercizio *)
-				If[HasExerciseError[errors], stepNumber = 0;];
-			], "Mostra il passaggio precedente"],
-			Tooltip[Button[">",
-				(* Vado allo step successivo, con valore massimo la dimensione massima degli step calcolati *)
-				If[stepNumber < Length[steps], stepNumber++, stepNumber = Length[steps]];
-				(* Controllo eventuali errori negli input *)
-				errors = CheckErrors[exercise];
-				(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
-				If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
-				(* Torno allo step di default in caso di errori nella consegna dell'esercizio *)
-				If[HasExerciseError[errors], stepNumber = 0;];
-			], "Mostra il passaggio successivo"]
-		}}], FrameMargins -> {{50, 50}, {20, 0}}, FrameStyle -> None]}, {
-		Framed[Text[Dynamic[PrintStep[steps, stepNumber]]], FrameMargins -> {{50, 50}, {50, 0}}, FrameStyle -> None]}
-	}, ItemSize -> 80, Spacings -> 2, Background -> RGBColor[60,60,60]]
+		},
+		{
+			Text[Style["Passaggi:", FontSize -> 26]]
+		},
+		{
+			Row[{
+				Tooltip[Button["<",
+					(* Torno allo step precedente, con valore minimo lo 0 *)
+					If[stepNumber > 0, stepNumber--, stepNumber = 0];
+					(* Controllo eventuali errori negli input *)
+					errors = CheckErrors[exercise];
+					(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
+					If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
+					(* Torno allo step di default in caso di errori nella consegna dell'esercizio *)
+					If[HasExerciseError[errors], stepNumber = 0;];
+				], "Mostra il passaggio precedente"],
+				Tooltip[Button[">",
+					(* Vado allo step successivo, con valore massimo la dimensione massima degli step calcolati *)
+					If[stepNumber < Length[steps], stepNumber++, stepNumber = Length[steps]];
+					(* Controllo eventuali errori negli input *)
+					errors = CheckErrors[exercise];
+					(* Aggiorno l'esercizio caricato con i valori correnti se sono senza errori, calcolando il risultato della conversione *)
+					If[HasExerciseError[errors] == False && IsSameExercise[exercise, loadedExercise] == False, loadedExercise = LoadExercise[exercise]; steps = GenerateStepsUniversal[loadedExercise[["conversion"]][["conversionToBase10"]], loadedExercise[["conversion"]][["conversionFromBase10"]]]; stepNumber = 0;];
+					(* Torno allo step di default in caso di errori nella consegna dell'esercizio *)
+					If[HasExerciseError[errors], stepNumber = 0;];
+				], "Mostra il passaggio successivo"]
+			}]
+		},
+		{
+			TextCell[Text[Dynamic[PrintStep[steps, stepNumber]]], TextAlignment -> Center]
+		}
+	}, Spacings -> {2, 1}, ItemSize -> 80 ], Background -> RGBColor[60,60,60], FrameStyle -> None, FrameMargins -> {{20, 20}, {20, 0}} ]
 ];
 
 End[];

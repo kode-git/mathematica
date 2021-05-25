@@ -14,7 +14,7 @@
 
 BeginPackage["MainPackage`"];
 
-UniversalExercise::usage = "UniversalExercise[] crea l'interfaccia per lavorare sull'esercizio universale della conversione di numeri fra basi differenti.";
+UniversalExercise::usage = "UniversalExercise[] crea l'interfaccia per lavorare sull'esercizio universale della conversione di numeri fra basi differenti (con basi dal valore compreso tra 2 e 62).";
 
 Begin["`Private`"];
 
@@ -367,7 +367,16 @@ UniversalExercise[] := DynamicModule[
 			}]
 		},
 		{
-			TextCell[Text[Dynamic[PrintStep[steps, stepNumber]]], TextAlignment -> Center]
+			Column[{
+				(* Mostro posizione tra i passaggi se la posizione attuale non \[EGrave] quella di default (ovvero 0) *)
+				TextCell[Text[Style[
+					Dynamic[
+						If[stepNumber > 0, "PASSO " <> ToString[stepNumber] <> "/" <> ToString[Length[steps]], ""]
+					], FontWeight -> Bold
+				]], TextAlignment -> Center],
+				(* Mostro lo step attuale o il messaggio di default se la posizione \[EGrave] 0 *)
+				TextCell[Text[Dynamic[PrintStep[steps, stepNumber]]], TextAlignment -> Center]
+			}, Alignment -> Center]
 		}
 	}, Spacings -> {2, 1}, ItemSize -> 80 ], Background -> RGBColor[60,60,60], FrameStyle -> None, FrameMargins -> {{20, 20}, {20, 0}} ]
 ];

@@ -4,11 +4,11 @@
         <img src="https://img.shields.io/static/v1?label=build&message=passing&color=%3CCOLOR%3E" alt="alternatetext">
 	<img src="https://img.shields.io/badge/state-closed-red" alt="alternatetext">
 	<img src="https://img.shields.io/badge/version-1.0%20-blue" alt="alternatetext">
-  <img src="https://img.shields.io/badge/notebook-Mathematica 14.2-yellow" alt="alternatetext">
-  <img src="https://img.shields.io/badge/package-Mathematica 14.2-white" alt="alternatetext">
+  <img src="https://img.shields.io/badge/notebook-Mathematica 12.2-yellow" alt="alternatetext">
+  <img src="https://img.shields.io/badge/package-Mathematica 12.2-white" alt="alternatetext">
 </p>
 
-Progetto per l'esame di Matematica Computazionale A.A. 2020/2021 basato sulla definizione di package e di un Notebook interattivo programmato interamente in Mathematica 14.2 con tecnologie assistive per la comprensione di persone con dislessia.
+Progetto per l'esame di Matematica Computazionale A.A. 2020/2021 basato sulla definizione di package e di un Notebook interattivo programmato interamente in Mathematica 12.2 con tecnologie assistive per la comprensione di persone con dislessia.
 
 
 ## Caratteristiche Package

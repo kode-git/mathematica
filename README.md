@@ -1,4 +1,4 @@
-# Base Changing in Mathematica
+# Mathematica - Base Changing
 
 <p>
         <img src="https://img.shields.io/static/v1?label=build&message=passing&color=%3CCOLOR%3E" alt="alternatetext">
